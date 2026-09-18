@@ -1,0 +1,49 @@
+{
+  "weather": {
+    "block": {
+      "loading": "loading...",
+      "errorLocation": "Error fetching location",
+      "unknown": "—",
+      "humidity": "Humidity",
+      "chanceOfRain": "Chances of Rain",
+      "pressure": "Pressure",
+      "wind": "Wind"
+    },
+    "screen": {
+      "unableToFetch": "Unable to fetch weather",
+      "currentLocation": "Current Location",
+      "fetchingInfo": "Fetching Info...",
+      "updated": "Updated: {{time}}",
+      "pleaseRefresh": "Please refresh page",
+      "rainChances": "Rain Chances",
+      "airPressure": "Air pressure",
+      "weatherOnHorizon": "Weather on the Horizon >>",
+      "sprayAlert": "Avoid sprays in your field as there are chances of high wind and rain.",
+      "retry": "Retry"
+    },
+    "forecast": {
+      "title": "3 Days Forecast",
+      "planFarming": "Plan your farming activity accordingly",
+      "loadingData": "loading data...",
+      "suitableForSpray": "Suitable day for spray",
+      "pressToSchedule": "Press to schedule spray if you are planning."
+    },
+    "alerts": {
+      "title": "Weather Alerts",
+      "errorFallback": "Something not working, Please try again",
+      "refreshPage": "Refresh Page",
+      "detail": {
+        "titleFallback": "Alert details",
+        "notAvailable": "This alert is no longer available.",
+        "affectedArea": "Affected area",
+        "urgency": "Urgency",
+        "category": "Category",
+        "certainty": "Certainty",
+        "status": "Status",
+        "description": "Description",
+        "whatToDo": "What to do ___",
+        "idLabel": "ID: {{id}}"
+      }
+    }
+  }
+}

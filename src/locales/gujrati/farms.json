@@ -1,0 +1,155 @@
+{
+    "myFarms": {
+        "header": {
+            "title": "મારા ખેતરો",
+            "description": "તમારા ખેતરોનું સંચાલન કરો"
+        },
+        "buttons": {
+            "createNew": "નવું ખેતર ઉમેરો"
+        },
+        "list": {
+            "loading": "ખેતરો લોડ થઈ રહ્યા છે...",
+            "empty": "કોઈ ખેતર મળ્યું નથી",
+            "pullToRefresh": "રિફ્રેશ કરવા માટે નીચે ખેંચો"
+        }
+    },
+    "addFarm": {
+        "title": "ખેતર ઉમેરો",
+        "bannerAccessibilityLabel": "ખેતરનું બેનર",
+        "form": {
+            "loading": "ફોર્મ લોડ થઈ રહ્યું છે..."
+        },
+        "footer": {
+            "d2fServices": "D2F સેવાઓ"
+        }
+    },
+    "farmForm": {
+        "sections": {
+            "basicDetails": "ખેતરની મૂળભૂત માહિતી",
+            "editDetails": "ખેતરની માહિતી સંપાદિત કરો",
+            "locationDetails": "સ્થાનની માહિતી",
+            "locateOnMap": "નકશા પર તમારા ખેતરનું સ્થાન પસંદ કરો",
+            "notesTitle": "મહત્વપૂર્ણ માહિતી"
+        },
+        "form": {
+            "farmNameLabel": "ખેતરનું નામ",
+            "farmNamePlaceholder": "દા.ત.: ઉત્તર ભાગ",
+            "farmNameRequiredError": "ખેતરનું નામ જરૂરી છે",
+            "acreageLabel": "ક્ષેત્રફળ (એકર)",
+            "acreagePlaceholder": "દા.ત.: 6.5",
+            "acreageRequiredError": "ક્ષેત્રફળ જરૂરી છે",
+            "acreageInvalidError": "માન્ય ક્ષેત્રફળ દાખલ કરો (દા.ત.: 6.5)",
+            "cropLabel": "વર્તમાન પાક",
+            "cropPlaceholder": "દા.ત.: ડાંગર, ઘઉં",
+            "farmImageLabel": "ખેતરનો ફોટો",
+            "statusLabel": "સ્થિતિ",
+            "statusActive": "સક્રિય",
+            "statusInactive": "નિષ્ક્રિય"
+        },
+        "buttons": {
+            "create": "ખેતર બનાવો",
+            "creating": "બનાવવામાં આવી રહ્યું છે…",
+            "saveChanges": "ફેરફારો સાચવો",
+            "saving": "સાચવવામાં આવી રહ્યું છે…"
+        },
+        "notes": {
+            "list": [
+                "સબમિટ કરતા પહેલા નકશા પર ખેતરની સીમા યોગ્ય રીતે ચિહ્નિત કરો.",
+                "અહીં દાખલ કરેલું ક્ષેત્રફળ પાક આયોજન અને વીમા અંદાજ માટે વપરાય છે.",
+                "ખેતરનો સ્પષ્ટ ફોટો ફિલ્ડ એજન્ટને તમારું ખેતર ઓળખવામાં મદદ કરે છે.",
+                "સ્થાનના કોઓર્ડિનેટ્સ નકશા પર મૂકેલા પિનમાંથી આપમેળે દાખલ થાય છે — યોગ્ય સ્થાન માટે પિનને જરૂર મુજબ ખસેડો."
+            ]
+        },
+        "successToast": {
+            "title": "સફળતા",
+            "createMessage": "ખેતર સફળતાપૂર્વક બનાવવામાં આવ્યું!",
+            "updateMessage": "ખેતર સફળતાપૂર્વક અપડેટ થયું!"
+        },
+        "errorToast": {
+            "title": "ભૂલ",
+            "generic": "કંઈક કામ કરી રહ્યું નથી.",
+            "createFailed": "ખેતર બનાવવામાં નિષ્ફળ. કૃપા કરીને ફરી પ્રયાસ કરો.",
+            "updateFailed": "ખેતર અપડેટ કરવામાં નિષ્ફળ. કૃપા કરીને ફરી પ્રયાસ કરો.",
+            "farmerIdNotFound": "ખેડૂતની ID મળી નથી. કૃપા કરીને ફરીથી લોગ ઇન કરો.",
+            "missingFarmRef": "ખેતરનો સંદર્ભ ઉપલબ્ધ નથી. કૃપા કરીને પાછા જઈને ફરી પ્રયાસ કરો.",
+            "loadFailed": "આ ખેતર લોડ થઈ શક્યું નહીં. કૃપા કરીને પાછા જઈને ફરી પ્રયાસ કરો."
+        }
+    },
+    "farmDetails": {
+        "header": {
+            "title": "ખેતરની વિગતો",
+            "loading": "વિગતો લોડ થઈ રહી છે",
+            "notFoundTitle": "ખેતર મળ્યું નથી",
+            "notFoundDescription": "વિનંતી કરેલું ખેતર મળી શક્યું નથી.",
+            "defaultTitle": "ખેતરની વિગતો"
+        },
+        "buttons": {
+            "goBack": "પાછા જાઓ",
+            "edit": "સંપાદિત કરો"
+        },
+        "card": {
+            "detailsDivider": "વિગતો",
+            "acres": "એકર",
+            "acreageValue": "{{value}} એકર",
+            "farmName": "ખેતરનું નામ",
+            "area": "ક્ષેત્રફળ",
+            "currentCrop": "વર્તમાન પાક: {{crop}}",
+            "region": "પ્રદેશ",
+            "status": "સ્થિતિ",
+            "statusActive": "સક્રિય",
+            "statusInactive": "નિષ્ક્રિય",
+            "inactiveWarning": "આ ખેતર નિષ્ક્રિય છે અને ઉપયોગ માટે ઉપલબ્ધ નથી.",
+            "notAvailable": "-",
+            "currentCropNotAvailable": "-ઉપલબ્ધ નથી-",
+            "addressLabel": "સરનામું: {{address}}",
+            "addressEmpty": "સરનામું: —",
+            "address": "સરનામું"
+        },
+        "location": {
+            "title": "નકશા પર સ્થાન",
+            "coordinatesFallback": "કોઓર્ડિનેટ્સ અપડેટ થયા નથી",
+            "coordinatesValue": "{{coordinates}}"
+        }
+    },
+    "chooseFarmForm": {
+        "farmArea": "{{location}} માં {{area}} એકર",
+        "status": {
+            "inactive": "નિષ્ક્રિય",
+            "noFarms": "કોઈ ખેતર મળ્યું નથી"
+        },
+        "actions": {
+            "viewFarms": "ખેતરો જુઓ",
+            "reload": "ફરીથી લોડ કરો",
+            "manageFarms": "ખેતરોનું સંચાલન કરો"
+        }
+    },
+    "farmList": {
+        "empty": "કોઈ ખેતર મળ્યું નથી."
+    },
+    "locationForm": {
+        "addressLine1": "સરનામું લાઇન 1",
+        "state": "રાજ્ય",
+        "district": "જિલ્લો",
+        "subDistrict": "ઉપ-જિલ્લો",
+        "village": "ગામ",
+        "pinZip": "પિન/ઝિપ",
+        "selectState": "રાજ્ય પસંદ કરો",
+        "selectDistrict": "જિલ્લો પસંદ કરો",
+        "selectSubDistrict": "ઉપ-જિલ્લો પસંદ કરો",
+        "selectVillage": "ગામ પસંદ કરો",
+        "pinZipPlaceholder": "પિન/ઝિપ કોડ",
+        "validation": {
+            "addressRequired": "સરનામું જરૂરી છે",
+            "stateRequired": "રાજ્ય જરૂરી છે.",
+            "required": "જરૂરી છે.",
+            "pincodeRequired": "પિનકોડ જરૂરી છે",
+            "invalidPincode": "અમાન્ય પિનકોડ"
+        },
+        "fetchError": "{{level}} ના વિકલ્પો લોડ થઈ શક્યા નહીં. કૃપા કરીને ફરી પ્રયાસ કરો.",
+        "levels": {
+            "district": "જિલ્લો",
+            "sub-district": "ઉપ-જિલ્લો",
+            "village": "ગામ"
+        }
+    }
+}

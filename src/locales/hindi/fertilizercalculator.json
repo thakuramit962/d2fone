@@ -1,0 +1,42 @@
+{
+    "fertilizerCalculator": {
+        "title": "उर्वरक कैलकुलेटर",
+        "subtitle": "फसल की बेहतर सेहत के लिए आवश्यक उर्वरक की मात्रा की गणना करें",
+        "selectCrop": {
+            "placeholder": "फसल चयन",
+            "label": "फसल"
+        },
+        "fieldSize": {
+            "title": "खेत का क्षेत्रफल",
+            "description": "अपने खेत का क्षेत्रफल एकड़ में दर्ज करें",
+            "unit": "एकड़"
+        },
+        "states": {
+            "loading": "फसलें लोड हो रही हैं...",
+            "noCrops": "कोई फसल उपलब्ध नहीं है।",
+            "fetchError": "फसलें प्राप्त नहीं की जा सकीं।"
+        },
+        "validation": {
+            "selectCropFirst": "कृपया पहले एक फसल चुनें।"
+        },
+        "result": {
+            "title": "पोषक तत्वों की मात्रा",
+            "recommendedFor": "{{crop_name}} के {{field_size}} के लिए अनुशंसित",
+            "nitrogen": "नाइट्रोजन (N)",
+            "phosphorus": "फास्फोरस (P)",
+            "potassium": "पोटैशियम (K)",
+            "perAcre": "किग्रा/एकड़"
+        },
+        "error": {
+            "calculation": "गणना प्राप्त करते समय त्रुटि हुई।"
+        },
+        "buttons": {
+            "calculate": "गणना करें",
+            "reCalculate": "पुनः गणना करें",
+            "discard": "रद्द करें"
+        },
+        "notes": {
+            "title": "नोट्स"
+        }
+    }
+}

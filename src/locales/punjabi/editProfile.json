@@ -1,0 +1,33 @@
+{
+    "editProfile": {
+        "header": {
+            "title": "ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕਰੋ",
+            "code": "ਕੋਡ",
+            "mobile": "ਮੋਬਾਈਲ",
+            "email": "ਈਮੇਲ",
+            "mobilePrefix": "+91 {{phone}}"
+        },
+        "form": {
+            "fullName": {
+                "label": "ਪੂਰਾ ਨਾਮ",
+                "placeholder": "ਪੂਰਾ ਨਾਮ",
+                "requiredError": "ਨਾਮ ਲੋੜੀਂਦਾ ਹੈ"
+            },
+            "addressDetails": {
+                "title": "ਪਤੇ ਦਾ ਵੇਰਵਾ ___"
+            }
+        },
+        "errors": {
+            "updateFailed": "ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ।",
+            "generic": "ਤੁਹਾਡੀ ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕਰਦੇ ਸਮੇਂ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ।"
+        },
+        "buttons": {
+            "update": "ਅੱਪਡੇਟ ਕਰੋ",
+            "updating": "ਅੱਪਡੇਟ ਹੋ ਰਿਹਾ ਹੈ...",
+            "discardAndClose": "ਰੱਦ ਕਰੋ ਅਤੇ ਬੰਦ ਕਰੋ"
+        },
+        "notes": {
+            "title": "ਨੋਟਸ"
+        }
+    }
+}

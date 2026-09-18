@@ -1,0 +1,59 @@
+{
+  "yieldPredictor": {
+    "title": "Predict Yield",
+    "description": "Predict yield for your farm or any other location and get the best predicted yield production analysed on the basis of past records in that area.",
+    "location": {
+      "myFarm": "My Farm",
+      "others": "Others"
+    },
+    "fields": {
+      "state": "State",
+      "district": "District",
+      "crop": "Crop",
+      "soilType": "Soil Type",
+      "sowingDate": "Sowing Date",
+      "acres": "Acres"
+    },
+    "farm": {
+      "noAvailable": "No Farm Available",
+      "noAvailableDescription": "Please add a new farm or manage your farms for availability",
+      "location": "{{acreage}} acre in {{location}}"
+    },
+    "result": {
+      "title": "Yield Prediction Result"
+    },
+    "disclaimer": "This prediction is analysed using previous years' data and may have minimal discrepancies.",
+    "yieldPredictorResult": {
+      "title": "Expected Yield",
+      "description": "Expected yield production on the basis of inputs",
+      "errorTitle": "Oops!",
+      "done": "Done"
+    },
+    "units": {
+      "acre": "acre",
+      "acres": "acres",
+      "kg": "kg",
+      "litre": "litre"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "close": "Close",
+      "delete": "Delete",
+      "edit": "Edit",
+      "submit": "Submit",
+      "continue": "Continue",
+      "retry": "Retry",
+      "getResults": "Get Results"
+    },
+    "status": {
+      "loading": "Loading...",
+      "success": "Success",
+      "error": "Something went wrong",
+      "noData": "No data available"
+    },
+    "validation": {
+      "required": "{{field}} is required"
+    }
+  }
+}

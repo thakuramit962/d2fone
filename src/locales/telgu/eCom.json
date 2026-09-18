@@ -1,0 +1,41 @@
+{
+    "ecom": {
+        "header": {
+            "title": "మా ఉత్పత్తులు",
+            "subtitle": "కచ్చితమైన పరిష్కారాలు"
+        },
+        "hero": {
+            "caption": "మీ పొలం అవసరాలకు తగిన కచ్చితమైన వ్యవసాయ పరిష్కారాలు"
+        },
+        "product": {
+            "description": "ప్రపంచంలోనే అత్యంత కచ్చితమైన SWR సాంకేతికతతో తయారు చేయబడింది!",
+            "price": "{{price}}",
+            "close": "మూసివేయండి",
+            "requestForm": {
+                "title": "ఉత్పత్తిని అభ్యర్థించండి"
+            }
+        },
+        "featured": {
+            "neroInfinity": {
+                "name": "Nero Infinity",
+                "description": "ప్రపంచంలోనే అత్యంత కచ్చితమైన SWR సాంకేతికతతో తయారు చేయబడింది!",
+                "price": "2312"
+            },
+            "neroInfinityPro": {
+                "name": "Nero Infinity Pro",
+                "description": "ప్రపంచంలోనే అత్యంత కచ్చితమైన SWR సాంకేతికతతో తయారు చేయబడింది!",
+                "price": "2999"
+            },
+            "neroCompact": {
+                "name": "Nero Compact",
+                "description": "ప్రపంచంలోనే అత్యంత కచ్చితమైన SWR సాంకేతికతతో తయారు చేయబడింది!",
+                "price": "1599"
+            },
+            "neroMini": {
+                "name": "Nero Mini",
+                "description": "ప్రపంచంలోనే అత్యంత కచ్చితమైన SWR సాంకేతికతతో తయారు చేయబడింది!",
+                "price": "1299"
+            }
+        }
+    }
+}

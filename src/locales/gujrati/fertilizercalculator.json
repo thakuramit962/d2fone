@@ -1,0 +1,42 @@
+{
+    "fertilizerCalculator": {
+        "title": "ખાતર કેલ્ક્યુલેટર",
+        "subtitle": "પાકના વધુ સારા આરોગ્ય માટે જરૂરી ખાતરની માત્રાની ગણતરી કરો",
+        "selectCrop": {
+            "placeholder": "પાક પસંદગી",
+            "label": "પાક"
+        },
+        "fieldSize": {
+            "title": "ખેતરનું ક્ષેત્રફળ",
+            "description": "તમારા ખેતરનું ક્ષેત્રફળ એકરમાં દાખલ કરો",
+            "unit": "એકર"
+        },
+        "states": {
+            "loading": "પાકો લોડ થઈ રહ્યા છે...",
+            "noCrops": "કોઈ પાક ઉપલબ્ધ નથી.",
+            "fetchError": "પાકો મેળવી શકાયા નહીં."
+        },
+        "validation": {
+            "selectCropFirst": "કૃપા કરીને પહેલા એક પાક પસંદ કરો."
+        },
+        "result": {
+            "title": "પોષક તત્વોની માત્રા",
+            "recommendedFor": "{{crop_name}} ના {{field_size}} માટે ભલામણ કરેલ",
+            "nitrogen": "નાઇટ્રોજન (N)",
+            "phosphorus": "ફોસ્ફરસ (P)",
+            "potassium": "પોટેશિયમ (K)",
+            "perAcre": "કિગ્રા/એકર"
+        },
+        "error": {
+            "calculation": "ગણતરી મેળવતી વખતે ભૂલ થઈ."
+        },
+        "buttons": {
+            "calculate": "ગણતરી કરો",
+            "reCalculate": "ફરીથી ગણતરી કરો",
+            "discard": "રદ કરો"
+        },
+        "notes": {
+            "title": "નોંધો"
+        }
+    }
+}

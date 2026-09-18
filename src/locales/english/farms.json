@@ -1,0 +1,155 @@
+{
+    "myFarms": {
+        "header": {
+            "title": "My Farms",
+            "description": "Manage your farms"
+        },
+        "buttons": {
+            "createNew": "Create New"
+        },
+        "list": {
+            "loading": "Loading farms...",
+            "empty": "No farms found",
+            "pullToRefresh": "Pull to refresh"
+        }
+    },
+    "addFarm": {
+        "title": "Add Farm",
+        "bannerAccessibilityLabel": "Farm banner",
+        "form": {
+            "loading": "Loading form..."
+        },
+        "footer": {
+            "d2fServices": "D2F Services"
+        }
+    },
+    "farmForm": {
+        "sections": {
+            "basicDetails": "Farm Basic Details",
+            "editDetails": "Edit Farm Details",
+            "locationDetails": "Location Details",
+            "locateOnMap": "Locate your farm on the map",
+            "notesTitle": "Notes"
+        },
+        "form": {
+            "farmNameLabel": "Farm Name",
+            "farmNamePlaceholder": "e.g. North Block",
+            "farmNameRequiredError": "Farm name is required",
+            "acreageLabel": "Acreage (acres)",
+            "acreagePlaceholder": "e.g. 6.5",
+            "acreageRequiredError": "Acreage is required",
+            "acreageInvalidError": "Enter a valid acreage (e.g. 6.5)",
+            "cropLabel": "Current Crop",
+            "cropPlaceholder": "e.g. Paddy, Wheat",
+            "farmImageLabel": "Farm Image",
+            "statusLabel": "Status",
+            "statusActive": "Active",
+            "statusInactive": "Inactive"
+        },
+        "buttons": {
+            "create": "Create Farm",
+            "creating": "Creating…",
+            "saveChanges": "Save Changes",
+            "saving": "Saving…"
+        },
+        "notes": {
+            "list": [
+                "Ensure the farm boundary is accurately marked on the map before submitting.",
+                "Acreage entered here is used for crop planning and insurance estimates.",
+                "A clear farm image helps field agents identify your plot during visits.",
+                "Location coordinates are auto-captured from the map pin — move the pin to correct them."
+            ]
+        },
+        "successToast": {
+            "title": "Success",
+            "createMessage": "Farm created successfully!",
+            "updateMessage": "Farm updated successfully!"
+        },
+        "errorToast": {
+            "title": "Error",
+            "generic": "Something not working.",
+            "createFailed": "Failed to create farm. Please try again.",
+            "updateFailed": "Failed to update farm. Please try again.",
+            "farmerIdNotFound": "Farmer ID not found. Please log in again.",
+            "missingFarmRef": "Missing farm reference. Please go back and try again.",
+            "loadFailed": "Unable to load this farm. Please go back and try again."
+        }
+    },
+    "farmDetails": {
+        "header": {
+            "title": "Farm Details",
+            "loading": "Loading Details",
+            "notFoundTitle": "Farm Not Found",
+            "notFoundDescription": "The requested farm could not be found.",
+            "defaultTitle": "Farm Details"
+        },
+        "buttons": {
+            "goBack": "Go Back",
+            "edit": "Edit"
+        },
+        "card": {
+            "detailsDivider": "Details",
+            "acres": "Acres",
+            "acreageValue": "{{value}} acre",
+            "farmName": "Farm Name",
+            "area": "Area",
+            "currentCrop": "Current Crop: {{crop}}",
+            "region": "Region",
+            "status": "Status",
+            "statusActive": "Active",
+            "statusInactive": "Inactive",
+            "inactiveWarning": "This farm is inactive and unavailable for use.",
+            "notAvailable": "-",
+            "currentCropNotAvailable": "-na-",
+            "addressLabel": "Address: {{address}}",
+            "addressEmpty": "Address: —",
+            "address": "Address"
+        },
+        "location": {
+            "title": "Location on Map ___",
+            "coordinatesFallback": "Coordinates not updated",
+            "coordinatesValue": "{{coordinates}}"
+        }
+    },
+    "chooseFarmForm": {
+        "farmArea": "{{area}} acre in {{location}}",
+        "status": {
+            "inactive": "Inactive",
+            "noFarms": "No farms found"
+        },
+        "actions": {
+            "viewFarms": "View Farms",
+            "reload": "Reload",
+            "manageFarms": "Manage Farms"
+        }
+    },
+    "farmList": {
+        "empty": "No farms found."
+    },
+    "locationForm": {
+        "addressLine1": "Address Line 1",
+        "state": "State",
+        "district": "District",
+        "subDistrict": "Sub-district",
+        "village": "Village",
+        "pinZip": "Pin/Zip",
+        "selectState": "Select State",
+        "selectDistrict": "Select District",
+        "selectSubDistrict": "Select Sub District",
+        "selectVillage": "Select Village",
+        "pinZipPlaceholder": "Pin/Zip Code",
+        "validation": {
+            "addressRequired": "Address is required",
+            "stateRequired": "State is required.",
+            "required": "Required.",
+            "pincodeRequired": "Pincode is required",
+            "invalidPincode": "Invalid Pincode"
+        },
+        "fetchError": "Unable to load {{level}} options. Please try again.",
+        "levels": {
+            "district": "district",
+            "sub-district": "sub-district",
+            "village": "village"
+        }
+    }
+}

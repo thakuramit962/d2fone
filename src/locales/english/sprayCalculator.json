@@ -1,0 +1,34 @@
+{
+    "sprayCalculatorForm": {
+        "title": "Spray Calculator",
+        "sprayMethod": "Spray Method",
+        "waterRate": "Water rate: {{rate}} Litre/acre",
+        "chemical": "Chemical",
+        "selectProduct": "Select Product",
+        "searchProduct": "Search product..",
+        "product": {
+            "activeIngredients": "Active Ingredients",
+            "doseOnLabel": "Dose on Label",
+            "dosePerAcre": "{{dose}} {{unit}} per acre",
+            "select": "Select {{name}}"
+        },
+        "measurements": {
+            "tankCapacity": "Tank Capacity (min {{minimum}}L)",
+            "litres": "Litres",
+            "fieldSize": "Field Size",
+            "acres": "Acres"
+        },
+        "actions": {
+            "calculate": "Calculate",
+            "retry": "Retry",
+            "done": "Done"
+        },
+        "empty": {
+            "noProducts": "No products found",
+            "loadError": "Could not load products. Please try again."
+        },
+        "result": {
+            "success": "Spray Calculation Completed Successfully"
+        }
+    }
+}

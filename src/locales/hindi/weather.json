@@ -1,0 +1,49 @@
+{
+  "weather": {
+    "block": {
+      "loading": "लोड हो रहा है...",
+      "errorLocation": "स्थान प्राप्त करने में समस्या हुई",
+      "unknown": "—",
+      "humidity": "नमी",
+      "chanceOfRain": "बारिश की संभावना",
+      "pressure": "वायुदाब",
+      "wind": "हवा"
+    },
+    "screen": {
+      "unableToFetch": "मौसम की जानकारी नहीं मिल सकी",
+      "currentLocation": "वर्तमान स्थान",
+      "fetchingInfo": "जानकारी प्राप्त की जा रही है...",
+      "updated": "अपडेट किया गया: {{time}}",
+      "pleaseRefresh": "कृपया पेज को रिफ्रेश करें",
+      "rainChances": "बारिश की संभावना",
+      "airPressure": "वायुदाब",
+      "weatherOnHorizon": "आने वाले मौसम पर नज़र >>",
+      "sprayAlert": "तेज़ हवा और बारिश की संभावना है। अपने खेत में अभी स्प्रे करने से बचें।",
+      "retry": "फिर कोशिश करें"
+    },
+    "forecast": {
+      "title": "3 दिनों का पूर्वानुमान",
+      "planFarming": "इसके अनुसार अपनी खेती की गतिविधियों की योजना बनाएँ",
+      "loadingData": "जानकारी लोड हो रही है...",
+      "suitableForSpray": "स्प्रे के लिए उपयुक्त दिन",
+      "pressToSchedule": "अगर स्प्रे की योजना है, तो शेड्यूल करने के लिए दबाएँ।"
+    },
+    "alerts": {
+      "title": "मौसम चेतावनी",
+      "errorFallback": "कुछ ठीक से काम नहीं कर रहा है, कृपया पुनः प्रयास करें",
+      "refreshPage": "पेज रिफ्रेश करें",
+      "detail": {
+        "titleFallback": "अलर्ट विवरण",
+        "notAvailable": "यह अलर्ट अब उपलब्ध नहीं है।",
+        "affectedArea": "प्रभावित क्षेत्र",
+        "urgency": "तात्कालिकता",
+        "category": "श्रेणी",
+        "certainty": "निश्चितता",
+        "status": "स्थिति",
+        "description": "विवरण",
+        "whatToDo": "क्या करें ___",
+        "idLabel": "आईडी: {{id}}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "locationDetails": {
+        "permissionNeeded": "Location permission needed",
+        "permissionDesc": "We need access to your location to show it on the map. Please grant permission to continue.",
+        "allowAccess": "Allow Location Access",
+        "openSettings": "Open Settings",
+        "fetchingAddress": "Fetching updated address...",
+        "resolvingAddress": "Resolving address...",
+        "coordinates": "Coordinates: {{coords}}",
+        "yourLocation": "Your Location",
+        "d2fExecutive": "D2F Executive"
+    }
+}

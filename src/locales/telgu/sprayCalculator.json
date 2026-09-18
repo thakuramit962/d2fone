@@ -1,0 +1,34 @@
+{
+    "sprayCalculatorForm": {
+        "title": "స్ప్రే కాలిక్యులేటర్",
+        "sprayMethod": "స్ప్రే పద్ధతి",
+        "waterRate": "నీటి రేటు: {{rate}} లీటర్లు/ఎకరం",
+        "chemical": "రసాయనం",
+        "selectProduct": "ఉత్పత్తిని ఎంచుకోండి",
+        "searchProduct": "ఉత్పత్తిని వెతకండి..",
+        "product": {
+            "activeIngredients": "క్రియాశీల పదార్థాలు",
+            "doseOnLabel": "లేబుల్‌పై డోస్",
+            "dosePerAcre": "{{dose}} {{unit}} ఒక్కో ఎకరాకు",
+            "select": "{{name}}ను ఎంచుకోండి"
+        },
+        "measurements": {
+            "tankCapacity": "ట్యాంక్ సామర్థ్యం (కనిష్టం {{minimum}}L)",
+            "litres": "లీటర్లు",
+            "fieldSize": "పొలం పరిమాణం",
+            "acres": "ఎకరాలు"
+        },
+        "actions": {
+            "calculate": "లెక్కించండి",
+            "retry": "మళ్లీ ప్రయత్నించండి",
+            "done": "పూర్తయింది"
+        },
+        "empty": {
+            "noProducts": "ఏ ఉత్పత్తులు కనుగొనబడలేదు",
+            "loadError": "ఉత్పత్తులను లోడ్ చేయడం సాధ్యం కాలేదు. దయచేసి మళ్లీ ప్రయత్నించండి."
+        },
+        "result": {
+            "success": "స్ప్రే లెక్కింపు విజయవంతంగా పూర్తయింది"
+        }
+    }
+}

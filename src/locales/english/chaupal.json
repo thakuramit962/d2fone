@@ -1,0 +1,132 @@
+{
+    "feeds": {
+        "title": "Community Feeds",
+        "description": "Here you can view the posts shared by other users in the community",
+        "noPosts": "No posts available in the community yet.",
+        "createPost": "Post",
+        "shareSomething": "Be the first to share something with the community."
+    },
+    "myPostItem": {
+        "title": "My Post",
+        "description": "Here you can view the status and like count of your post",
+        "noPosts": "You haven't posted anything yet.",
+        "createPost": "Add Post",
+        "status": {
+            "published": "Published",
+            "underReview": "Under Review"
+        },
+        "likes": {
+            "count": "Liked by {{count}} users",
+            "none": "No Likes yet"
+        }
+    },
+    "createPost": {
+        "header": {
+            "shareThoughts": "Share Thoughts",
+            "shareThoughtsDesc": "Share your thoughts with community",
+            "addDetails": "Add Details",
+            "mediaSelected_one": "{{count}} media selected",
+            "mediaSelected_other": "{{count}} media selected"
+        },
+        "form": {
+            "topic": {
+                "label": "Topic",
+                "placeholder": "e.g. Farming tips",
+                "required": "Topic is required"
+            },
+            "caption": {
+                "label": "Caption",
+                "placeholder": "Write caption...",
+                "requiredWhenNoMedia": "Caption is required when no media"
+            },
+            "attachments": {
+                "label_one": "Attachments ({{count}})",
+                "label_other": "Attachments ({{count}})"
+            },
+            "source": {
+                "label": "Source",
+                "placeholder": "https://...",
+                "invalid": "Include https://"
+            }
+        },
+        "media": {
+            "maxFiles": 5
+        },
+        "actions": {
+            "post": "Post",
+            "posting": "Posting...",
+            "discard": "Discard",
+            "cancel": "Cancel"
+        },
+        "dialog": {
+            "discardMediaTitle": "Discard media?",
+            "discardMediaDesc": "Your selected media will be removed."
+        },
+        "validation": {
+            "emptyPost": "Empty post, add caption or media",
+            "unsupportedFormat_one": "{{count}} file has unsupported format.",
+            "unsupportedFormat_other": "{{count}} file(s) have unsupported format.",
+            "invalidUrl": "Include https://"
+        },
+        "toast": {
+            "errorTitle": "Error",
+            "warningTitle": "Warning",
+            "successTitle": "Post Created Successfully!",
+            "processFailed": "Couldn't process the uploaded files.",
+            "someFailed": "Some files failed to upload and were skipped."
+        },
+        "error": {
+            "generic": "Couldn't create post.",
+            "generic2": "Could not create post.",
+            "noInternet": "No internet connection. Check your network.",
+            "sessionExpired": "Session expired. Please log in again.",
+            "serverError": "Something went wrong on our end. Try again shortly."
+        },
+        "genericErrorLabel": "Error",
+        "upload": {
+            "permission": {
+                "neededTitle": "Permission needed",
+                "neededDesc": "We need media library permission to select photos and videos."
+            },
+            "alert": {
+                "maxFiles": "Max {{count}} files",
+                "uploadBlockedTitle": "Upload blocked",
+                "uploadBlockedDesc": "Total size {{total}} exceeds {{max}} MB limit",
+                "uploadFailedTitle": "Upload Failed",
+                "uploadFailedDesc": "Something went wrong",
+                "networkError": "Network error",
+                "timeout": "Upload timeout",
+                "cancelled": "Upload cancelled",
+                "noUrls": "No urls returned from server"
+            },
+            "validation": {
+                "couldNotReadSize": "Could not read file size! {{name}} was skipped because its size couldn't be determined.",
+                "sizeNotAllowed": "File size not allowed for {{name}} is {{size}}.\nMax allowed: {{max}} MB",
+                "totalExceeded": "Total size exceeded! Max total allowed is {{max}} MB. Remove some files.",
+                "compressedImageStill": "Compressed image still {{size}}, max {{max}} MB",
+                "compressedVideoStill": "Compressed video still {{size}}, max {{max}} MB"
+            },
+            "empty": {
+                "noMedia": "No media chosen",
+                "tapToChoose": "Tap to choose (Max {{image}}MB image, {{video}}MB video)"
+            },
+            "list": {
+                "filesCount": "{{current}}/{{max}} files",
+                "totalSize": "Total: {{current}} / {{max}} MB",
+                "videoBadge": "VIDEO",
+                "removeA11y": "Remove {{type}}",
+                "chooseA11y": "Choose photos or videos",
+                "selectA11y": "Select images or videos",
+                "continueA11y": "Continue and upload selected media"
+            },
+            "actions": {
+                "select": "Select Images / Videos",
+                "processing": "Processing...",
+                "uploading": "Uploading {{progress}}%",
+                "continue": "Continue",
+                "continueWithout": "Continue without media",
+                "errorLabel": "Error"
+            }
+        }
+    }
+}

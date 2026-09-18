@@ -1,0 +1,40 @@
+{
+    "home": {
+        "checkingUpdate": "अपडेट की जाँच हो रही है...",
+        "myFarms": "मेरे खेत",
+        "smartServices": {
+            "label": "स्मार्ट सेवाएँ",
+            "title": "स्मार्ट कृषि",
+            "featuredTools": "प्रमुख टूल्स"
+        },
+        "recommendedForYou": "आपके लिए सुझाव",
+        "cards": {
+            "precisionSpraying": {
+                "title": "सटीक स्प्रे",
+                "description": "AI-संचालित स्वचालित ड्रोन स्प्रे के साथ अपनी फसलों को सुरक्षित रखें और रसायनों व उर्वरकों का सटीक छिड़काव करके बर्बादी को शून्य करें।"
+            },
+            "exploreProducts": {
+                "title": "उत्पाद देखें",
+                "description": "फसल का चयन, देखभाल और खेती की बेहतर तकनीकों के लिए विशेषज्ञ सलाह पाएँ।"
+            }
+        },
+        "trendingTopics": "लोकप्रिय विषय",
+        "languageKey": "भाषा"
+    },
+    "userGreeting": {
+        "fallbackName": "उपयोगकर्ता",
+        "loginSignup": "लॉगिन / साइन अप",
+        "greeting": {
+            "morning": "सुप्रभात",
+            "afternoon": "नमस्कार",
+            "evening": "शुभ संध्या",
+            "night": "शुभ रात्रि"
+        }
+    },
+    "news": {
+        "loading": "समाचार लोड हो रहे हैं…",
+        "error": "समाचार लोड नहीं हो सके",
+        "retry": "पुनः प्रयास करें",
+        "seeMore": "और देखें"
+    }
+}

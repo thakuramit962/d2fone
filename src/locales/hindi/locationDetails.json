@@ -1,0 +1,13 @@
+{
+    "locationDetails": {
+        "permissionNeeded": "स्थान अनुमति आवश्यक है",
+        "permissionDesc": "मानचित्र पर आपका स्थान दिखाने के लिए हमें आपकी लोकेशन की आवश्यकता है। कृपया जारी रखने के लिए अनुमति दें।",
+        "allowAccess": "लोकेशन एक्सेस की अनुमति दें",
+        "openSettings": "सेटिंग्स खोलें",
+        "fetchingAddress": "अपडेटेड पता लाया जा रहा है...",
+        "resolvingAddress": "पता खोजा जा रहा है...",
+        "coordinates": "निर्देशांक: {{coords}}",
+        "yourLocation": "आपका स्थान",
+        "d2fExecutive": "D2F कार्यकारी"
+    }
+}

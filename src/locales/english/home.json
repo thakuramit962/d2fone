@@ -1,0 +1,40 @@
+{
+    "home": {
+        "checkingUpdate": "Checking update...",
+        "myFarms": "My Farms",
+        "smartServices": {
+            "label": "Smart Services For",
+            "title": "Smart Agriculture",
+            "featuredTools": "Featured Tools"
+        },
+        "recommendedForYou": "Recommended For You",
+        "cards": {
+            "precisionSpraying": {
+                "title": "Precision Spraying",
+                "description": "Protect your crops with AI-driven, automated drone spraying for precise chemical and fertilizer application with zero wastage."
+            },
+            "exploreProducts": {
+                "title": "Explore Products",
+                "description": "Get expert advice on crop selection, care and best practices"
+            }
+        },
+        "trendingTopics": "Trending Topics",
+        "languageKey": "language"
+    },
+    "userGreeting": {
+        "fallbackName": "User Name",
+        "loginSignup": "Login/ Signup",
+        "greeting": {
+            "morning": "Good Morning",
+            "afternoon": "Good Afternoon",
+            "evening": "Good Evening",
+            "night": "Good Night"
+        }
+    },
+    "news": {
+        "loading": "Loading news…",
+        "error": "Failed to load news",
+        "retry": "Retry",
+        "seeMore": "See More"
+    }
+}

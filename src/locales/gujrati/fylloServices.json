@@ -1,0 +1,19 @@
+{
+    "fylloServices": {
+        "header": {
+            "backToProfile": "પ્રોફાઇલ પર પાછા જાઓ"
+        },
+        "footer": {
+            "poweredBy": "Fyllo દ્વારા સંચાલિત"
+        },
+        "empty": {
+            "title": "વિગતો મેળવી શકાઈ નહીં",
+            "defaultMessage": "કૃપા કરીને ફરી પ્રયાસ કરો",
+            "retryButton": "ફરી પ્રયાસ કરો"
+        },
+        "error": {
+            "generic": "કંઈક ખોટું થયું. કૃપા કરીને ફરી પ્રયાસ કરો.",
+            "fetchFailed": "વિગતો મેળવતી વખતે ભૂલ થઈ"
+        }
+    }
+}

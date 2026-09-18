@@ -1,0 +1,132 @@
+{
+    "feeds": {
+        "title": "कम्युनिटी पोस्ट",
+        "description": "यहाँ आप कम्युनिटी के दूसरे किसानों और यूज़र्स द्वारा साझा की गई पोस्ट देख सकते हैं।",
+        "noPosts": "अभी कम्युनिटी में कोई पोस्ट उपलब्ध नहीं है।",
+        "createPost": "पोस्ट करें",
+        "shareSomething": "कम्युनिटी के साथ कुछ साझा करने वाले पहले व्यक्ति बनें।"
+    },
+    "myPostItem": {
+        "title": "मेरी पोस्ट",
+        "description": "यहाँ आप अपनी पोस्ट की स्थिति और उसे मिले लाइक्स देख सकते हैं।",
+        "noPosts": "आपने अभी तक कोई पोस्ट साझा नहीं की है।",
+        "createPost": "पोस्ट जोड़ें",
+        "status": {
+            "published": "प्रकाशित",
+            "underReview": "समीक्षा में"
+        },
+        "likes": {
+            "count": "{{count}} यूज़र्स ने पसंद किया",
+            "none": "अभी कोई लाइक नहीं"
+        }
+    },
+    "createPost": {
+        "header": {
+            "shareThoughts": "अपने विचार साझा करें",
+            "shareThoughtsDesc": "अपने विचार कम्युनिटी के साथ साझा करें",
+            "addDetails": "विवरण जोड़ें",
+            "mediaSelected_one": "{{count}} मीडिया चुना गया",
+            "mediaSelected_other": "{{count}} मीडिया चुने गए"
+        },
+        "form": {
+            "topic": {
+                "label": "विषय",
+                "placeholder": "जैसे: खेती के सुझाव",
+                "required": "विषय दर्ज करना ज़रूरी है"
+            },
+            "caption": {
+                "label": "कैप्शन",
+                "placeholder": "अपनी बात लिखें...",
+                "requiredWhenNoMedia": "मीडिया न होने पर कैप्शन लिखना ज़रूरी है"
+            },
+            "attachments": {
+                "label_one": "अटैचमेंट ({{count}})",
+                "label_other": "अटैचमेंट ({{count}})"
+            },
+            "source": {
+                "label": "स्रोत",
+                "placeholder": "https://...",
+                "invalid": "https:// से शुरू होने वाला लिंक डालें"
+            }
+        },
+        "media": {
+            "maxFiles": 5
+        },
+        "actions": {
+            "post": "पोस्ट करें",
+            "posting": "पोस्ट हो रही है...",
+            "discard": "हटाएँ",
+            "cancel": "रद्द करें"
+        },
+        "dialog": {
+            "discardMediaTitle": "मीडिया हटाएँ?",
+            "discardMediaDesc": "आपके द्वारा चुना गया मीडिया हटा दिया जाएगा।"
+        },
+        "validation": {
+            "emptyPost": "पोस्ट खाली है। कैप्शन या मीडिया जोड़ें।",
+            "unsupportedFormat_one": "{{count}} फ़ाइल का फ़ॉर्मेट समर्थित नहीं है।",
+            "unsupportedFormat_other": "{{count}} फ़ाइलों के फ़ॉर्मेट समर्थित नहीं हैं।",
+            "invalidUrl": "https:// से शुरू होने वाला लिंक डालें"
+        },
+        "toast": {
+            "errorTitle": "त्रुटि",
+            "warningTitle": "चेतावनी",
+            "successTitle": "पोस्ट सफलतापूर्वक साझा हो गई!",
+            "processFailed": "अपलोड की गई फ़ाइलों को प्रोसेस नहीं किया जा सका।",
+            "someFailed": "कुछ फ़ाइलें अपलोड नहीं हो सकीं और उन्हें छोड़ दिया गया।"
+        },
+        "error": {
+            "generic": "पोस्ट नहीं बनाई जा सकी।",
+            "generic2": "पोस्ट बनाने में समस्या हुई।",
+            "noInternet": "इंटरनेट कनेक्शन नहीं है। अपना नेटवर्क जाँचें।",
+            "sessionExpired": "आपका सेशन समाप्त हो गया है। कृपया दोबारा लॉग इन करें।",
+            "serverError": "सर्वर पर कुछ समस्या हुई। कृपया थोड़ी देर बाद फिर कोशिश करें।"
+        },
+        "genericErrorLabel": "त्रुटि",
+        "upload": {
+            "permission": {
+                "neededTitle": "अनुमति ज़रूरी है",
+                "neededDesc": "फ़ोटो और वीडियो चुनने के लिए हमें आपकी मीडिया लाइब्रेरी की अनुमति चाहिए।"
+            },
+            "alert": {
+                "maxFiles": "अधिकतम {{count}} फ़ाइलें चुनी जा सकती हैं",
+                "uploadBlockedTitle": "अपलोड रोका गया",
+                "uploadBlockedDesc": "कुल आकार {{total}} है, जो {{max}} MB की सीमा से अधिक है।",
+                "uploadFailedTitle": "अपलोड विफल",
+                "uploadFailedDesc": "अपलोड करते समय कुछ गड़बड़ हो गई।",
+                "networkError": "नेटवर्क की समस्या हुई।",
+                "timeout": "अपलोड में बहुत समय लग रहा है।",
+                "cancelled": "अपलोड रद्द कर दिया गया।",
+                "noUrls": "सर्वर से कोई लिंक प्राप्त नहीं हुआ।"
+            },
+            "validation": {
+                "couldNotReadSize": "फ़ाइल का आकार पता नहीं चल सका। {{name}} को छोड़ दिया गया।",
+                "sizeNotAllowed": "{{name}} का आकार {{size}} है, जो अनुमत सीमा से अधिक है।\nअधिकतम सीमा: {{max}} MB",
+                "totalExceeded": "कुल फ़ाइल आकार सीमा से अधिक हो गया है।\nअधिकतम सीमा {{max}} MB है। कुछ फ़ाइलें हटाएँ।",
+                "compressedImageStill": "कंप्रेस करने के बाद भी फ़ोटो का आकार {{size}} है। अधिकतम {{max}} MB होना चाहिए।",
+                "compressedVideoStill": "कंप्रेस करने के बाद भी वीडियो का आकार {{size}} है। अधिकतम {{max}} MB होना चाहिए।"
+            },
+            "empty": {
+                "noMedia": "कोई फ़ोटो या वीडियो नहीं चुना गया",
+                "tapToChoose": "चुनने के लिए टैप करें (फ़ोटो अधिकतम {{image}}MB, वीडियो {{video}}MB)"
+            },
+            "list": {
+                "filesCount": "{{current}}/{{max}} फ़ाइलें",
+                "totalSize": "कुल: {{current}} / {{max}} MB",
+                "videoBadge": "वीडियो",
+                "removeA11y": "{{type}} हटाएँ",
+                "chooseA11y": "फ़ोटो या वीडियो चुनें",
+                "selectA11y": "फ़ोटो या वीडियो चुनें",
+                "continueA11y": "चुने गए मीडिया को अपलोड करने के लिए आगे बढ़ें"
+            },
+            "actions": {
+                "select": "फ़ोटो / वीडियो चुनें",
+                "processing": "तैयार किया जा रहा है...",
+                "uploading": "{{progress}}% अपलोड हो रहा है",
+                "continue": "आगे बढ़ें",
+                "continueWithout": "मीडिया के बिना आगे बढ़ें",
+                "errorLabel": "त्रुटि"
+            }
+        }
+    }
+}

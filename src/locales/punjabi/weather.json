@@ -1,0 +1,49 @@
+{
+  "weather": {
+    "block": {
+      "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+      "errorLocation": "ਸਥਾਨ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ ਆਈ",
+      "unknown": "—",
+      "humidity": "ਨਮੀ",
+      "chanceOfRain": "ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ",
+      "pressure": "ਹਵਾ ਦਾ ਦਬਾਅ",
+      "wind": "ਹਵਾ"
+    },
+    "screen": {
+      "unableToFetch": "ਮੌਸਮ ਦੀ ਜਾਣਕਾਰੀ ਨਹੀਂ ਮਿਲ ਸਕੀ",
+      "currentLocation": "ਮੌਜੂਦਾ ਸਥਾਨ",
+      "fetchingInfo": "ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+      "updated": "ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ: {{time}}",
+      "pleaseRefresh": "ਕਿਰਪਾ ਕਰਕੇ ਪੇਜ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ",
+      "rainChances": "ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ",
+      "airPressure": "ਹਵਾ ਦਾ ਦਬਾਅ",
+      "weatherOnHorizon": "ਆਉਣ ਵਾਲੇ ਮੌਸਮ 'ਤੇ ਨਜ਼ਰ >>",
+      "sprayAlert": "ਤੇਜ਼ ਹਵਾ ਅਤੇ ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ ਹੈ। ਆਪਣੇ ਖੇਤ ਵਿੱਚ ਹੁਣੇ ਸਪਰੇਅ ਕਰਨ ਤੋਂ ਬਚੋ।",
+      "retry": "ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+    },
+    "forecast": {
+      "title": "3 ਦਿਨਾਂ ਦਾ ਪੂਰਵ ਅਨੁਮਾਨ",
+      "planFarming": "ਇਸ ਅਨੁਸਾਰ ਆਪਣੀ ਖੇਤੀ ਦੀਆਂ ਗਤੀਵਿਧੀਆਂ ਦੀ ਯੋਜਨਾ ਬਣਾਓ",
+      "loadingData": "ਜਾਣਕਾਰੀ ਲੋਡ ਹੋ ਰਹੀ ਹੈ...",
+      "suitableForSpray": "ਸਪਰੇਅ ਲਈ ਢੁਕਵਾਂ ਦਿਨ",
+      "pressToSchedule": "ਜੇ ਸਪਰੇਅ ਦੀ ਯੋਜਨਾ ਹੈ, ਤਾਂ ਸ਼ਡਿਊਲ ਕਰਨ ਲਈ ਦਬਾਓ।"
+    },
+    "alerts": {
+      "title": "ਮੌਸਮ ਚੇਤਾਵਨੀ",
+      "errorFallback": "ਕੁਝ ਠੀਕ ਢੰਗ ਨਾਲ ਕੰਮ ਨਹੀਂ ਕਰ ਰਿਹਾ, ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+      "refreshPage": "ਪੇਜ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ",
+      "detail": {
+        "titleFallback": "ਚੇਤਾਵਨੀ ਵੇਰਵਾ",
+        "notAvailable": "ਇਹ ਚੇਤਾਵਨੀ ਹੁਣ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+        "affectedArea": "ਪ੍ਰਭਾਵਿਤ ਖੇਤਰ",
+        "urgency": "ਤੁਰੰਤਤਾ",
+        "category": "ਸ਼੍ਰੇਣੀ",
+        "certainty": "ਨਿਸ਼ਚਤਤਾ",
+        "status": "ਸਥਿਤੀ",
+        "description": "ਵੇਰਵਾ",
+        "whatToDo": "ਕੀ ਕਰੀਏ ___",
+        "idLabel": "ਆਈਡੀ: {{id}}"
+      }
+    }
+  }
+}

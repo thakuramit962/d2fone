@@ -1,0 +1,34 @@
+{
+    "sprayCalculatorForm": {
+        "title": "સ્પ્રે કેલ્ક્યુલેટર",
+        "sprayMethod": "સ્પ્રે પદ્ધતિ",
+        "waterRate": "પાણીનો દર: {{rate}} લિટર/એકર",
+        "chemical": "રસાયણ",
+        "selectProduct": "ઉત્પાદન પસંદ કરો",
+        "searchProduct": "ઉત્પાદન શોધો..",
+        "product": {
+            "activeIngredients": "સક્રિય તત્વો",
+            "doseOnLabel": "લેબલ પર ડોઝ",
+            "dosePerAcre": "{{dose}} {{unit}} પ્રતિ એકર",
+            "select": "{{name}} પસંદ કરો"
+        },
+        "measurements": {
+            "tankCapacity": "ટાંકીની ક્ષમતા (ન્યૂનતમ {{minimum}}L)",
+            "litres": "લિટર",
+            "fieldSize": "ખેતરનું કદ",
+            "acres": "એકર"
+        },
+        "actions": {
+            "calculate": "ગણતરી કરો",
+            "retry": "ફરી પ્રયાસ કરો",
+            "done": "થઈ ગયું"
+        },
+        "empty": {
+            "noProducts": "કોઈ ઉત્પાદન મળ્યું નથી",
+            "loadError": "ઉત્પાદનો લોડ થઈ શક્યા નહીં. કૃપા કરીને ફરી પ્રયાસ કરો."
+        },
+        "result": {
+            "success": "સ્પ્રે ગણતરી સફળતાપૂર્વક પૂર્ણ થઈ"
+        }
+    }
+}

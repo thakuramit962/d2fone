@@ -1,0 +1,33 @@
+{
+    "editProfile": {
+        "header": {
+            "title": "Update Profile",
+            "code": "Code",
+            "mobile": "Mobile",
+            "email": "Email",
+            "mobilePrefix": "+91 {{phone}}"
+        },
+        "form": {
+            "fullName": {
+                "label": "Full Name",
+                "placeholder": "Full Name",
+                "requiredError": "Name is required"
+            },
+            "addressDetails": {
+                "title": "Address Details ___"
+            }
+        },
+        "errors": {
+            "updateFailed": "Unable to update profile.",
+            "generic": "Something went wrong while updating your profile."
+        },
+        "buttons": {
+            "update": "Update",
+            "updating": "Updating...",
+            "discardAndClose": "Discard & Close"
+        },
+        "notes": {
+            "title": "Notes"
+        }
+    }
+}

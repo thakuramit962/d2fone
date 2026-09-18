@@ -1,0 +1,81 @@
+{
+    "manageProfile": {
+        "title": "ਪ੍ਰੋਫਾਈਲ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ",
+        "options": {
+            "updateProfile": "ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕਰੋ",
+            "updatePassword": "ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕਰੋ",
+            "removeAccount": "ਖਾਤਾ ਹਟਾਓ"
+        },
+        "deleteAccount": {
+            "title": "ਖਾਤਾ ਹਟਾਓ",
+            "confirmTitle": "ਤੁਹਾਨੂੰ ਜਾਂਦੇ ਦੇਖ ਕੇ ਦੁੱਖ ਹੋਇਆ 😔",
+            "confirmDescription": "ਆਪਣਾ ਖਾਤਾ ਸਥਾਈ ਤੌਰ 'ਤੇ ਮਿਟਾਉਣ ਲਈ ਆਪਣੇ Agriwings ਪ੍ਰਮਾਣ ਪੱਤਰਾਂ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+            "warning": {
+                "description1": "ਖਾਤਾ ਹਟਾਉਣਾ ਸਥਾਈ ਹੈ ਅਤੇ ਇਸਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲਿਆ ਜਾ ਸਕਦਾ।\nਤੁਹਾਡੀ ਪ੍ਰੋਫਾਈਲ, ਸਪਰੇਅ ਇਤਿਹਾਸ ਅਤੇ ਹੋਰ ਸੰਬੰਧਿਤ ਜਾਣਕਾਰੀ ਸਮੇਤ ਤੁਹਾਡਾ ਸਾਰਾ ਡੇਟਾ ਗੁਆਚ ਜਾਵੇਗਾ।",
+                "description2": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧੋ।"
+            },
+            "form": {
+                "code": {
+                    "label": "ਕੋਡ",
+                    "placeholder": "ਆਪਣਾ ਯੂਜ਼ਰ ਕੋਡ ਦਾਖਲ ਕਰੋ"
+                },
+                "password": {
+                    "label": "ਪਾਸਵਰਡ",
+                    "placeholder": "XXXXXXXX"
+                }
+            },
+            "error": {
+                "label": "ਗਲਤੀ",
+                "requiredFields": "ਯੂਜ਼ਰਨੇਮ ਅਤੇ ਪਾਸਵਰਡ ਲੋੜੀਂਦੇ ਹਨ।",
+                "generic": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+                "network": "ਸਰਵਰ ਤੱਕ ਪਹੁੰਚਣ ਵਿੱਚ ਅਸਮਰੱਥ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+            },
+            "toast": {
+                "title": "ਸਾਨੂੰ ਤੁਹਾਡੀ ਯਾਦ ਆਵੇਗੀ!",
+                "message": "ਤੁਹਾਡਾ ਖਾਤਾ Agriwings ਤੋਂ ਸਫਲਤਾਪੂਰਵਕ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ"
+            },
+            "buttons": {
+                "continue": "ਜਾਰੀ ਰੱਖੋ",
+                "noThankYou": "ਨਹੀਂ, ਧੰਨਵਾਦ",
+                "remove": "ਹਟਾਓ",
+                "removing": "ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ...",
+                "changeMind": "ਨਹੀਂ, ਮੇਰਾ ਮਨ ਬਦਲ ਗਿਆ"
+            }
+        }
+    },
+    "updatePassword": {
+        "title": "ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕਰੋ",
+        "description": "ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਵਾਲਾ ਨਵਾਂ ਪਾਸਵਰਡ ਚੁਣੋ।",
+        "form": {
+            "oldPassword": {
+                "label": "ਪੁਰਾਣਾ ਪਾਸਵਰਡ",
+                "placeholder": "xxxxxxxx"
+            },
+            "newPassword": {
+                "label": "ਨਵਾਂ ਪਾਸਵਰਡ",
+                "placeholder": "xxxxxxxx"
+            },
+            "confirmNewPassword": {
+                "label": "ਨਵੇਂ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+                "placeholder": "xxxxxxxx"
+            }
+        },
+        "validation": {
+            "allFieldsRequired": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਖੇਤਰ ਭਰੋ।",
+            "minLength": "ਨਵਾਂ ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ {{count}} ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
+            "notMatch": "ਨਵਾਂ ਪਾਸਵਰਡ ਅਤੇ ਪੁਸ਼ਟੀਕਰਨ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ।",
+            "sameAsOld": "ਨਵਾਂ ਪਾਸਵਰਡ ਪੁਰਾਣੇ ਪਾਸਵਰਡ ਤੋਂ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+        },
+        "buttons": {
+            "update": "ਅੱਪਡੇਟ ਕਰੋ",
+            "updating": "ਅੱਪਡੇਟ ਹੋ ਰਿਹਾ ਹੈ...",
+            "discard": "ਰੱਦ ਕਰੋ"
+        },
+        "toast": {
+            "successTitle": "ਪਾਸਵਰਡ ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਡੇਟ ਹੋ ਗਿਆ!",
+            "successMessage": "ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਸਫਲਤਾਪੂਰਵਕ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ ਅਤੇ ਖਾਤਾ ਹੋਰ ਡਿਵਾਈਸਾਂ ਤੋਂ ਲਾਗ ਆਊਟ ਹੋ ਗਿਆ ਹੈ।",
+            "errorTitle": "ਗਲਤੀ",
+            "errorMessage": "ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕਰਦੇ ਸਮੇਂ ਗਲਤੀ।"
+        }
+    }
+}

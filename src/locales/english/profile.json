@@ -1,0 +1,52 @@
+{
+    "editProfile": {
+        "title": "Update Profile",
+        "unableToUpdate": "'Unable to update profile.'",
+        "serverIssue": "Something went wrong while updating your profile.",
+        "fullName": {
+            "label": "Full Name",
+            "required": "Name is required"
+        },
+        "addressDetails": "Address Details"
+    },
+    "manageAccount": {
+        "title": "Manage Profile",
+        "updateProfile": "Update Profile",
+        "updatePassword": "Update Password",
+        "removeAccount": "Remove Account"
+    },
+    "updatePassword": {
+        "title": "Update Password",
+        "description": "Choose a new password with at least 8 characters.",
+        "oldPasswordLabel": "Old Password",
+        "newPasswordLabel": "New Password",
+        "confirmNewPasswordLabel": "Confirm New Password",
+        "allFieldsRequired": "Please fill in all fields.",
+        "minLength": "New password must be at least {{min}} characters.",
+        "mismatch": "New password and confirmation do not match.",
+        "sameAsOld": "New password must be different from the old password.",
+        "successTitle": "Password Updated Successfully!",
+        "successMessage": "Your password is changed successfully and account is logged out from other devices.",
+        "errorTitle": "Error",
+        "errorMessage": "Error while updating password."
+    },
+    "deleteAccount": {
+        "initialTitle": "Remove Account",
+        "initialDescription": "Removing your account is permanent and cannot be undone.\nAll your data will be lost, including your profile, spray history, and any other associated information.",
+        "caution": "Please proceed with caution.",
+        "continue": "Continue",
+        "cancel": "No, Thank You",
+        "confirmTitle": "Sad To See You Go 😔",
+        "confirmDescription": "Confirm your Agriwings credentials to permanently delete your account.",
+        "codeLabel": "Code",
+        "codePlaceholder": "Enter your User code",
+        "passwordLabel": "Password",
+        "changeMind": "No, I Change Mind",
+        "required": "Username & Password is required.",
+        "genericError": "Something went wrong. Please try again.",
+        "networkError": "Unable to reach the server. Please check your connection and try again.",
+        "errorLabel": "Error",
+        "successTitle": "We'll miss you!",
+        "successMessage": "Your account is removed successfully from Agriwings"
+    }
+}

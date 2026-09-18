@@ -1,0 +1,155 @@
+{
+    "myFarms": {
+        "header": {
+            "title": "मेरे खेत",
+            "description": "अपने खेतों का प्रबंधन करें"
+        },
+        "buttons": {
+            "createNew": "नया खेत जोड़ें"
+        },
+        "list": {
+            "loading": "खेत लोड हो रहे हैं...",
+            "empty": "कोई खेत नहीं मिला",
+            "pullToRefresh": "रिफ्रेश करने के लिए नीचे खींचें"
+        }
+    },
+    "addFarm": {
+        "title": "खेत जोड़ें",
+        "bannerAccessibilityLabel": "खेत का बैनर",
+        "form": {
+            "loading": "फॉर्म लोड हो रहा है..."
+        },
+        "footer": {
+            "d2fServices": "D2F Services"
+        }
+    },
+    "farmForm": {
+        "sections": {
+            "basicDetails": "खेत की मूल जानकारी",
+            "editDetails": "खेत की जानकारी संपादित करें",
+            "locationDetails": "स्थान की जानकारी",
+            "locateOnMap": "मानचित्र पर अपने खेत का स्थान चुनें",
+            "notesTitle": "महत्वपूर्ण जानकारी"
+        },
+        "form": {
+            "farmNameLabel": "खेत का नाम",
+            "farmNamePlaceholder": "जैसे: उत्तरी हिस्सा",
+            "farmNameRequiredError": "खेत का नाम आवश्यक है",
+            "acreageLabel": "क्षेत्रफल (एकड़)",
+            "acreagePlaceholder": "जैसे: 6.5",
+            "acreageRequiredError": "क्षेत्रफल आवश्यक है",
+            "acreageInvalidError": "मान्य क्षेत्रफल दर्ज करें (जैसे: 6.5)",
+            "cropLabel": "वर्तमान फसल",
+            "cropPlaceholder": "जैसे: धान, गेहूं",
+            "farmImageLabel": "खेत की तस्वीर",
+            "statusLabel": "स्थिति",
+            "statusActive": "सक्रिय",
+            "statusInactive": "निष्क्रिय"
+        },
+        "buttons": {
+            "create": "खेत बनाएं",
+            "creating": "बनाया जा रहा है…",
+            "saveChanges": "बदलाव सहेजें",
+            "saving": "सहेजा जा रहा है…"
+        },
+        "notes": {
+            "list": [
+                "सबमिट करने से पहले मानचित्र पर खेत की सीमा सही तरीके से चिह्नित करें।",
+                "यहां दर्ज किया गया क्षेत्रफल फसल योजना और बीमा अनुमान के लिए उपयोग किया जाता है।",
+                "खेत की स्पष्ट तस्वीर फील्ड एजेंट को आपके खेत की पहचान करने में मदद करती है।",
+                "स्थान के निर्देशांक मानचित्र पर लगाए गए पिन से स्वतः दर्ज होते हैं — सही स्थान के लिए पिन को आवश्यकतानुसार स्थानांतरित करें।"
+            ]
+        },
+        "successToast": {
+            "title": "सफलता",
+            "createMessage": "खेत सफलतापूर्वक बनाया गया!",
+            "updateMessage": "खेत सफलतापूर्वक अपडेट किया गया!"
+        },
+        "errorToast": {
+            "title": "त्रुटि",
+            "generic": "कुछ काम नहीं कर रहा है।",
+            "createFailed": "खेत बनाने में विफल। कृपया फिर से प्रयास करें।",
+            "updateFailed": "खेत अपडेट करने में विफल। कृपया फिर से प्रयास करें।",
+            "farmerIdNotFound": "किसान की ID नहीं मिली। कृपया दोबारा लॉग इन करें।",
+            "missingFarmRef": "खेत का संदर्भ उपलब्ध नहीं है। कृपया वापस जाकर फिर से प्रयास करें।",
+            "loadFailed": "यह खेत लोड नहीं हो सका। कृपया वापस जाकर फिर से प्रयास करें।"
+        }
+    },
+    "farmDetails": {
+        "header": {
+            "title": "खेत का विवरण",
+            "loading": "विवरण लोड हो रहा है",
+            "notFoundTitle": "खेत नहीं मिला",
+            "notFoundDescription": "अनुरोधित खेत नहीं मिल सका।",
+            "defaultTitle": "खेत का विवरण"
+        },
+        "buttons": {
+            "goBack": "वापस जाएं",
+            "edit": "संपादित करें"
+        },
+        "card": {
+            "detailsDivider": "विवरण",
+            "acres": "एकड़",
+            "acreageValue": "{{value}} एकड़",
+            "farmName": "खेत का नाम",
+            "area": "क्षेत्रफल",
+            "currentCrop": "वर्तमान फसल: {{crop}}",
+            "region": "क्षेत्र",
+            "status": "स्थिति",
+            "statusActive": "सक्रिय",
+            "statusInactive": "निष्क्रिय",
+            "inactiveWarning": "यह खेत निष्क्रिय है और उपयोग के लिए उपलब्ध नहीं है।",
+            "notAvailable": "-",
+            "currentCropNotAvailable": "-उपलब्ध नहीं-",
+            "addressLabel": "पता: {{address}}",
+            "addressEmpty": "पता: —",
+            "address": "पता"
+        },
+        "location": {
+            "title": "मानचित्र पर स्थान",
+            "coordinatesFallback": "निर्देशांक अपडेट नहीं हुए",
+            "coordinatesValue": "{{coordinates}}"
+        }
+    },
+    "chooseFarmForm": {
+        "farmArea": "{{location}} में {{area}} एकड़",
+        "status": {
+            "inactive": "निष्क्रिय",
+            "noFarms": "कोई खेत नहीं मिला"
+        },
+        "actions": {
+            "viewFarms": "खेत देखें",
+            "reload": "फिर से लोड करें",
+            "manageFarms": "खेतों का प्रबंधन करें"
+        }
+    },
+    "farmList": {
+        "empty": "कोई खेत नहीं मिला।"
+    },
+    "locationForm": {
+        "addressLine1": "पता लाइन 1",
+        "state": "राज्य",
+        "district": "जिला",
+        "subDistrict": "उप-जिला",
+        "village": "गांव",
+        "pinZip": "पिन/ज़िप",
+        "selectState": "राज्य चुनें",
+        "selectDistrict": "जिला चुनें",
+        "selectSubDistrict": "उप-जिला चुनें",
+        "selectVillage": "गांव चुनें",
+        "pinZipPlaceholder": "पिन/ज़िप कोड",
+        "validation": {
+            "addressRequired": "पता आवश्यक है",
+            "stateRequired": "राज्य आवश्यक है।",
+            "required": "आवश्यक है।",
+            "pincodeRequired": "पिनकोड आवश्यक है",
+            "invalidPincode": "अमान्य पिनकोड"
+        },
+        "fetchError": "{{level}} के विकल्प लोड नहीं हो सके। कृपया फिर से प्रयास करें।",
+        "levels": {
+            "district": "जिला",
+            "sub-district": "उप-जिला",
+            "village": "गांव"
+        }
+    }
+}

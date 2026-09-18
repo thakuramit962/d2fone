@@ -1,0 +1,33 @@
+{
+    "editProfile": {
+        "header": {
+            "title": "ప్రొఫైల్‌ను అప్‌డేట్ చేయండి",
+            "code": "కోడ్",
+            "mobile": "మొబైల్",
+            "email": "ఇమెయిల్",
+            "mobilePrefix": "+91 {{phone}}"
+        },
+        "form": {
+            "fullName": {
+                "label": "పూర్తి పేరు",
+                "placeholder": "పూర్తి పేరు",
+                "requiredError": "పేరు అవసరం"
+            },
+            "addressDetails": {
+                "title": "చిరునామా వివరాలు ___"
+            }
+        },
+        "errors": {
+            "updateFailed": "ప్రొఫైల్‌ను అప్‌డేట్ చేయలేకపోయాము.",
+            "generic": "మీ ప్రొఫైల్‌ను అప్‌డేట్ చేస్తున్నప్పుడు ఏదో తప్పు జరిగింది."
+        },
+        "buttons": {
+            "update": "అప్‌డేట్ చేయండి",
+            "updating": "అప్‌డేట్ అవుతోంది...",
+            "discardAndClose": "రద్దు చేసి మూసివేయండి"
+        },
+        "notes": {
+            "title": "గమనికలు"
+        }
+    }
+}

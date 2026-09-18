@@ -1,0 +1,52 @@
+{
+    "agricoins": {
+        "agri": "Agri",
+        "coins": "Coins",
+        "title": "My Agricoins",
+        "balanceTitle": "Your Balance",
+        "walletBalance": "Wallet Balance",
+        "tagline": "Collect AgriCoins, unlock great details and explore various services.",
+        "viewMore": "View More",
+        "transactions": {
+            "title": "Recent Transactions",
+            "empty": "No transactions yet",
+            "dateFormat": "D MMM YYYY, hh:mm:ss A",
+            "coinValue": "{{sign}}{{coins}}",
+            "details": {
+                "acres": "({{acreage}} acres)",
+                "reference": "Ref: {{reference}}"
+            }
+        },
+        "lineItems": {
+            "register": {
+                "credit": "Coins earned for registration",
+                "debit": "Coins deducted — registration reversed"
+            },
+            "spray": {
+                "credit": "Coins earned for spray activity",
+                "debit": "Coins deducted for spray"
+            },
+            "referral": {
+                "credit": "Coins earned from referral",
+                "debit": "Coins deducted — referral reversed"
+            },
+            "spray_redemption": {
+                "credit": "Coins refunded from spray redemption",
+                "debit": "Coins redeemed for spray"
+            },
+            "product_redemption": {
+                "credit": "Coins refunded from product redemption",
+                "debit": "Coins redeemed for product"
+            },
+            "admin": {
+                "credit": "Coins credited by admin",
+                "debit": "Coins deducted by admin"
+            },
+            "bonus": {
+                "credit": "Bonus coins credited",
+                "debit": "Bonus coins reversed"
+            },
+            "fallback": "Coin transaction"
+        }
+    }
+}

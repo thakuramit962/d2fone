@@ -1,0 +1,19 @@
+{
+    "fylloServices": {
+        "header": {
+            "backToProfile": "प्रोफाइलवर परत जा"
+        },
+        "footer": {
+            "poweredBy": "Fyllo द्वारे समर्थित"
+        },
+        "empty": {
+            "title": "तपशील मिळू शकले नाहीत",
+            "defaultMessage": "कृपया पुन्हा प्रयत्न करा",
+            "retryButton": "पुन्हा प्रयत्न करा"
+        },
+        "error": {
+            "generic": "काहीतरी चूक झाली. कृपया पुन्हा प्रयत्न करा.",
+            "fetchFailed": "तपशील मिळवताना त्रुटी आली"
+        }
+    }
+}

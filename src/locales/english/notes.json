@@ -1,0 +1,27 @@
+{
+    "notes": {
+        "profileUpdate": [
+            "Make sure your address details are correct and up to date.",
+            "Updated information helps us serve you better."
+        ],
+        "productRequest": [
+            "Share your requirement to know the latest price.",
+            "Our team will assist you with the next steps."
+        ],
+        "fertilizerCalculator": [
+            "AI-generated results are indicative only. Actual results may vary based on field, crop, weather and other conditions. Please verify before making decisions."
+        ],
+        "yieldPrediction": [
+            "AI-generated results are indicative only. Actual results may vary based on field, crop, weather and other conditions. Please verify before making decisions."
+        ],
+        "sprayCalculator": [
+            "AI-generated results are indicative only. Actual results may vary based on field, crop, weather and other conditions. Please verify before making decisions."
+        ],
+        "farm": [
+            "Ensure the farm boundary is accurately marked on the map before submitting.",
+            "Acreage entered here is used for crop planning and insurance estimates.",
+            "A clear farm image helps field agents identify your plot during visits.",
+            "Location coordinates are auto-captured from the map pin — move the pin to correct them."
+        ]
+    }
+}

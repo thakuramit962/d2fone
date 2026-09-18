@@ -1,0 +1,15 @@
+export type Roles =
+  | "super admin"
+  | "management"
+  | "client"
+  | "hr"
+  | "accounts"
+  | "cso"
+  | "rm"
+  | "rtl"
+  | "admin"
+  | "operator"
+  | "dge"
+  | "mis"
+  | "farmer"
+  | "support";

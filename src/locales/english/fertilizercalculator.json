@@ -1,0 +1,42 @@
+{
+    "fertilizerCalculator": {
+        "title": "Fertilizer Calculator",
+        "subtitle": "Calculate how much fertilizer is required for better crop health",
+        "selectCrop": {
+            "placeholder": "Select Crop",
+            "label": "Crop"
+        },
+        "fieldSize": {
+            "title": "Field Size",
+            "description": "Enter your field size in acres",
+            "unit": "acres"
+        },
+        "states": {
+            "loading": "Loading crops...",
+            "noCrops": "No crops available.",
+            "fetchError": "Couldn't fetch crops."
+        },
+        "validation": {
+            "selectCropFirst": "Please select a crop first."
+        },
+        "result": {
+            "title": "Nutrient quantities",
+            "recommendedFor": "Recommended for {{field_size}} of {{crop_name}}",
+            "nitrogen": "Nitrogen (N)",
+            "phosphorus": "Phosphorus (P)",
+            "potassium": "Potassium (K)",
+            "perAcre": "kg/ac"
+        },
+        "error": {
+            "calculation": "Error while fetching calculation"
+        },
+        "buttons": {
+            "calculate": "Calculate",
+            "reCalculate": "Re-calculate",
+            "discard": "Discard"
+        },
+        "notes": {
+            "title": "Notes"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "sprayCalculatorForm": {
+        "title": "ਸਪਰੇਅ ਕੈਲਕੁਲੇਟਰ",
+        "sprayMethod": "ਸਪਰੇਅ ਵਿਧੀ",
+        "waterRate": "ਪਾਣੀ ਦੀ ਦਰ: {{rate}} ਲੀਟਰ/ਏਕੜ",
+        "chemical": "ਰਸਾਇਣ",
+        "selectProduct": "ਉਤਪਾਦ ਚੁਣੋ",
+        "searchProduct": "ਉਤਪਾਦ ਖੋਜੋ..",
+        "product": {
+            "activeIngredients": "ਸਰਗਰਮ ਤੱਤ",
+            "doseOnLabel": "ਲੇਬਲ 'ਤੇ ਖੁਰਾਕ",
+            "dosePerAcre": "{{dose}} {{unit}} ਪ੍ਰਤੀ ਏਕੜ",
+            "select": "{{name}} ਚੁਣੋ"
+        },
+        "measurements": {
+            "tankCapacity": "ਟੈਂਕ ਸਮਰੱਥਾ (ਘੱਟੋ-ਘੱਟ {{minimum}}L)",
+            "litres": "ਲੀਟਰ",
+            "fieldSize": "ਖੇਤ ਦਾ ਆਕਾਰ",
+            "acres": "ਏਕੜ"
+        },
+        "actions": {
+            "calculate": "ਗਣਨਾ ਕਰੋ",
+            "retry": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+            "done": "ਹੋ ਗਿਆ"
+        },
+        "empty": {
+            "noProducts": "ਕੋਈ ਉਤਪਾਦ ਨਹੀਂ ਮਿਲਿਆ",
+            "loadError": "ਉਤਪਾਦ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+        },
+        "result": {
+            "success": "ਸਪਰੇਅ ਗਣਨਾ ਸਫਲਤਾਪੂਰਵਕ ਪੂਰੀ ਹੋਈ"
+        }
+    }
+}

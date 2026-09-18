@@ -1,0 +1,18 @@
+{
+    "latestNews": {
+        "title": "Latest News",
+        "tagline": "Latest updates from agri industry"
+    },
+    "subscription": {
+        "title": "Subscription",
+        "tagline": "Services",
+        "noSubscription": "No Active Subscription",
+        "heroTitle": "Upgrade to Smart Farming",
+        "heroDescription": "Save time, reduce costs, and increase your yield with advanced tools."
+    },
+    "iot": {
+        "back": "Back to Profile",
+        "error": "Couldn't fetch details",
+        "reason": "Invalid Account"
+    }
+}

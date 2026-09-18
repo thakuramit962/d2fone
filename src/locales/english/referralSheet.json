@@ -1,0 +1,30 @@
+{
+    "addReferralDrawer": {
+        "description": "Have a referral code? Enter it below to connect with your referrer.",
+        "fields": {
+            "referralCode": "Referral Code",
+            "placeholder": "Referral Code",
+            "required": "Referral code is required",
+            "tooShort": "Referral code is too short",
+            "maxLength": 12,
+            "minLength": 10
+        },
+        "status": {
+            "invalidCode": "Invalid Referral Code",
+            "genericError": "Something went wrong. Please try again.",
+            "addFailed": "Failed to add referral. Please try again."
+        },
+        "buttons": {
+            "submit": "Submit",
+            "submitting": "Submitting...",
+            "skipAndContinue": "Skip & Continue",
+            "clear": "Clear referral code"
+        },
+        "a11y": {
+            "inputLabel": "Referral code input",
+            "inputHint": "Enter the referral code you received, then submit",
+            "clearLabel": "Clear referral code",
+            "submitDisabledHint": "Enter a valid referral code to enable submit"
+        }
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "servicesHome": {
+        "hero": {
+            "our": "आमच्या ",
+            "services": "सेवा",
+            "subtitle": "आधुनिक शेतीसाठी स्मार्ट उपाय"
+        },
+        "sprayServices": "स्प्रे सेवा ___",
+        "droneSpray": {
+            "title": "ड्रोन स्प्रे",
+            "description": "लहान आणि मोठ्या शेतांसाठी हाय-टेक ड्रोन स्प्रे सेवा.",
+            "bookNow": "आत्ताच बुक करा"
+        },
+        "tractorSpray": {
+            "title": "ट्रॅक्टर स्प्रे",
+            "description": "ट्रॅक्टर-माउंटेड स्प्रेने कमी वेळात जास्त क्षेत्र कव्हर करा.",
+            "bookNow": "आत्ताच बुक करा"
+        },
+        "boomSpray": {
+            "title": "बूम स्प्रे",
+            "description": "पिकांवर जलद आणि एकसमान फवारणीसाठी विस्तृत कव्हरेज.",
+            "bookNow": "आत्ताच बुक करा"
+        },
+        "manualSpray": {
+            "title": "मॅन्युअल स्प्रे",
+            "description": "चांगल्या परिणामांसाठी अचूक आणि काळजीपूर्वक मॅन्युअल फवारणी.",
+            "bookNow": "आत्ताच बुक करा"
+        },
+        "viewBookedServices": "बुक केलेल्या सेवा पहा >>",
+        "ctas": {
+            "verified": "सुरक्षित आणि विश्वासार्ह",
+            "verifiedDes": "प्रशिक्षित तज्ञ आणि दर्जेदार उपकरणे",
+            "timeSaving": "वेळेची बचत",
+            "timeSavingDes": "चांगल्या कार्यक्षमतेसाठी आधुनिक तंत्रज्ञान",
+            "safeAndReliable": "सुरक्षित आणि विश्वासार्ह",
+            "safeAndReliableDes": "निरोगी पीक, चांगली उत्पादकता",
+            "expertSupport": "तज्ञ सहाय्य",
+            "expertSupportDes": "आम्ही तुमच्या मदतीसाठी नेहमी तयार आहोत"
+        }
+    },
+    "supportCard": {
+        "title": "तुम्हाला कस्टम उपाय हवा आहे का?",
+        "tagline": "आजच आमच्या कृषी तज्ञांशी बोला.",
+        "button": "संपर्क करा"
+    },
+    "bookSpray": {
+        "title": "स्प्रे शेड्यूल करा",
+        "description": "तुमच्या शेतासाठी स्प्रेची विनंती करा",
+        "bookingForm": {
+            "chooseFarm": "शेत निवडा",
+            "farmRequired": "❗ शेत निवडणे आवश्यक आहे.",
+            "sprayDate": "स्प्रेची तारीख",
+            "crop": "पीक",
+            "cropRequired": "आवश्यक",
+            "acreage": "क्षेत्रफळ",
+            "acreagePlaceholder": "एकरांची संख्या",
+            "acreageMaxHelper": "कमाल {{max}} एकर",
+            "referral": "रेफरल",
+            "referralPlaceholder": "रेफरल कोड",
+            "referralVerifying": "पडताळणी होत आहे...",
+            "remarks": "टिप्पणी",
+            "remarksPlaceholder": "टिप्पणी टाका...",
+            "remarksCounter": "{{count}}/160 अक्षरे",
+            "invalidDataTitle": "अवैध माहिती",
+            "invalidDataMessage": "{{fields}} {{verb}} आवश्यक {{verb}}.",
+            "is": "आहे",
+            "are": "आहेत",
+            "invalidReferralTitle": "अवैध रेफरल",
+            "consentRequiredTitle": "संमती आवश्यक आहे",
+            "consentRequiredMessage": "कृपया नियम आणि अटी स्वीकारा.",
+            "invalidReferralCode": "अवैध रेफरल कोड",
+            "invalidReferralCodeGeneric": "अवैध रेफरल कोड",
+            "verifyFailed": "रेफरल कोड सत्यापित करता आला नाही. कृपया पुन्हा प्रयत्न करा.",
+            "consent": "मी स्वीकारतो/करते की मी नियम आणि अटी वाचल्या, समजून घेतल्या आहेत आणि त्यांचे पालन करण्यास सहमत आहे.",
+            "scanQr": "रेफरल QR कोड स्कॅन करा",
+            "successTitle": "यश",
+            "successMessage": "स्प्रे विनंती यशस्वीरित्या सबमिट झाली.",
+            "errorTitle": "त्रुटी",
+            "errorMessage": "कृपया पुन्हा प्रयत्न करा",
+            "agricoins": "अ‍ॅग्रीकॉइन्सची पात्रता",
+            "pressToRefresh": "रिफ्रेश करण्यासाठी दाबा"
+        },
+        "successScreen": {
+            "title": "स्प्रे विनंती यशस्वीरित्या केली गेली!",
+            "message": "तुमची स्प्रे विनंती बुक झाली आहे. संदर्भ आयडी:",
+            "referenceLabel": "संदर्भ आयडी: {{id}}",
+            "accessibilitySummary": "स्प्रे विनंती सबमिट झाली, संदर्भ {{id}}",
+            "viewDetails": "तपशील पहा"
+        },
+        "agricoinsApplicability": {
+            "noAccount": "तुमचे खाते ओळखता आले नाही. कृपया पुन्हा लॉग इन करा.",
+            "fetchFailed": "या वेळी तुमची अ‍ॅग्रीकॉइन्सची माहिती मिळवता आली नाही.",
+            "generic": "काहीतरी चूक झाली. कृपया तुमचे कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.",
+            "title": "उपलब्ध ऑफर",
+            "eligiblePrefix": "तुम्ही जास्तीत जास्त ",
+            "freeAcre": "मोफत एकर",
+            "freeAcres": "मोफत एकरपर्यंत पात्र आहात",
+            "description": "या ऑफरचा लाभ घेण्यासाठी तुमच्या अ‍ॅग्रीकॉइन्सचा वापर केला जाईल. तुमचे मोफत एकर रिडीम करण्यासाठी 'लागू करा' वर टॅप करा.",
+            "earnedInFy": "आर्थिक वर्ष {{year}} मध्ये मिळवलेले: {{count}} मोफत {{unit}}",
+            "earnedInFy_one": "आर्थिक वर्ष {{year}} मध्ये मिळवलेले: {{count}} मोफत एकर",
+            "earnedInFy_other": "आर्थिक वर्ष {{year}} मध्ये मिळवलेले: {{count}} मोफत एकर",
+            "apply": "लागू करा",
+            "applied": "लागू केले",
+            "redeemed": "तुम्ही आर्थिक वर्ष {{year}} साठी आधीच {{count}} मोफत {{unit}} रिडीम केले आहेत.",
+            "redeemed_one": "तुम्ही आर्थिक वर्ष {{year}} साठी आधीच {{count}} मोफत एकर रिडीम केले आहे.",
+            "redeemed_other": "तुम्ही आर्थिक वर्ष {{year}} साठी आधीच {{count}} मोफत एकर रिडीम केले आहेत.",
+            "noFreeAcres": "आर्थिक वर्ष {{year}} साठी सध्या कोणतेही मोफत एकर उपलब्ध नाहीत."
+        }
+    },
+    "mySprays": {
+        "title": "स्प्रे विनंत्या",
+        "bookSpray": "स्प्रे बुक करा",
+        "cropLabel": "पीक: ",
+        "areaLabel": "क्षेत्रफळ: ",
+        "areaValue": "{{acreage}} एकर",
+        "bookedFor": "बुकिंगची तारीख",
+        "noRequests": "अजून कोणतीही स्प्रे विनंती नाही",
+        "noDataTitle": "डेटा नाही",
+        "createRequest": "विनंती तयार करा",
+        "retrySuffix": "पुन्हा प्रयत्न करण्यासाठी टॅप करा",
+        "viewAll": "सर्व स्प्रे पहा"
+    },
+    "farmerActionSheet": {
+        "close": "बंद करा",
+        "editOption": "विनंती संपादित करा",
+        "deleteOption": "विनंती हटवा",
+        "manageRequest": "विनंती व्यवस्थापित करा",
+        "description": "ही माहिती अपडेट किंवा हटवण्यासाठी खालील पर्यायांमधून निवडा.",
+        "lastUpdated": "शेवटचे {{date}} रोजी अपडेट केले",
+        "editDetails": "तपशील संपादित करा",
+        "delete": "हटवा",
+        "orderCreated": "ऑर्डर तयार केली",
+        "rejectedTitle": "नाकारण्याचे कारण",
+        "cancelledBySelf": "स्वतः रद्द केले",
+        "rejectedByOperator": "ऑपरेटरद्वारे नाकारले",
+        "pendingMessage": "तुमची विनंती स्वीकारली गेली आहे आणि ती लवकरच पूर्ण केली जाईल.",
+        "deleteRequest": {
+            "title": "स्प्रे विनंती हटवायची?",
+            "subtitle": "तुम्हाला खरंच ही स्प्रे विनंती रद्द करायची आहे का?",
+            "remarks": "टिप्पणी",
+            "placeholder": "रद्द करण्याचे कारण टाका",
+            "helper": "कमाल 120 अक्षरे",
+            "requiredError": "टिप्पणी आवश्यक आहे"
+        },
+        "editRequest": {
+            "title": "स्प्रे विनंती अपडेट करा",
+            "chooseFarm": "शेत निवडा",
+            "farmRequired": "आवश्यक",
+            "sprayDate": "स्प्रेची तारीख",
+            "crop": "पीक",
+            "cropRequired": "आवश्यक",
+            "acreage": "क्षेत्रफळ",
+            "acreagePlaceholder": "एकरांची संख्या",
+            "acreageMax": "कमाल {{max}} एकर",
+            "acreageMinWithCoins": "अ‍ॅग्रीकॉइन्स वापरण्यासाठी किमान {{min}} एकर.",
+            "acreageMaxError": "कमाल {{max}} एकर",
+            "requiredError": "आवश्यक",
+            "agricoinsApplied": "या विनंतीमध्ये अ‍ॅग्रीकॉइन्स लागू केले आहेत."
+        }
+    },
+    "sprayList": {
+        "empty": {
+            "title": "अरे! कोणतीही विनंती नाही",
+            "message": "सध्याच्या स्थितीसाठी कोणतीही स्प्रे विनंती आढळली नाही.",
+            "button": "विनंती तयार करा"
+        }
+    },
+    "sprayListItem": {
+        "status": {
+            "delivered": "पूर्ण झाले",
+            "assigned": "एक्झिक्युटिव्हला नियुक्त केले",
+            "created": "तयार केले",
+            "cancelled": "रद्द केले",
+            "processing": "प्रक्रियेत"
+        },
+        "fields": {
+            "crop": "पीक",
+            "area": "क्षेत्रफळ",
+            "areaValue": "{{acreage}} एकर",
+            "sprayDate": "स्प्रेची तारीख"
+        },
+        "updatedOn": "{{date}} रोजी अपडेट केले"
+    },
+    "droneSprays": {
+        "title": "अलीकडील स्प्रे",
+        "bookSpray": "स्प्रे बुक करा",
+        "drone": "ड्रोन",
+        "sprayServices": "स्प्रे सेवा",
+        "description": "लहान आणि मोठ्या शेतांसाठी हाय-टेक ड्रोन स्प्रे सेवा.",
+        "bookSprayButton": "स्प्रे बुक करा",
+        "recentSpraysTitle": "अलीकडील स्प्रे ___",
+        "empty": "कोणतेही स्प्रे आढळले नाहीत",
+        "pullToRefresh": "रिफ्रेश करण्यासाठी खाली ओढा",
+        "pendingRequests": "प्रलंबित विनंत्या",
+        "seeAll": "सर्व पहा",
+        "recentRequests": "अलीकडील विनंत्या"
+    }
+}

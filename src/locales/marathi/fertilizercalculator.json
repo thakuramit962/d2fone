@@ -1,0 +1,42 @@
+{
+    "fertilizerCalculator": {
+        "title": "खत कॅल्क्युलेटर",
+        "subtitle": "पिकाच्या चांगल्या आरोग्यासाठी आवश्यक खताच्या प्रमाणाची गणना करा",
+        "selectCrop": {
+            "placeholder": "पीक निवड",
+            "label": "पीक"
+        },
+        "fieldSize": {
+            "title": "शेताचे क्षेत्रफळ",
+            "description": "तुमच्या शेताचे क्षेत्रफळ एकरमध्ये प्रविष्ट करा",
+            "unit": "एकर"
+        },
+        "states": {
+            "loading": "पिके लोड होत आहेत...",
+            "noCrops": "कोणतेही पीक उपलब्ध नाही.",
+            "fetchError": "पिके मिळवता आली नाहीत."
+        },
+        "validation": {
+            "selectCropFirst": "कृपया आधी एक पीक निवडा."
+        },
+        "result": {
+            "title": "पोषक तत्वांचे प्रमाण",
+            "recommendedFor": "{{crop_name}} च्या {{field_size}} साठी शिफारस केलेले",
+            "nitrogen": "नायट्रोजन (N)",
+            "phosphorus": "स्फुरद (P)",
+            "potassium": "पालाश (K)",
+            "perAcre": "किलो/एकर"
+        },
+        "error": {
+            "calculation": "गणना मिळवताना त्रुटी आली."
+        },
+        "buttons": {
+            "calculate": "गणना करा",
+            "reCalculate": "पुन्हा गणना करा",
+            "discard": "रद्द करा"
+        },
+        "notes": {
+            "title": "टिपा"
+        }
+    }
+}

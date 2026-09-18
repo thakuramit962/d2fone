@@ -1,0 +1,49 @@
+{
+  "weather": {
+    "block": {
+      "loading": "लोड होत आहे...",
+      "errorLocation": "स्थान मिळवताना अडचण आली",
+      "unknown": "—",
+      "humidity": "आर्द्रता",
+      "chanceOfRain": "पावसाची शक्यता",
+      "pressure": "हवेचा दाब",
+      "wind": "वारा"
+    },
+    "screen": {
+      "unableToFetch": "हवामानाची माहिती मिळू शकली नाही",
+      "currentLocation": "सध्याचे स्थान",
+      "fetchingInfo": "माहिती मिळवली जात आहे...",
+      "updated": "अपडेट केले: {{time}}",
+      "pleaseRefresh": "कृपया पेज रिफ्रेश करा",
+      "rainChances": "पावसाची शक्यता",
+      "airPressure": "हवेचा दाब",
+      "weatherOnHorizon": "येणाऱ्या हवामानावर नजर >>",
+      "sprayAlert": "जोरदार वारा आणि पावसाची शक्यता आहे. तुमच्या शेतात आत्ता फवारणी करणे टाळा.",
+      "retry": "पुन्हा प्रयत्न करा"
+    },
+    "forecast": {
+      "title": "3 दिवसांचा अंदाज",
+      "planFarming": "त्यानुसार तुमच्या शेतीच्या कामांचे नियोजन करा",
+      "loadingData": "माहिती लोड होत आहे...",
+      "suitableForSpray": "फवारणीसाठी योग्य दिवस",
+      "pressToSchedule": "जर फवारणीची योजना असेल, तर शेड्यूल करण्यासाठी दाबा."
+    },
+    "alerts": {
+      "title": "हवामान चेतावणी",
+      "errorFallback": "काहीतरी नीट काम करत नाहीये, कृपया पुन्हा प्रयत्न करा",
+      "refreshPage": "पेज रिफ्रेश करा",
+      "detail": {
+        "titleFallback": "इशारा तपशील",
+        "notAvailable": "हा इशारा आता उपलब्ध नाही.",
+        "affectedArea": "प्रभावित क्षेत्र",
+        "urgency": "तातडी",
+        "category": "श्रेणी",
+        "certainty": "निश्चितता",
+        "status": "स्थिती",
+        "description": "तपशील",
+        "whatToDo": "काय करावे ___",
+        "idLabel": "आयडी: {{id}}"
+      }
+    }
+  }
+}

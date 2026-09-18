@@ -1,0 +1,41 @@
+{
+    "ecom": {
+        "header": {
+            "title": "எங்கள் தயாரிப்புகள்",
+            "subtitle": "துல்லியமான தீர்வுகள்"
+        },
+        "hero": {
+            "caption": "உங்கள் பண்ணையின் தேவைகளுக்கு ஏற்ற துல்லியமான வேளாண் தீர்வுகள்"
+        },
+        "product": {
+            "description": "உலகின் மிகவும் துல்லியமான SWR தொழில்நுட்பத்துடன் தயாரிக்கப்பட்டது!",
+            "price": "{{price}}",
+            "close": "மூடு",
+            "requestForm": {
+                "title": "தயாரிப்பைக் கோருங்கள்"
+            }
+        },
+        "featured": {
+            "neroInfinity": {
+                "name": "Nero Infinity",
+                "description": "உலகின் மிகவும் துல்லியமான SWR தொழில்நுட்பத்துடன் தயாரிக்கப்பட்டது!",
+                "price": "2312"
+            },
+            "neroInfinityPro": {
+                "name": "Nero Infinity Pro",
+                "description": "உலகின் மிகவும் துல்லியமான SWR தொழில்நுட்பத்துடன் தயாரிக்கப்பட்டது!",
+                "price": "2999"
+            },
+            "neroCompact": {
+                "name": "Nero Compact",
+                "description": "உலகின் மிகவும் துல்லியமான SWR தொழில்நுட்பத்துடன் தயாரிக்கப்பட்டது!",
+                "price": "1599"
+            },
+            "neroMini": {
+                "name": "Nero Mini",
+                "description": "உலகின் மிகவும் துல்லியமான SWR தொழில்நுட்பத்துடன் தயாரிக்கப்பட்டது!",
+                "price": "1299"
+            }
+        }
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "myFarms": {
+        "header": {
+            "title": "నా పొలాలు",
+            "description": "మీ పొలాలను నిర్వహించండి"
+        },
+        "buttons": {
+            "createNew": "కొత్త పొలాన్ని జోడించండి"
+        },
+        "list": {
+            "loading": "పొలాలు లోడ్ అవుతున్నాయి...",
+            "empty": "పొలం ఏదీ కనుగొనబడలేదు",
+            "pullToRefresh": "రిఫ్రెష్ చేయడానికి కిందకు లాగండి"
+        }
+    },
+    "addFarm": {
+        "title": "పొలాన్ని జోడించండి",
+        "bannerAccessibilityLabel": "పొలం బ్యానర్",
+        "form": {
+            "loading": "ఫారం లోడ్ అవుతోంది..."
+        },
+        "footer": {
+            "d2fServices": "D2F సేవలు"
+        }
+    },
+    "farmForm": {
+        "sections": {
+            "basicDetails": "పొలం ప్రాథమిక వివరాలు",
+            "editDetails": "పొలం వివరాలను సవరించండి",
+            "locationDetails": "స్థాన వివరాలు",
+            "locateOnMap": "మ్యాప్‌లో మీ పొలం స్థానాన్ని ఎంచుకోండి",
+            "notesTitle": "ముఖ్యమైన సమాచారం"
+        },
+        "form": {
+            "farmNameLabel": "పొలం పేరు",
+            "farmNamePlaceholder": "ఉదా: ఉత్తర భాగం",
+            "farmNameRequiredError": "పొలం పేరు అవసరం",
+            "acreageLabel": "విస్తీర్ణం (ఎకరాలు)",
+            "acreagePlaceholder": "ఉదా: 6.5",
+            "acreageRequiredError": "విస్తీర్ణం అవసరం",
+            "acreageInvalidError": "చెల్లుబాటు అయ్యే విస్తీర్ణాన్ని నమోదు చేయండి (ఉదా: 6.5)",
+            "cropLabel": "ప్రస్తుత పంట",
+            "cropPlaceholder": "ఉదా: వరి, గోధుమ",
+            "farmImageLabel": "పొలం చిత్రం",
+            "statusLabel": "స్థితి",
+            "statusActive": "క్రియాశీలం",
+            "statusInactive": "నిష్క్రియం"
+        },
+        "buttons": {
+            "create": "పొలాన్ని సృష్టించండి",
+            "creating": "సృష్టిస్తోంది…",
+            "saveChanges": "మార్పులను సేవ్ చేయండి",
+            "saving": "సేవ్ అవుతోంది…"
+        },
+        "notes": {
+            "list": [
+                "సమర్పించే ముందు మ్యాప్‌లో పొలం సరిహద్దును సరిగ్గా గుర్తించండి.",
+                "ఇక్కడ నమోదు చేసిన విస్తీర్ణం పంట ప్రణాళిక మరియు బీమా అంచనా కోసం ఉపయోగించబడుతుంది.",
+                "పొలం యొక్క స్పష్టమైన చిత్రం ఫీల్డ్ ఏజెంట్‌కు మీ పొలాన్ని గుర్తించడంలో సహాయపడుతుంది.",
+                "స్థాన కోఆర్డినేట్‌లు మ్యాప్‌లో ఉంచిన పిన్ నుండి స్వయంచాలకంగా నమోదవుతాయి — సరైన స్థానం కోసం పిన్‌ను అవసరమైన విధంగా జరపండి."
+            ]
+        },
+        "successToast": {
+            "title": "విజయం",
+            "createMessage": "పొలం విజయవంతంగా సృష్టించబడింది!",
+            "updateMessage": "పొలం విజయవంతంగా అప్‌డేట్ చేయబడింది!"
+        },
+        "errorToast": {
+            "title": "లోపం",
+            "generic": "ఏదో పని చేయడం లేదు.",
+            "createFailed": "పొలాన్ని సృష్టించడంలో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+            "updateFailed": "పొలాన్ని అప్‌డేట్ చేయడంలో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+            "farmerIdNotFound": "రైతు ID కనుగొనబడలేదు. దయచేసి మళ్లీ లాగిన్ చేయండి.",
+            "missingFarmRef": "పొలం సూచన అందుబాటులో లేదు. దయచేసి వెనక్కి వెళ్లి మళ్లీ ప్రయత్నించండి.",
+            "loadFailed": "ఈ పొలం లోడ్ కాలేదు. దయచేసి వెనక్కి వెళ్లి మళ్లీ ప్రయత్నించండి."
+        }
+    },
+    "farmDetails": {
+        "header": {
+            "title": "పొలం వివరాలు",
+            "loading": "వివరాలు లోడ్ అవుతున్నాయి",
+            "notFoundTitle": "పొలం కనుగొనబడలేదు",
+            "notFoundDescription": "అభ్యర్థించిన పొలం కనుగొనబడలేదు.",
+            "defaultTitle": "పొలం వివరాలు"
+        },
+        "buttons": {
+            "goBack": "వెనక్కి వెళ్లండి",
+            "edit": "సవరించండి"
+        },
+        "card": {
+            "detailsDivider": "వివరాలు",
+            "acres": "ఎకరాలు",
+            "acreageValue": "{{value}} ఎకరాలు",
+            "farmName": "పొలం పేరు",
+            "area": "విస్తీర్ణం",
+            "currentCrop": "ప్రస్తుత పంట: {{crop}}",
+            "region": "ప్రాంతం",
+            "status": "స్థితి",
+            "statusActive": "క్రియాశీలం",
+            "statusInactive": "నిష్క్రియం",
+            "inactiveWarning": "ఈ పొలం నిష్క్రియంగా ఉంది మరియు ఉపయోగానికి అందుబాటులో లేదు.",
+            "notAvailable": "-",
+            "currentCropNotAvailable": "-అందుబాటులో లేదు-",
+            "addressLabel": "చిరునామా: {{address}}",
+            "addressEmpty": "చిరునామా: —",
+            "address": "చిరునామా"
+        },
+        "location": {
+            "title": "మ్యాప్‌లో స్థానం",
+            "coordinatesFallback": "కోఆర్డినేట్‌లు అప్‌డేట్ కాలేదు",
+            "coordinatesValue": "{{coordinates}}"
+        }
+    },
+    "chooseFarmForm": {
+        "farmArea": "{{location}} లో {{area}} ఎకరాలు",
+        "status": {
+            "inactive": "నిష్క్రియం",
+            "noFarms": "పొలం ఏదీ కనుగొనబడలేదు"
+        },
+        "actions": {
+            "viewFarms": "పొలాలను చూడండి",
+            "reload": "మళ్లీ లోడ్ చేయండి",
+            "manageFarms": "పొలాలను నిర్వహించండి"
+        }
+    },
+    "farmList": {
+        "empty": "పొలం ఏదీ కనుగొనబడలేదు."
+    },
+    "locationForm": {
+        "addressLine1": "చిరునామా లైన్ 1",
+        "state": "రాష్ట్రం",
+        "district": "జిల్లా",
+        "subDistrict": "ఉప-జిల్లా",
+        "village": "గ్రామం",
+        "pinZip": "పిన్/జిప్",
+        "selectState": "రాష్ట్రాన్ని ఎంచుకోండి",
+        "selectDistrict": "జిల్లాను ఎంచుకోండి",
+        "selectSubDistrict": "ఉప-జిల్లాను ఎంచుకోండి",
+        "selectVillage": "గ్రామాన్ని ఎంచుకోండి",
+        "pinZipPlaceholder": "పిన్/జిప్ కోడ్",
+        "validation": {
+            "addressRequired": "చిరునామా అవసరం",
+            "stateRequired": "రాష్ట్రం అవసరం.",
+            "required": "అవసరం.",
+            "pincodeRequired": "పిన్‌కోడ్ అవసరం",
+            "invalidPincode": "చెల్లని పిన్‌కోడ్"
+        },
+        "fetchError": "{{level}} ఎంపికలను లోడ్ చేయలేకపోయాము. దయచేసి మళ్లీ ప్రయత్నించండి.",
+        "levels": {
+            "district": "జిల్లా",
+            "sub-district": "ఉప-జిల్లా",
+            "village": "గ్రామం"
+        }
+    }
+}

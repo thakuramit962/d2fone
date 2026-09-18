@@ -1,0 +1,41 @@
+{
+    "ecom": {
+        "header": {
+            "title": "અમારા ઉત્પાદનો",
+            "subtitle": "સચોટ ઉકેલો"
+        },
+        "hero": {
+            "caption": "તમારા ખેતરની જરૂરિયાતો માટે યોગ્ય સચોટ કૃષિ ઉકેલો"
+        },
+        "product": {
+            "description": "વિશ્વની સૌથી સચોટ SWR ટેકનોલોજી સાથે બનાવેલ!",
+            "price": "{{price}}",
+            "close": "બંધ કરો",
+            "requestForm": {
+                "title": "ઉત્પાદન માટે વિનંતી કરો"
+            }
+        },
+        "featured": {
+            "neroInfinity": {
+                "name": "Nero Infinity",
+                "description": "વિશ્વની સૌથી સચોટ SWR ટેકનોલોજી સાથે બનાવેલ!",
+                "price": "2312"
+            },
+            "neroInfinityPro": {
+                "name": "Nero Infinity Pro",
+                "description": "વિશ્વની સૌથી સચોટ SWR ટેકનોલોજી સાથે બનાવેલ!",
+                "price": "2999"
+            },
+            "neroCompact": {
+                "name": "Nero Compact",
+                "description": "વિશ્વની સૌથી સચોટ SWR ટેકનોલોજી સાથે બનાવેલ!",
+                "price": "1599"
+            },
+            "neroMini": {
+                "name": "Nero Mini",
+                "description": "વિશ્વની સૌથી સચોટ SWR ટેકનોલોજી સાથે બનાવેલ!",
+                "price": "1299"
+            }
+        }
+    }
+}

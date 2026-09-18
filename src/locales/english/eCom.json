@@ -1,0 +1,41 @@
+{
+    "ecom": {
+        "header": {
+            "title": "OUR PRODUCTS",
+            "subtitle": "Precision Solutions"
+        },
+        "hero": {
+            "caption": "Precision agriculture solutions suitable for your farm needs"
+        },
+        "product": {
+            "description": "Built With The World's Most Accurate SWR Technology!",
+            "price": "{{price}}",
+            "close": "Close",
+            "requestForm": {
+                "title": "Request Product"
+            }
+        },
+        "featured": {
+            "neroInfinity": {
+                "name": "Nero Infinity",
+                "description": "Built With The World's Most Accurate SWR Technology!",
+                "price": "2312"
+            },
+            "neroInfinityPro": {
+                "name": "Nero Infinity Pro",
+                "description": "Built With The World's Most Accurate SWR Technology!",
+                "price": "2999"
+            },
+            "neroCompact": {
+                "name": "Nero Compact",
+                "description": "Built With The World's Most Accurate SWR Technology!",
+                "price": "1599"
+            },
+            "neroMini": {
+                "name": "Nero Mini",
+                "description": "Built With The World's Most Accurate SWR Technology!",
+                "price": "1299"
+            }
+        }
+    }
+}

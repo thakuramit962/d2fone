@@ -1,0 +1,41 @@
+{
+    "ecom": {
+        "header": {
+            "title": "ਸਾਡੇ ਉਤਪਾਦ",
+            "subtitle": "ਸਟੀਕ ਹੱਲ"
+        },
+        "hero": {
+            "caption": "ਤੁਹਾਡੇ ਖੇਤ ਦੀਆਂ ਲੋੜਾਂ ਲਈ ਢੁਕਵੇਂ ਸਟੀਕ ਖੇਤੀਬਾੜੀ ਹੱਲ"
+        },
+        "product": {
+            "description": "ਦੁਨੀਆ ਦੀ ਸਭ ਤੋਂ ਸਟੀਕ SWR ਤਕਨਾਲੋਜੀ ਨਾਲ ਬਣਾਇਆ ਗਿਆ!",
+            "price": "{{price}}",
+            "close": "ਬੰਦ ਕਰੋ",
+            "requestForm": {
+                "title": "ਉਤਪਾਦ ਲਈ ਬੇਨਤੀ ਕਰੋ"
+            }
+        },
+        "featured": {
+            "neroInfinity": {
+                "name": "Nero Infinity",
+                "description": "ਦੁਨੀਆ ਦੀ ਸਭ ਤੋਂ ਸਟੀਕ SWR ਤਕਨਾਲੋਜੀ ਨਾਲ ਬਣਾਇਆ ਗਿਆ!",
+                "price": "2312"
+            },
+            "neroInfinityPro": {
+                "name": "Nero Infinity Pro",
+                "description": "ਦੁਨੀਆ ਦੀ ਸਭ ਤੋਂ ਸਟੀਕ SWR ਤਕਨਾਲੋਜੀ ਨਾਲ ਬਣਾਇਆ ਗਿਆ!",
+                "price": "2999"
+            },
+            "neroCompact": {
+                "name": "Nero Compact",
+                "description": "ਦੁਨੀਆ ਦੀ ਸਭ ਤੋਂ ਸਟੀਕ SWR ਤਕਨਾਲੋਜੀ ਨਾਲ ਬਣਾਇਆ ਗਿਆ!",
+                "price": "1599"
+            },
+            "neroMini": {
+                "name": "Nero Mini",
+                "description": "ਦੁਨੀਆ ਦੀ ਸਭ ਤੋਂ ਸਟੀਕ SWR ਤਕਨਾਲੋਜੀ ਨਾਲ ਬਣਾਇਆ ਗਿਆ!",
+                "price": "1299"
+            }
+        }
+    }
+}

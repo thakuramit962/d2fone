@@ -1,0 +1,155 @@
+{
+    "myFarms": {
+        "header": {
+            "title": "माझी शेतं",
+            "description": "तुमच्या शेतांचे व्यवस्थापन करा"
+        },
+        "buttons": {
+            "createNew": "नवीन शेत जोडा"
+        },
+        "list": {
+            "loading": "शेतं लोड होत आहेत...",
+            "empty": "कोणतेही शेत सापडले नाही",
+            "pullToRefresh": "रिफ्रेश करण्यासाठी खाली ओढा"
+        }
+    },
+    "addFarm": {
+        "title": "शेत जोडा",
+        "bannerAccessibilityLabel": "शेताचा बॅनर",
+        "form": {
+            "loading": "फॉर्म लोड होत आहे..."
+        },
+        "footer": {
+            "d2fServices": "D2F सेवा"
+        }
+    },
+    "farmForm": {
+        "sections": {
+            "basicDetails": "शेताची मूळ माहिती",
+            "editDetails": "शेताची माहिती संपादित करा",
+            "locationDetails": "स्थान माहिती",
+            "locateOnMap": "नकाशावर तुमच्या शेताचे स्थान निवडा",
+            "notesTitle": "महत्त्वाची माहिती"
+        },
+        "form": {
+            "farmNameLabel": "शेताचे नाव",
+            "farmNamePlaceholder": "उदा: उत्तर भाग",
+            "farmNameRequiredError": "शेताचे नाव आवश्यक आहे",
+            "acreageLabel": "क्षेत्रफळ (एकर)",
+            "acreagePlaceholder": "उदा: 6.5",
+            "acreageRequiredError": "क्षेत्रफळ आवश्यक आहे",
+            "acreageInvalidError": "वैध क्षेत्रफळ प्रविष्ट करा (उदा: 6.5)",
+            "cropLabel": "सध्याचे पीक",
+            "cropPlaceholder": "उदा: भात, गहू",
+            "farmImageLabel": "शेताचा फोटो",
+            "statusLabel": "स्थिती",
+            "statusActive": "सक्रिय",
+            "statusInactive": "निष्क्रिय"
+        },
+        "buttons": {
+            "create": "शेत तयार करा",
+            "creating": "तयार होत आहे…",
+            "saveChanges": "बदल जतन करा",
+            "saving": "जतन होत आहे…"
+        },
+        "notes": {
+            "list": [
+                "सबमिट करण्यापूर्वी नकाशावर शेताची सीमा योग्यरित्या चिन्हांकित करा.",
+                "येथे प्रविष्ट केलेले क्षेत्रफळ पीक नियोजन आणि विमा अंदाजासाठी वापरले जाते.",
+                "शेताचा स्पष्ट फोटो फील्ड एजंटला तुमचे शेत ओळखण्यास मदत करतो.",
+                "स्थानाचे निर्देशांक नकाशावर ठेवलेल्या पिनवरून आपोआप प्रविष्ट होतात — योग्य स्थानासाठी पिन आवश्यकतेनुसार हलवा."
+            ]
+        },
+        "successToast": {
+            "title": "यश",
+            "createMessage": "शेत यशस्वीरित्या तयार केले!",
+            "updateMessage": "शेत यशस्वीरित्या अपडेट केले!"
+        },
+        "errorToast": {
+            "title": "त्रुटी",
+            "generic": "काहीतरी काम करत नाही.",
+            "createFailed": "शेत तयार करण्यात अयशस्वी. कृपया पुन्हा प्रयत्न करा.",
+            "updateFailed": "शेत अपडेट करण्यात अयशस्वी. कृपया पुन्हा प्रयत्न करा.",
+            "farmerIdNotFound": "शेतकऱ्याचा ID सापडला नाही. कृपया पुन्हा लॉग इन करा.",
+            "missingFarmRef": "शेताचा संदर्भ उपलब्ध नाही. कृपया मागे जाऊन पुन्हा प्रयत्न करा.",
+            "loadFailed": "हे शेत लोड होऊ शकले नाही. कृपया मागे जाऊन पुन्हा प्रयत्न करा."
+        }
+    },
+    "farmDetails": {
+        "header": {
+            "title": "शेताचा तपशील",
+            "loading": "तपशील लोड होत आहे",
+            "notFoundTitle": "शेत सापडले नाही",
+            "notFoundDescription": "विनंती केलेले शेत सापडले नाही.",
+            "defaultTitle": "शेताचा तपशील"
+        },
+        "buttons": {
+            "goBack": "मागे जा",
+            "edit": "संपादित करा"
+        },
+        "card": {
+            "detailsDivider": "तपशील",
+            "acres": "एकर",
+            "acreageValue": "{{value}} एकर",
+            "farmName": "शेताचे नाव",
+            "area": "क्षेत्रफळ",
+            "currentCrop": "सध्याचे पीक: {{crop}}",
+            "region": "प्रदेश",
+            "status": "स्थिती",
+            "statusActive": "सक्रिय",
+            "statusInactive": "निष्क्रिय",
+            "inactiveWarning": "हे शेत निष्क्रिय आहे आणि वापरासाठी उपलब्ध नाही.",
+            "notAvailable": "-",
+            "currentCropNotAvailable": "-उपलब्ध नाही-",
+            "addressLabel": "पत्ता: {{address}}",
+            "addressEmpty": "पत्ता: —",
+            "address": "पत्ता"
+        },
+        "location": {
+            "title": "नकाशावर स्थान",
+            "coordinatesFallback": "निर्देशांक अपडेट झाले नाहीत",
+            "coordinatesValue": "{{coordinates}}"
+        }
+    },
+    "chooseFarmForm": {
+        "farmArea": "{{location}} मध्ये {{area}} एकर",
+        "status": {
+            "inactive": "निष्क्रिय",
+            "noFarms": "कोणतेही शेत सापडले नाही"
+        },
+        "actions": {
+            "viewFarms": "शेतं पहा",
+            "reload": "पुन्हा लोड करा",
+            "manageFarms": "शेतांचे व्यवस्थापन करा"
+        }
+    },
+    "farmList": {
+        "empty": "कोणतेही शेत सापडले नाही."
+    },
+    "locationForm": {
+        "addressLine1": "पत्ता ओळ 1",
+        "state": "राज्य",
+        "district": "जिल्हा",
+        "subDistrict": "उप-जिल्हा",
+        "village": "गाव",
+        "pinZip": "पिन/झिप",
+        "selectState": "राज्य निवडा",
+        "selectDistrict": "जिल्हा निवडा",
+        "selectSubDistrict": "उप-जिल्हा निवडा",
+        "selectVillage": "गाव निवडा",
+        "pinZipPlaceholder": "पिन/झिप कोड",
+        "validation": {
+            "addressRequired": "पत्ता आवश्यक आहे",
+            "stateRequired": "राज्य आवश्यक आहे.",
+            "required": "आवश्यक आहे.",
+            "pincodeRequired": "पिनकोड आवश्यक आहे",
+            "invalidPincode": "अवैध पिनकोड"
+        },
+        "fetchError": "{{level}} चे पर्याय लोड होऊ शकले नाहीत. कृपया पुन्हा प्रयत्न करा.",
+        "levels": {
+            "district": "जिल्हा",
+            "sub-district": "उप-जिल्हा",
+            "village": "गाव"
+        }
+    }
+}

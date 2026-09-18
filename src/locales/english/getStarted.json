@@ -1,0 +1,97 @@
+{
+    "getStarted": "Get Started",
+    "auth": {
+        "login": "Log in ",
+        "toAccount": "to your account",
+        "mobile": {
+            "label": "Mobile",
+            "placeholder": "XXXXX XXXXX",
+            "a11yLabel": "Mobile number",
+            "a11yHint": "Enter your 10-digit mobile number",
+            "required": "Mobile number is required",
+            "invalid": "Enter a valid 10-digit mobile number"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "••••••••",
+            "a11yLabel": "Password",
+            "a11yHint": "Enter your account password",
+            "required": "Password is required",
+            "invalid": "Password must be at least 6 characters"
+        },
+        "otp": {
+            "label": "OTP",
+            "a11yLabel": "OTP",
+            "disabled": "OTP will be available after entering your mobile number",
+            "enabled": "Enter the 4-digit OTP sent to your mobile number",
+            "beforePhoneHelper": "Enter mobile number first to receive OTP",
+            "required": "OTP is required",
+            "invalid": "Enter the 4-digit OTP",
+            "info": "OTP sent to +91 {{phone}}.",
+            "resend": "Resend",
+            "sentTitle": "OTP Sent",
+            "sentMessage": "OTP sent to +91 {{phone}} successfully."
+        },
+        "consent": {
+            "prefix": "By continuing you agree to our ",
+            "prefixLogin": "By logging in you agree to our ",
+            "terms": "Terms and Conditions",
+            "a11yLabel": "Accept Terms and Conditions",
+            "title": "Consent required",
+            "message": "Please accept the Terms and Conditions to continue.",
+            "missingTitle": "Consent missing",
+            "missingMessage": "Please accept the consent terms to continue."
+        },
+        "actions": {
+            "sendOtp": "Send OTP",
+            "login": "Log in",
+            "register": "Register",
+            "skipExplore": "Skip & Explore",
+            "skipA11y": "Skip login and explore the app",
+            "loginWithPassword": "Login with Password",
+            "loginWithOtp": "Login with OTP",
+            "havingIssue": "Having issue with OTP?"
+        },
+        "toast": {
+            "error": "Error",
+            "generic": "Something went wrong. Please try again.",
+            "sessionExpired": "Session expired",
+            "sessionExpiredmessage": "Please request a new OTP.",
+            "networkError": "Network error",
+            "networkErrorMessage": "Unable to reach the server. Please check your connection.",
+            "successLogin": "Login Successful!",
+            "registration": "Registration Successful!",
+            "stateRequired": "State required",
+            "stateRequiredMessage": "Please select your state to continue.",
+            "resendFailed": "Unable to resend OTP. Please try again."
+        }
+    },
+    "register": {
+        "title": "Sign Up",
+        "subtitle": "Register yourself to get better results with this app",
+        "fullName": {
+            "label": "Full Name",
+            "placeholder": "Your Name",
+            "a11yLabel": "Full name",
+            "required": "Full name is required",
+            "tooShort": "Name is too short"
+        },
+        "state": {
+            "label": "State",
+            "required": "Required"
+        },
+        "address": {
+            "label": "Address",
+            "placeholder": "Landmark address",
+            "a11yLabel": "Address",
+            "required": "Address is required",
+            "helper": "Max 120 characters"
+        },
+        "referral": {
+            "label": "Referral Code",
+            "placeholder": "Referral Code",
+            "a11yLabel": "Referral code (optional)",
+            "invalid": "Referral code must be at least 8 characters"
+        }
+    }
+}

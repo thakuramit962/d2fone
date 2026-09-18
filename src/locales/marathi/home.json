@@ -1,0 +1,40 @@
+{
+    "home": {
+        "checkingUpdate": "अपडेट तपासले जात आहे...",
+        "myFarms": "माझी शेतं",
+        "smartServices": {
+            "label": "स्मार्ट सेवा",
+            "title": "स्मार्ट शेती",
+            "featuredTools": "प्रमुख साधने"
+        },
+        "recommendedForYou": "तुमच्यासाठी सूचना",
+        "cards": {
+            "precisionSpraying": {
+                "title": "अचूक फवारणी",
+                "description": "AI-चलित स्वयंचलित ड्रोन फवारणीसह तुमची पिके सुरक्षित ठेवा आणि रसायने व खतांची अचूक फवारणी करून वाया जाणे शून्यावर आणा."
+            },
+            "exploreProducts": {
+                "title": "उत्पादने पहा",
+                "description": "पीक निवड, काळजी आणि शेतीच्या चांगल्या तंत्रांसाठी तज्ञांचा सल्ला मिळवा."
+            }
+        },
+        "trendingTopics": "लोकप्रिय विषय",
+        "languageKey": "भाषा"
+    },
+    "userGreeting": {
+        "fallbackName": "वापरकर्ता",
+        "loginSignup": "लॉगिन / साइन अप",
+        "greeting": {
+            "morning": "सुप्रभात",
+            "afternoon": "नमस्कार",
+            "evening": "शुभ संध्याकाळ",
+            "night": "शुभ रात्री"
+        }
+    },
+    "news": {
+        "loading": "बातम्या लोड होत आहेत…",
+        "error": "बातम्या लोड होऊ शकल्या नाहीत",
+        "retry": "पुन्हा प्रयत्न करा",
+        "seeMore": "अधिक पहा"
+    }
+}

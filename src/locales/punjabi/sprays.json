@@ -1,0 +1,198 @@
+{
+    "servicesHome": {
+        "hero": {
+            "our": "ਸਾਡੀਆਂ ",
+            "services": "ਸੇਵਾਵਾਂ",
+            "subtitle": "ਆਧੁਨਿਕ ਖੇਤੀ ਲਈ ਸਮਾਰਟ ਹੱਲ"
+        },
+        "sprayServices": "ਸਪਰੇਅ ਸੇਵਾਵਾਂ ___",
+        "droneSpray": {
+            "title": "ਡਰੋਨ ਸਪਰੇਅ",
+            "description": "ਛੋਟੇ ਅਤੇ ਵੱਡੇ ਖੇਤਾਂ ਲਈ ਹਾਈ-ਟੈਕ ਡਰੋਨ ਸਪਰੇਅ ਸੇਵਾ।",
+            "bookNow": "ਹੁਣੇ ਬੁੱਕ ਕਰੋ"
+        },
+        "tractorSpray": {
+            "title": "ਟਰੈਕਟਰ ਸਪਰੇਅ",
+            "description": "ਟਰੈਕਟਰ-ਮਾਊਂਟਡ ਸਪਰੇਅ ਨਾਲ ਘੱਟ ਸਮੇਂ ਵਿੱਚ ਵੱਧ ਖੇਤਰ ਕਵਰ ਕਰੋ।",
+            "bookNow": "ਹੁਣੇ ਬੁੱਕ ਕਰੋ"
+        },
+        "boomSpray": {
+            "title": "ਬੂਮ ਸਪਰੇਅ",
+            "description": "ਫਸਲਾਂ 'ਤੇ ਤੇਜ਼ ਅਤੇ ਇੱਕਸਾਰ ਛਿੜਕਾਅ ਲਈ ਵਿਆਪਕ ਕਵਰੇਜ।",
+            "bookNow": "ਹੁਣੇ ਬੁੱਕ ਕਰੋ"
+        },
+        "manualSpray": {
+            "title": "ਮੈਨੂਅਲ ਸਪਰੇਅ",
+            "description": "ਬਿਹਤਰ ਨਤੀਜਿਆਂ ਲਈ ਸਟੀਕ ਅਤੇ ਧਿਆਨ ਨਾਲ ਕੀਤਾ ਮੈਨੂਅਲ ਛਿੜਕਾਅ।",
+            "bookNow": "ਹੁਣੇ ਬੁੱਕ ਕਰੋ"
+        },
+        "viewBookedServices": "ਬੁੱਕ ਕੀਤੀਆਂ ਸੇਵਾਵਾਂ ਦੇਖੋ >>",
+        "ctas": {
+            "verified": "ਸੁਰੱਖਿਅਤ ਅਤੇ ਭਰੋਸੇਯੋਗ",
+            "verifiedDes": "ਸਿਖਲਾਈ ਪ੍ਰਾਪਤ ਮਾਹਿਰ ਅਤੇ ਗੁਣਵੱਤਾ ਵਾਲੇ ਉਪਕਰਣ",
+            "timeSaving": "ਸਮੇਂ ਦੀ ਬੱਚਤ",
+            "timeSavingDes": "ਬਿਹਤਰ ਕੁਸ਼ਲਤਾ ਲਈ ਆਧੁਨਿਕ ਤਕਨਾਲੋਜੀ",
+            "safeAndReliable": "ਸੁਰੱਖਿਅਤ ਅਤੇ ਭਰੋਸੇਯੋਗ",
+            "safeAndReliableDes": "ਸਿਹਤਮੰਦ ਫਸਲ, ਬਿਹਤਰ ਉਤਪਾਦਕਤਾ",
+            "expertSupport": "ਮਾਹਿਰ ਸਹਾਇਤਾ",
+            "expertSupportDes": "ਅਸੀਂ ਹਮੇਸ਼ਾ ਤੁਹਾਡੀ ਮਦਦ ਲਈ ਤਿਆਰ ਹਾਂ"
+        }
+    },
+    "supportCard": {
+        "title": "ਕੀ ਤੁਹਾਨੂੰ ਕਸਟਮ ਹੱਲ ਚਾਹੀਦਾ ਹੈ?",
+        "tagline": "ਅੱਜ ਹੀ ਸਾਡੇ ਖੇਤੀਬਾੜੀ ਮਾਹਿਰਾਂ ਨਾਲ ਗੱਲ ਕਰੋ।",
+        "button": "ਸੰਪਰਕ ਕਰੋ"
+    },
+    "bookSpray": {
+        "title": "ਸਪਰੇਅ ਸ਼ਡਿਊਲ ਕਰੋ",
+        "description": "ਆਪਣੇ ਖੇਤ ਲਈ ਸਪਰੇਅ ਦੀ ਬੇਨਤੀ ਕਰੋ",
+        "bookingForm": {
+            "chooseFarm": "ਖੇਤ ਚੁਣੋ",
+            "farmRequired": "❗ ਖੇਤ ਦੀ ਚੋਣ ਲਾਜ਼ਮੀ ਹੈ।",
+            "sprayDate": "ਸਪਰੇਅ ਦੀ ਮਿਤੀ",
+            "crop": "ਫਸਲ",
+            "cropRequired": "ਲਾਜ਼ਮੀ",
+            "acreage": "ਖੇਤਰਫਲ",
+            "acreagePlaceholder": "ਏਕੜਾਂ ਦੀ ਗਿਣਤੀ",
+            "acreageMaxHelper": "ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਏਕੜ",
+            "referral": "ਰੈਫਰਲ",
+            "referralPlaceholder": "ਰੈਫਰਲ ਕੋਡ",
+            "referralVerifying": "ਪੁਸ਼ਟੀ ਹੋ ਰਹੀ ਹੈ...",
+            "remarks": "ਟਿੱਪਣੀ",
+            "remarksPlaceholder": "ਟਿੱਪਣੀ ਦਰਜ ਕਰੋ...",
+            "remarksCounter": "{{count}}/160 ਅੱਖਰ",
+            "invalidDataTitle": "ਅਵੈਧ ਜਾਣਕਾਰੀ",
+            "invalidDataMessage": "{{fields}} {{verb}} ਲਾਜ਼ਮੀ {{verb}}।",
+            "is": "ਹੈ",
+            "are": "ਹਨ",
+            "invalidReferralTitle": "ਅਵੈਧ ਰੈਫਰਲ",
+            "consentRequiredTitle": "ਸਹਿਮਤੀ ਲਾਜ਼ਮੀ ਹੈ",
+            "consentRequiredMessage": "ਕਿਰਪਾ ਕਰਕੇ ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ ਸਵੀਕਾਰ ਕਰੋ।",
+            "invalidReferralCode": "ਅਵੈਧ ਰੈਫਰਲ ਕੋਡ",
+            "invalidReferralCodeGeneric": "ਅਵੈਧ ਰੈਫਰਲ ਕੋਡ",
+            "verifyFailed": "ਰੈਫਰਲ ਕੋਡ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੋ ਸਕੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+            "consent": "ਮੈਂ ਸਵੀਕਾਰ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ ਕਿ ਮੈਂ ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ ਪੜ੍ਹ, ਸਮਝ ਲਈਆਂ ਹਨ ਅਤੇ ਇਹਨਾਂ ਦੀ ਪਾਲਣਾ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹਾਂ।",
+            "scanQr": "ਰੈਫਰਲ QR ਕੋਡ ਸਕੈਨ ਕਰੋ",
+            "successTitle": "ਸਫਲਤਾ",
+            "successMessage": "ਸਪਰੇਅ ਬੇਨਤੀ ਸਫਲਤਾਪੂਰਵਕ ਸਬਮਿਟ ਹੋ ਗਈ।",
+            "errorTitle": "ਗਲਤੀ",
+            "errorMessage": "ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+            "agricoins": "ਐਗਰੀਕੋਇਨਸ ਦੀ ਯੋਗਤਾ",
+            "pressToRefresh": "ਰਿਫ੍ਰੈਸ਼ ਕਰਨ ਲਈ ਦਬਾਓ"
+        },
+        "successScreen": {
+            "title": "ਸਪਰੇਅ ਬੇਨਤੀ ਸਫਲਤਾਪੂਰਵਕ ਕੀਤੀ ਗਈ!",
+            "message": "ਤੁਹਾਡੀ ਸਪਰੇਅ ਬੇਨਤੀ ਬੁੱਕ ਹੋ ਗਈ ਹੈ। ਸੰਦਰਭ ID:",
+            "referenceLabel": "ਸੰਦਰਭ ID: {{id}}",
+            "accessibilitySummary": "ਸਪਰੇਅ ਬੇਨਤੀ ਸਬਮਿਟ ਹੋ ਗਈ, ਸੰਦਰਭ {{id}}",
+            "viewDetails": "ਵੇਰਵੇ ਦੇਖੋ"
+        },
+        "agricoinsApplicability": {
+            "noAccount": "ਤੁਹਾਡਾ ਖਾਤਾ ਪਛਾਣਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਲੌਗ ਇਨ ਕਰੋ।",
+            "fetchFailed": "ਇਸ ਸਮੇਂ ਤੁਹਾਡੀ ਐਗਰੀਕੋਇਨਸ ਦੀ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।",
+            "generic": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+            "title": "ਉਪਲਬਧ ਆਫਰ",
+            "eligiblePrefix": "ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ ",
+            "freeAcre": "ਮੁਫ਼ਤ ਏਕੜ",
+            "freeAcres": "ਮੁਫ਼ਤ ਏਕੜ ਤੱਕ ਲਈ ਯੋਗ ਹੋ",
+            "description": "ਇਸ ਆਫਰ ਦਾ ਲਾਭ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਐਗਰੀਕੋਇਨਸ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਵੇਗੀ। ਆਪਣੇ ਮੁਫ਼ਤ ਏਕੜ ਨੂੰ ਰਿਡੀਮ ਕਰਨ ਲਈ 'ਲਾਗੂ ਕਰੋ' 'ਤੇ ਟੈਪ ਕਰੋ।",
+            "earnedInFy": "ਵਿੱਤੀ ਸਾਲ {{year}} ਵਿੱਚ ਕਮਾਇਆ: {{count}} ਮੁਫ਼ਤ {{unit}}",
+            "earnedInFy_one": "ਵਿੱਤੀ ਸਾਲ {{year}} ਵਿੱਚ ਕਮਾਇਆ: {{count}} ਮੁਫ਼ਤ ਏਕੜ",
+            "earnedInFy_other": "ਵਿੱਤੀ ਸਾਲ {{year}} ਵਿੱਚ ਕਮਾਇਆ: {{count}} ਮੁਫ਼ਤ ਏਕੜ",
+            "apply": "ਲਾਗੂ ਕਰੋ",
+            "applied": "ਲਾਗੂ ਕੀਤਾ ਗਿਆ",
+            "redeemed": "ਤੁਸੀਂ ਵਿੱਤੀ ਸਾਲ {{year}} ਲਈ ਪਹਿਲਾਂ ਹੀ {{count}} ਮੁਫ਼ਤ {{unit}} ਰਿਡੀਮ ਕਰ ਚੁੱਕੇ ਹੋ।",
+            "redeemed_one": "ਤੁਸੀਂ ਵਿੱਤੀ ਸਾਲ {{year}} ਲਈ ਪਹਿਲਾਂ ਹੀ {{count}} ਮੁਫ਼ਤ ਏਕੜ ਰਿਡੀਮ ਕਰ ਚੁੱਕੇ ਹੋ।",
+            "redeemed_other": "ਤੁਸੀਂ ਵਿੱਤੀ ਸਾਲ {{year}} ਲਈ ਪਹਿਲਾਂ ਹੀ {{count}} ਮੁਫ਼ਤ ਏਕੜ ਰਿਡੀਮ ਕਰ ਚੁੱਕੇ ਹੋ।",
+            "noFreeAcres": "ਵਿੱਤੀ ਸਾਲ {{year}} ਲਈ ਇਸ ਸਮੇਂ ਕੋਈ ਮੁਫ਼ਤ ਏਕੜ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"
+        }
+    },
+    "mySprays": {
+        "title": "ਸਪਰੇਅ ਬੇਨਤੀਆਂ",
+        "bookSpray": "ਸਪਰੇਅ ਬੁੱਕ ਕਰੋ",
+        "cropLabel": "ਫਸਲ: ",
+        "areaLabel": "ਖੇਤਰਫਲ: ",
+        "areaValue": "{{acreage}} ਏਕੜ",
+        "bookedFor": "ਬੁਕਿੰਗ ਦੀ ਮਿਤੀ",
+        "noRequests": "ਹਾਲੇ ਤੱਕ ਕੋਈ ਸਪਰੇਅ ਬੇਨਤੀ ਨਹੀਂ",
+        "noDataTitle": "ਕੋਈ ਡਾਟਾ ਨਹੀਂ",
+        "createRequest": "ਬੇਨਤੀ ਬਣਾਓ",
+        "retrySuffix": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ",
+        "viewAll": "ਸਾਰੇ ਸਪਰੇਅ ਦੇਖੋ"
+    },
+    "farmerActionSheet": {
+        "close": "ਬੰਦ ਕਰੋ",
+        "editOption": "ਬੇਨਤੀ ਸੰਪਾਦਿਤ ਕਰੋ",
+        "deleteOption": "ਬੇਨਤੀ ਹਟਾਓ",
+        "manageRequest": "ਬੇਨਤੀ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ",
+        "description": "ਇਸ ਜਾਣਕਾਰੀ ਨੂੰ ਅੱਪਡੇਟ ਜਾਂ ਹਟਾਉਣ ਲਈ ਹੇਠਾਂ ਦਿੱਤੇ ਵਿਕਲਪਾਂ ਵਿੱਚੋਂ ਚੁਣੋ।",
+        "lastUpdated": "ਆਖਰੀ ਵਾਰ {{date}} ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ",
+        "editDetails": "ਵੇਰਵੇ ਸੰਪਾਦਿਤ ਕਰੋ",
+        "delete": "ਹਟਾਓ",
+        "orderCreated": "ਆਰਡਰ ਬਣਾਇਆ ਗਿਆ",
+        "rejectedTitle": "ਅਸਵੀਕਾਰ ਕਰਨ ਦਾ ਕਾਰਨ",
+        "cancelledBySelf": "ਖੁਦ ਦੁਆਰਾ ਰੱਦ ਕੀਤਾ ਗਿਆ",
+        "rejectedByOperator": "ਆਪਰੇਟਰ ਦੁਆਰਾ ਅਸਵੀਕਾਰ ਕੀਤਾ ਗਿਆ",
+        "pendingMessage": "ਤੁਹਾਡੀ ਬੇਨਤੀ ਸਵੀਕਾਰ ਕਰ ਲਈ ਗਈ ਹੈ ਅਤੇ ਇਸਨੂੰ ਜਲਦੀ ਹੀ ਪੂਰਾ ਕੀਤਾ ਜਾਵੇਗਾ।",
+        "deleteRequest": {
+            "title": "ਸਪਰੇਅ ਬੇਨਤੀ ਹਟਾਉਣੀ ਹੈ?",
+            "subtitle": "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਇਸ ਸਪਰੇਅ ਬੇਨਤੀ ਨੂੰ ਰੱਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+            "remarks": "ਟਿੱਪਣੀ",
+            "placeholder": "ਰੱਦ ਕਰਨ ਦਾ ਕਾਰਨ ਦਰਜ ਕਰੋ",
+            "helper": "ਵੱਧ ਤੋਂ ਵੱਧ 120 ਅੱਖਰ",
+            "requiredError": "ਟਿੱਪਣੀ ਲਾਜ਼ਮੀ ਹੈ"
+        },
+        "editRequest": {
+            "title": "ਸਪਰੇਅ ਬੇਨਤੀ ਅੱਪਡੇਟ ਕਰੋ",
+            "chooseFarm": "ਖੇਤ ਚੁਣੋ",
+            "farmRequired": "ਲਾਜ਼ਮੀ",
+            "sprayDate": "ਸਪਰੇਅ ਦੀ ਮਿਤੀ",
+            "crop": "ਫਸਲ",
+            "cropRequired": "ਲਾਜ਼ਮੀ",
+            "acreage": "ਖੇਤਰਫਲ",
+            "acreagePlaceholder": "ਏਕੜਾਂ ਦੀ ਗਿਣਤੀ",
+            "acreageMax": "ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਏਕੜ",
+            "acreageMinWithCoins": "ਐਗਰੀਕੋਇਨਸ ਵਰਤਣ ਲਈ ਘੱਟੋ-ਘੱਟ {{min}} ਏਕੜ।",
+            "acreageMaxError": "ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਏਕੜ",
+            "requiredError": "ਲਾਜ਼ਮੀ",
+            "agricoinsApplied": "ਇਸ ਬੇਨਤੀ ਵਿੱਚ ਐਗਰੀਕੋਇਨਸ ਲਾਗੂ ਕੀਤੇ ਗਏ ਹਨ।"
+        }
+    },
+    "sprayList": {
+        "empty": {
+            "title": "ਓਹ! ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ",
+            "message": "ਮੌਜੂਦਾ ਸਥਿਤੀ ਲਈ ਕੋਈ ਸਪਰੇਅ ਬੇਨਤੀ ਨਹੀਂ ਮਿਲੀ।",
+            "button": "ਬੇਨਤੀ ਬਣਾਓ"
+        }
+    },
+    "sprayListItem": {
+        "status": {
+            "delivered": "ਪੂਰਾ ਕੀਤਾ ਗਿਆ",
+            "assigned": "ਐਗਜ਼ੀਕਿਊਟਿਵ ਨੂੰ ਸੌਂਪਿਆ ਗਿਆ",
+            "created": "ਬਣਾਇਆ ਗਿਆ",
+            "cancelled": "ਰੱਦ ਕੀਤਾ ਗਿਆ",
+            "processing": "ਪ੍ਰਕਿਰਿਆ ਵਿੱਚ"
+        },
+        "fields": {
+            "crop": "ਫਸਲ",
+            "area": "ਖੇਤਰਫਲ",
+            "areaValue": "{{acreage}} ਏਕੜ",
+            "sprayDate": "ਸਪਰੇਅ ਦੀ ਮਿਤੀ"
+        },
+        "updatedOn": "{{date}} ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ"
+    },
+    "droneSprays": {
+        "title": "ਹਾਲੀਆ ਸਪਰੇਅ",
+        "bookSpray": "ਸਪਰੇਅ ਬੁੱਕ ਕਰੋ",
+        "drone": "ਡਰੋਨ",
+        "sprayServices": "ਸਪਰੇਅ ਸੇਵਾਵਾਂ",
+        "description": "ਛੋਟੇ ਅਤੇ ਵੱਡੇ ਖੇਤਾਂ ਲਈ ਹਾਈ-ਟੈਕ ਡਰੋਨ ਸਪਰੇਅ ਸੇਵਾ।",
+        "bookSprayButton": "ਸਪਰੇਅ ਬੁੱਕ ਕਰੋ",
+        "recentSpraysTitle": "ਹਾਲੀਆ ਸਪਰੇਅ ___",
+        "empty": "ਕੋਈ ਸਪਰੇਅ ਨਹੀਂ ਮਿਲਿਆ",
+        "pullToRefresh": "ਰਿਫ੍ਰੈਸ਼ ਕਰਨ ਲਈ ਹੇਠਾਂ ਖਿੱਚੋ",
+        "pendingRequests": "ਬਕਾਇਆ ਬੇਨਤੀਆਂ",
+        "seeAll": "ਸਾਰੇ ਦੇਖੋ",
+        "recentRequests": "ਹਾਲੀਆ ਬੇਨਤੀਆਂ"
+    }
+}

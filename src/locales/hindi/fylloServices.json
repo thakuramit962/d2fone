@@ -1,0 +1,19 @@
+{
+    "fylloServices": {
+        "header": {
+            "backToProfile": "प्रोफ़ाइल पर वापस जाएं"
+        },
+        "footer": {
+            "poweredBy": "Fyllo द्वारा संचालित"
+        },
+        "empty": {
+            "title": "विवरण प्राप्त नहीं हो सका",
+            "defaultMessage": "कृपया पुनः प्रयास करें",
+            "retryButton": "पुनः प्रयास करें"
+        },
+        "error": {
+            "generic": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+            "fetchFailed": "विवरण प्राप्त करते समय त्रुटि हुई"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "editProfile": {
+        "header": {
+            "title": "சுயவிவரத்தைப் புதுப்பிக்கவும்",
+            "code": "குறியீடு",
+            "mobile": "மொபைல்",
+            "email": "மின்னஞ்சல்",
+            "mobilePrefix": "+91 {{phone}}"
+        },
+        "form": {
+            "fullName": {
+                "label": "முழு பெயர்",
+                "placeholder": "முழு பெயர்",
+                "requiredError": "பெயர் தேவை"
+            },
+            "addressDetails": {
+                "title": "முகவரி விவரங்கள் ___"
+            }
+        },
+        "errors": {
+            "updateFailed": "சுயவிவரத்தைப் புதுப்பிக்க முடியவில்லை.",
+            "generic": "உங்கள் சுயவிவரத்தைப் புதுப்பிக்கும் போது ஏதோ தவறு ஏற்பட்டது."
+        },
+        "buttons": {
+            "update": "புதுப்பிக்க",
+            "updating": "புதுப்பிக்கிறது...",
+            "discardAndClose": "ரத்து செய்து மூடு"
+        },
+        "notes": {
+            "title": "குறிப்புகள்"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "locationDetails": {
+        "permissionNeeded": "ਸਥਾਨ ਅਨੁਮਤੀ ਲੋੜੀਂਦੀ ਹੈ",
+        "permissionDesc": "ਨਕਸ਼ੇ 'ਤੇ ਤੁਹਾਡਾ ਸਥਾਨ ਦਿਖਾਉਣ ਲਈ ਸਾਨੂੰ ਤੁਹਾਡੀ ਲੋਕੇਸ਼ਨ ਦੀ ਲੋੜ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਜਾਰੀ ਰੱਖਣ ਲਈ ਅਨੁਮਤੀ ਦਿਓ।",
+        "allowAccess": "ਲੋਕੇਸ਼ਨ ਐਕਸੈਸ ਦੀ ਅਨੁਮਤੀ ਦਿਓ",
+        "openSettings": "ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ",
+        "fetchingAddress": "ਅੱਪਡੇਟ ਕੀਤਾ ਪਤਾ ਲਿਆਂਦਾ ਜਾ ਰਿਹਾ ਹੈ...",
+        "resolvingAddress": "ਪਤਾ ਲੱਭਿਆ ਜਾ ਰਿਹਾ ਹੈ...",
+        "coordinates": "ਨਿਰਦੇਸ਼ਾਂਕ: {{coords}}",
+        "yourLocation": "ਤੁਹਾਡਾ ਸਥਾਨ",
+        "d2fExecutive": "D2F ਕਾਰਜਕਾਰੀ"
+    }
+}

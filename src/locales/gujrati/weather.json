@@ -1,0 +1,49 @@
+{
+  "weather": {
+    "block": {
+      "loading": "લોડ થઈ રહ્યું છે...",
+      "errorLocation": "સ્થાન મેળવવામાં સમસ્યા આવી",
+      "unknown": "—",
+      "humidity": "ભેજ",
+      "chanceOfRain": "વરસાદની શક્યતા",
+      "pressure": "હવાનું દબાણ",
+      "wind": "પવન"
+    },
+    "screen": {
+      "unableToFetch": "હવામાનની માહિતી મળી શકી નથી",
+      "currentLocation": "વર્તમાન સ્થાન",
+      "fetchingInfo": "માહિતી મેળવવામાં આવી રહી છે...",
+      "updated": "અપડેટ કરેલ: {{time}}",
+      "pleaseRefresh": "કૃપા કરીને પેજ રિફ્રેશ કરો",
+      "rainChances": "વરસાદની શક્યતા",
+      "airPressure": "હવાનું દબાણ",
+      "weatherOnHorizon": "આવનારા હવામાન પર નજર >>",
+      "sprayAlert": "તેજ પવન અને વરસાદની શક્યતા છે. તમારા ખેતરમાં અત્યારે સ્પ્રે કરવાનું ટાળો.",
+      "retry": "ફરી પ્રયાસ કરો"
+    },
+    "forecast": {
+      "title": "3 દિવસની આગાહી",
+      "planFarming": "તે અનુસાર તમારી ખેતીની પ્રવૃત્તિઓનું આયોજન કરો",
+      "loadingData": "માહિતી લોડ થઈ રહી છે...",
+      "suitableForSpray": "સ્પ્રે માટે યોગ્ય દિવસ",
+      "pressToSchedule": "જો સ્પ્રેની યોજના છે, તો શેડ્યૂલ કરવા માટે દબાવો."
+    },
+    "alerts": {
+      "title": "હવામાન ચેતવણી",
+      "errorFallback": "કંઈક બરાબર કામ કરી રહ્યું નથી, કૃપા કરીને ફરી પ્રયાસ કરો",
+      "refreshPage": "પેજ રિફ્રેશ કરો",
+      "detail": {
+        "titleFallback": "ચેતવણી વિગતો",
+        "notAvailable": "આ ચેતવણી હવે ઉપલબ્ધ નથી.",
+        "affectedArea": "અસરગ્રસ્ત વિસ્તાર",
+        "urgency": "તાત્કાલિકતા",
+        "category": "શ્રેણી",
+        "certainty": "નિશ્ચિતતા",
+        "status": "સ્થિતિ",
+        "description": "વિગત",
+        "whatToDo": "શું કરવું ___",
+        "idLabel": "આઈડી: {{id}}"
+      }
+    }
+  }
+}

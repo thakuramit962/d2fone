@@ -1,0 +1,16 @@
+{
+    "notifications": {
+        "title": "Notifications",
+        "empty": {
+            "title": "No Notifications",
+            "description": "You're all caught up! We'll notify you when something new arrives."
+        }
+    },
+    "notificationCta": {
+        "title": "Stay in the loop",
+        "description": "Enable notifications to get timely updates, offers, and important alerts.",
+        "allow": "Allow Notifications",
+        "maybeLater": "Maybe Later",
+        "updatingToken": "Updating token..."
+    }
+}

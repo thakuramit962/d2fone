@@ -1,0 +1,198 @@
+{
+    "servicesHome": {
+        "hero": {
+            "our": "અમારી ",
+            "services": "સેવાઓ",
+            "subtitle": "આધુનિક ખેતી માટે સ્માર્ટ ઉકેલો"
+        },
+        "sprayServices": "સ્પ્રે સેવાઓ ___",
+        "droneSpray": {
+            "title": "ડ્રોન સ્પ્રે",
+            "description": "નાના અને મોટા ખેતરો માટે હાઈ-ટેક ડ્રોન સ્પ્રે સેવા.",
+            "bookNow": "હમણાં બુક કરો"
+        },
+        "tractorSpray": {
+            "title": "ટ્રેક્ટર સ્પ્રે",
+            "description": "ટ્રેક્ટર-માઉન્ટેડ સ્પ્રેથી ઓછા સમયમાં વધુ વિસ્તાર કવર કરો.",
+            "bookNow": "હમણાં બુક કરો"
+        },
+        "boomSpray": {
+            "title": "બૂમ સ્પ્રે",
+            "description": "પાક પર ઝડપી અને એકસમાન છંટકાવ માટે વ્યાપક કવરેજ.",
+            "bookNow": "હમણાં બુક કરો"
+        },
+        "manualSpray": {
+            "title": "મેન્યુઅલ સ્પ્રે",
+            "description": "વધુ સારા પરિણામો માટે ચોક્કસ અને કાળજીપૂર્વક મેન્યુઅલ છંટકાવ.",
+            "bookNow": "હમણાં બુક કરો"
+        },
+        "viewBookedServices": "બુક કરેલી સેવાઓ જુઓ >>",
+        "ctas": {
+            "verified": "સુરક્ષિત અને વિશ્વસનીય",
+            "verifiedDes": "પ્રશિક્ષિત નિષ્ણાતો અને ગુણવત્તાયુક્ત સાધનો",
+            "timeSaving": "સમયની બચત",
+            "timeSavingDes": "વધુ સારી કાર્યક્ષમતા માટે આધુનિક ટેકનોલોજી",
+            "safeAndReliable": "સુરક્ષિત અને વિશ્વસનીય",
+            "safeAndReliableDes": "તંદુરસ્ત પાક, વધુ સારી ઉત્પાદકતા",
+            "expertSupport": "નિષ્ણાત સહાય",
+            "expertSupportDes": "અમે હંમેશા તમારી મદદ માટે તૈયાર છીએ"
+        }
+    },
+    "supportCard": {
+        "title": "શું તમને કસ્ટમ ઉકેલની જરૂર છે?",
+        "tagline": "આજે જ અમારા કૃષિ નિષ્ણાતો સાથે વાત કરો.",
+        "button": "સંપર્ક કરો"
+    },
+    "bookSpray": {
+        "title": "સ્પ્રે શેડ્યૂલ કરો",
+        "description": "તમારા ખેતર માટે સ્પ્રેની વિનંતી કરો",
+        "bookingForm": {
+            "chooseFarm": "ખેતર પસંદ કરો",
+            "farmRequired": "❗ ખેતરની પસંદગી જરૂરી છે.",
+            "sprayDate": "સ્પ્રેની તારીખ",
+            "crop": "પાક",
+            "cropRequired": "જરૂરી",
+            "acreage": "વિસ્તાર",
+            "acreagePlaceholder": "એકરની સંખ્યા",
+            "acreageMaxHelper": "મહત્તમ {{max}} એકર",
+            "referral": "રેફરલ",
+            "referralPlaceholder": "રેફરલ કોડ",
+            "referralVerifying": "ચકાસણી થઈ રહી છે...",
+            "remarks": "ટિપ્પણી",
+            "remarksPlaceholder": "ટિપ્પણી દાખલ કરો...",
+            "remarksCounter": "{{count}}/160 અક્ષરો",
+            "invalidDataTitle": "અમાન્ય માહિતી",
+            "invalidDataMessage": "{{fields}} {{verb}} જરૂરી {{verb}}.",
+            "is": "છે",
+            "are": "છે",
+            "invalidReferralTitle": "અમાન્ય રેફરલ",
+            "consentRequiredTitle": "સંમતિ જરૂરી છે",
+            "consentRequiredMessage": "કૃપા કરીને નિયમો અને શરતો સ્વીકારો.",
+            "invalidReferralCode": "અમાન્ય રેફરલ કોડ",
+            "invalidReferralCodeGeneric": "અમાન્ય રેફરલ કોડ",
+            "verifyFailed": "રેફરલ કોડ ચકાસી શકાયો નહીં. કૃપા કરીને ફરી પ્રયાસ કરો.",
+            "consent": "હું સ્વીકારું છું કે મેં નિયમો અને શરતો વાંચી, સમજી લીધી છે અને તેનું પાલન કરવા સંમત છું.",
+            "scanQr": "રેફરલ QR કોડ સ્કેન કરો",
+            "successTitle": "સફળતા",
+            "successMessage": "સ્પ્રે વિનંતી સફળતાપૂર્વક સબમિટ થઈ.",
+            "errorTitle": "ભૂલ",
+            "errorMessage": "કૃપા કરીને ફરી પ્રયાસ કરો",
+            "agricoins": "એગ્રીકોઈન્સની પાત્રતા",
+            "pressToRefresh": "રિફ્રેશ કરવા માટે દબાવો"
+        },
+        "successScreen": {
+            "title": "સ્પ્રે વિનંતી સફળતાપૂર્વક કરવામાં આવી!",
+            "message": "તમારી સ્પ્રે વિનંતી બુક થઈ ગઈ છે. સંદર્ભ ID:",
+            "referenceLabel": "સંદર્ભ ID: {{id}}",
+            "accessibilitySummary": "સ્પ્રે વિનંતી સબમિટ થઈ, સંદર્ભ {{id}}",
+            "viewDetails": "વિગતો જુઓ"
+        },
+        "agricoinsApplicability": {
+            "noAccount": "તમારું અકાઉન્ટ ઓળખી શકાયું નથી. કૃપા કરીને ફરીથી લોગ ઇન કરો.",
+            "fetchFailed": "આ સમયે તમારી એગ્રીકોઈન્સની માહિતી મેળવી શકાઈ નથી.",
+            "generic": "કંઈક ખોટું થયું. કૃપા કરીને તમારું કનેક્શન તપાસો અને ફરી પ્રયાસ કરો.",
+            "title": "ઉપલબ્ધ ઓફર",
+            "eligiblePrefix": "તમે મહત્તમ ",
+            "freeAcre": "મફત એકર",
+            "freeAcres": "મફત એકર સુધી પાત્ર છો",
+            "description": "આ ઓફરનો લાભ લેવા માટે તમારા એગ્રીકોઈન્સનો ઉપયોગ કરવામાં આવશે. તમારા મફત એકર રિડીમ કરવા માટે 'લાગુ કરો' પર ટેપ કરો.",
+            "earnedInFy": "નાણાકીય વર્ષ {{year}}માં કમાયેલ: {{count}} મફત {{unit}}",
+            "earnedInFy_one": "નાણાકીય વર્ષ {{year}}માં કમાયેલ: {{count}} મફત એકર",
+            "earnedInFy_other": "નાણાકીય વર્ષ {{year}}માં કમાયેલ: {{count}} મફત એકર",
+            "apply": "લાગુ કરો",
+            "applied": "લાગુ કરેલ",
+            "redeemed": "તમે નાણાકીય વર્ષ {{year}} માટે પહેલેથી જ {{count}} મફત {{unit}} રિડીમ કરી ચૂક્યા છો.",
+            "redeemed_one": "તમે નાણાકીય વર્ષ {{year}} માટે પહેલેથી જ {{count}} મફત એકર રિડીમ કરી ચૂક્યા છો.",
+            "redeemed_other": "તમે નાણાકીય વર્ષ {{year}} માટે પહેલેથી જ {{count}} મફત એકર રિડીમ કરી ચૂક્યા છો.",
+            "noFreeAcres": "નાણાકીય વર્ષ {{year}} માટે હાલમાં કોઈ મફત એકર ઉપલબ્ધ નથી."
+        }
+    },
+    "mySprays": {
+        "title": "સ્પ્રે વિનંતીઓ",
+        "bookSpray": "સ્પ્રે બુક કરો",
+        "cropLabel": "પાક: ",
+        "areaLabel": "વિસ્તાર: ",
+        "areaValue": "{{acreage}} એકર",
+        "bookedFor": "બુકિંગની તારીખ",
+        "noRequests": "હજુ સુધી કોઈ સ્પ્રે વિનંતી નથી",
+        "noDataTitle": "કોઈ ડેટા નથી",
+        "createRequest": "વિનંતી બનાવો",
+        "retrySuffix": "ફરી પ્રયાસ કરવા માટે ટેપ કરો",
+        "viewAll": "બધા સ્પ્રે જુઓ"
+    },
+    "farmerActionSheet": {
+        "close": "બંધ કરો",
+        "editOption": "વિનંતી સંપાદિત કરો",
+        "deleteOption": "વિનંતી કાઢી નાખો",
+        "manageRequest": "વિનંતીનું સંચાલન કરો",
+        "description": "આ માહિતી અપડેટ કરવા અથવા કાઢી નાખવા માટે નીચે આપેલા વિકલ્પોમાંથી પસંદ કરો.",
+        "lastUpdated": "છેલ્લે {{date}} ના રોજ અપડેટ થયું",
+        "editDetails": "વિગતો સંપાદિત કરો",
+        "delete": "કાઢી નાખો",
+        "orderCreated": "ઓર્ડર બનાવવામાં આવ્યો",
+        "rejectedTitle": "નકારવાનું કારણ",
+        "cancelledBySelf": "જાતે રદ કરેલ",
+        "rejectedByOperator": "ઓપરેટર દ્વારા નકારવામાં આવ્યું",
+        "pendingMessage": "તમારી વિનંતી સ્વીકારવામાં આવી છે અને તે ટૂંક સમયમાં પૂર્ણ કરવામાં આવશે.",
+        "deleteRequest": {
+            "title": "સ્પ્રે વિનંતી કાઢી નાખવી છે?",
+            "subtitle": "શું તમે ખરેખર આ સ્પ્રે વિનંતી રદ કરવા માંગો છો?",
+            "remarks": "ટિપ્પણી",
+            "placeholder": "રદ કરવાનું કારણ દાખલ કરો",
+            "helper": "મહત્તમ 120 અક્ષરો",
+            "requiredError": "ટિપ્પણી જરૂરી છે"
+        },
+        "editRequest": {
+            "title": "સ્પ્રે વિનંતી અપડેટ કરો",
+            "chooseFarm": "ખેતર પસંદ કરો",
+            "farmRequired": "જરૂરી",
+            "sprayDate": "સ્પ્રેની તારીખ",
+            "crop": "પાક",
+            "cropRequired": "જરૂરી",
+            "acreage": "વિસ્તાર",
+            "acreagePlaceholder": "એકરની સંખ્યા",
+            "acreageMax": "મહત્તમ {{max}} એકર",
+            "acreageMinWithCoins": "એગ્રીકોઈન્સનો ઉપયોગ કરવા માટે ન્યૂનતમ {{min}} એકર.",
+            "acreageMaxError": "મહત્તમ {{max}} એકર",
+            "requiredError": "જરૂરી",
+            "agricoinsApplied": "આ વિનંતીમાં એગ્રીકોઈન્સ લાગુ કરવામાં આવ્યા છે."
+        }
+    },
+    "sprayList": {
+        "empty": {
+            "title": "અરે! કોઈ વિનંતી નથી",
+            "message": "વર્તમાન સ્થિતિ માટે કોઈ સ્પ્રે વિનંતી મળી નથી.",
+            "button": "વિનંતી બનાવો"
+        }
+    },
+    "sprayListItem": {
+        "status": {
+            "delivered": "પૂર્ણ થયું",
+            "assigned": "એક્ઝિક્યુટિવને સોંપવામાં આવ્યું",
+            "created": "બનાવવામાં આવ્યું",
+            "cancelled": "રદ કરવામાં આવ્યું",
+            "processing": "પ્રક્રિયામાં"
+        },
+        "fields": {
+            "crop": "પાક",
+            "area": "વિસ્તાર",
+            "areaValue": "{{acreage}} એકર",
+            "sprayDate": "સ્પ્રેની તારીખ"
+        },
+        "updatedOn": "{{date}} ના રોજ અપડેટ થયું"
+    },
+    "droneSprays": {
+        "title": "તાજેતરના સ્પ્રે",
+        "bookSpray": "સ્પ્રે બુક કરો",
+        "drone": "ડ્રોન",
+        "sprayServices": "સ્પ્રે સેવાઓ",
+        "description": "નાના અને મોટા ખેતરો માટે હાઈ-ટેક ડ્રોન સ્પ્રે સેવા.",
+        "bookSprayButton": "સ્પ્રે બુક કરો",
+        "recentSpraysTitle": "તાજેતરના સ્પ્રે ___",
+        "empty": "કોઈ સ્પ્રે મળ્યા નથી",
+        "pullToRefresh": "રિફ્રેશ કરવા માટે નીચે ખેંચો",
+        "pendingRequests": "બાકી વિનંતીઓ",
+        "seeAll": "બધા જુઓ",
+        "recentRequests": "તાજેતરની વિનંતીઓ"
+    }
+}

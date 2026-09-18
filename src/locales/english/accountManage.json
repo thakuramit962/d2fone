@@ -1,0 +1,81 @@
+{
+    "manageProfile": {
+        "title": "Manage Profile",
+        "options": {
+            "updateProfile": "Update Profile",
+            "updatePassword": "Update Password",
+            "removeAccount": "Remove Account"
+        },
+        "deleteAccount": {
+            "title": "Remove Account",
+            "confirmTitle": "Sad To See You Go 😔",
+            "confirmDescription": "Confirm your Agriwings credentials to permanently delete your account.",
+            "warning": {
+                "description1": "Removing your account is permanent and cannot be undone.\nAll your data will be lost, including your profile, spray history, and any other associated information.",
+                "description2": "Please proceed with caution."
+            },
+            "form": {
+                "code": {
+                    "label": "Code",
+                    "placeholder": "Enter your User code"
+                },
+                "password": {
+                    "label": "Password",
+                    "placeholder": "XXXXXXXX"
+                }
+            },
+            "error": {
+                "label": "Error",
+                "requiredFields": "Username & Password is required.",
+                "generic": "Something went wrong. Please try again.",
+                "network": "Unable to reach the server. Please check your connection and try again."
+            },
+            "toast": {
+                "title": "We'll miss you!",
+                "message": "Your account is removed successfully from Agriwings"
+            },
+            "buttons": {
+                "continue": "Continue",
+                "noThankYou": "No, Thank You",
+                "remove": "Remove",
+                "removing": "Removing...",
+                "changeMind": "No, I Change Mind"
+            }
+        }
+    },
+    "updatePassword": {
+        "title": "Update Password",
+        "description": "Choose a new password with at least 8 characters.",
+        "form": {
+            "oldPassword": {
+                "label": "Old Password",
+                "placeholder": "xxxxxxxx"
+            },
+            "newPassword": {
+                "label": "New Password",
+                "placeholder": "xxxxxxxx"
+            },
+            "confirmNewPassword": {
+                "label": "Confirm New Password",
+                "placeholder": "xxxxxxxx"
+            }
+        },
+        "validation": {
+            "allFieldsRequired": "Please fill in all fields.",
+            "minLength": "New password must be at least {{count}} characters.",
+            "notMatch": "New password and confirmation do not match.",
+            "sameAsOld": "New password must be different from the old password."
+        },
+        "buttons": {
+            "update": "Update",
+            "updating": "Updating...",
+            "discard": "Discard"
+        },
+        "toast": {
+            "successTitle": "Password Updated Successfully!",
+            "successMessage": "Your password is changed successfully and account is logged out from other devices.",
+            "errorTitle": "Error",
+            "errorMessage": "Error while updating password."
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "sprayCalculatorForm": {
+        "title": "स्प्रे कैलकुलेटर",
+        "sprayMethod": "स्प्रे विधि",
+        "waterRate": "पानी की दर: {{rate}} लीटर/एकड़",
+        "chemical": "रसायन",
+        "selectProduct": "उत्पाद चुनें",
+        "searchProduct": "उत्पाद खोजें..",
+        "product": {
+            "activeIngredients": "सक्रिय तत्व",
+            "doseOnLabel": "लेबल पर खुराक",
+            "dosePerAcre": "{{dose}} {{unit}} प्रति एकड़",
+            "select": "{{name}} चुनें"
+        },
+        "measurements": {
+            "tankCapacity": "टैंक क्षमता (न्यूनतम {{minimum}}L)",
+            "litres": "लीटर",
+            "fieldSize": "खेत का आकार",
+            "acres": "एकड़"
+        },
+        "actions": {
+            "calculate": "गणना करें",
+            "retry": "पुनः प्रयास करें",
+            "done": "हो गया"
+        },
+        "empty": {
+            "noProducts": "कोई उत्पाद नहीं मिला",
+            "loadError": "उत्पाद लोड नहीं हो सके। कृपया पुनः प्रयास करें।"
+        },
+        "result": {
+            "success": "स्प्रे गणना सफलतापूर्वक पूरी हुई"
+        }
+    }
+}

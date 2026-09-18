@@ -1,0 +1,84 @@
+{
+    "explore": {
+        "title": "Explore",
+        "tagline": "Quick Links",
+        "description": "All services and tools at your fingertips",
+        "smartToolsTitle": "Smart Tools, Better Harvest",
+        "smartToolsDesc": "All-in-one farming tools with spray & fertilizers planning, and crop guidance.",
+        "featuresOnloading": "Features Onloading",
+        "ecommerce": {
+            "title": "Farmer E-Commerce",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "insurance": {
+            "title": "Insurance",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "yieldPredictor": {
+            "label": "Calculate",
+            "title": "Yield Predictor",
+            "description": "Estimate crop yield and plan your harvest with data-driven insights."
+        },
+        "sprayCalculator": {
+            "label": "Calculate",
+            "title": "Spray Calculator",
+            "description": "Calculate the right spray quantity and coverage for your field."
+        },
+        "fertilizerCalculator": {
+            "label": "Calculate",
+            "title": "Fertilizer Calculator",
+            "description": "Determine the right fertilizer amount for healthier crops and better yields."
+        },
+        "weatherPrediction": {
+            "label": "Monitor",
+            "title": "Weather Forecast",
+            "description": "Determine the right fertilizer amount for healthier crops and better yields."
+        },
+        "mandi": {
+            "label": "Know",
+            "title": "Mandi Rate",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "sprayService": {
+            "label": "Book",
+            "title": "Spray Service",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "soilHealth": {
+            "label": "Check",
+            "title": "Soil Health",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "cropCalendar": {
+            "label": "Check",
+            "title": "Crop Calendar",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "irrigation": {
+            "label": "Check",
+            "title": "Irrigation",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "khetiCenter": {
+            "label": "Check",
+            "title": "Kheti Center",
+            "description": "Get expert advice on crop selection, care and best practices"
+        },
+        "cropAdvisory": "Crop Advisory",
+        "sprayAdvisory": "Spray Advisory",
+        "pestAdvisory": "Pest & Diseases Advisory",
+        "smartFarmerCenter": "Smart Farmer Center",
+        "farmerChaupal": "Farmer Chaupal",
+        "farmerConnect": "Farmer Connect (FPO, Buyers)",
+        "otheruseFulLinks": "Other Useful Links",
+        "knowledgeCenter": "Knowledge Center",
+        "subscriptionServices": "Subscription Services",
+        "governmentSchemes": "Government Schemes",
+        "lending": "Lending",
+        "rewards": "Rewards",
+        "videoTutorials": "Video Tutorials",
+        "faqs": "FAQs",
+        "helpline": "Helpline",
+        "comingSoon": "Coming Soon"
+    }
+}

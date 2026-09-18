@@ -1,14 +1,23 @@
-/**
- * Learn more about light and dark modes:
- * https://docs.expo.dev/guides/color-schemes/
- */
+import { useColorScheme } from "react-native";
+import { useSelector } from "react-redux";
 
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { ThemeInterface, themes, ThemeType } from "../constants/theme";
+import { RootState } from "../store/store";
 
-export function useTheme() {
-  const scheme = useColorScheme();
-  const theme = scheme === 'unspecified' ? 'light' : scheme;
+export function useTheme(): ThemeInterface {
+  const systemTheme = useColorScheme();
 
-  return Colors[theme];
+  const selectedTheme = useSelector(
+    (state: RootState) => state.colorMode?.mode || "system",
+  );
+
+  const activeTheme: ThemeType = "light";
+  // const activeTheme: ThemeType =
+  //   selectedTheme === "system"
+  //     ? systemTheme === "dark"
+  //       ? "dark"
+  //       : "light"
+  //     : selectedTheme;
+
+  return themes[activeTheme];
 }

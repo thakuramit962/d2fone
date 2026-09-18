@@ -1,0 +1,40 @@
+{
+    "home": {
+        "checkingUpdate": "ਅੱਪਡੇਟ ਦੀ ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ...",
+        "myFarms": "ਮੇਰੇ ਖੇਤ",
+        "smartServices": {
+            "label": "ਸਮਾਰਟ ਸੇਵਾਵਾਂ",
+            "title": "ਸਮਾਰਟ ਖੇਤੀ",
+            "featuredTools": "ਪ੍ਰਮੁੱਖ ਟੂਲ"
+        },
+        "recommendedForYou": "ਤੁਹਾਡੇ ਲਈ ਸੁਝਾਅ",
+        "cards": {
+            "precisionSpraying": {
+                "title": "ਸਟੀਕ ਸਪਰੇਅ",
+                "description": "AI-ਸੰਚਾਲਿਤ ਆਟੋਮੈਟਿਕ ਡਰੋਨ ਸਪਰੇਅ ਨਾਲ ਆਪਣੀਆਂ ਫ਼ਸਲਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖੋ ਅਤੇ ਰਸਾਇਣਾਂ ਤੇ ਖਾਦਾਂ ਦਾ ਸਟੀਕ ਛਿੜਕਾਅ ਕਰਕੇ ਬਰਬਾਦੀ ਨੂੰ ਜ਼ੀਰੋ ਕਰੋ।"
+            },
+            "exploreProducts": {
+                "title": "ਉਤਪਾਦ ਵੇਖੋ",
+                "description": "ਫ਼ਸਲ ਚੋਣ, ਦੇਖਭਾਲ ਅਤੇ ਖੇਤੀ ਦੀਆਂ ਬਿਹਤਰ ਤਕਨੀਕਾਂ ਲਈ ਮਾਹਰ ਸਲਾਹ ਪਾਓ।"
+            }
+        },
+        "trendingTopics": "ਪ੍ਰਸਿੱਧ ਵਿਸ਼ੇ",
+        "languageKey": "ਭਾਸ਼ਾ"
+    },
+    "userGreeting": {
+        "fallbackName": "ਵਰਤੋਂਕਾਰ",
+        "loginSignup": "ਲੌਗਇਨ / ਸਾਈਨ ਅੱਪ",
+        "greeting": {
+            "morning": "ਸ਼ੁਭ ਸਵੇਰ",
+            "afternoon": "ਨਮਸਕਾਰ",
+            "evening": "ਸ਼ੁਭ ਸ਼ਾਮ",
+            "night": "ਸ਼ੁਭ ਰਾਤ"
+        }
+    },
+    "news": {
+        "loading": "ਖ਼ਬਰਾਂ ਲੋਡ ਹੋ ਰਹੀਆਂ ਹਨ…",
+        "error": "ਖ਼ਬਰਾਂ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀਆਂ",
+        "retry": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+        "seeMore": "ਹੋਰ ਵੇਖੋ"
+    }
+}

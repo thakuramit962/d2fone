@@ -1,0 +1,42 @@
+{
+    "fertilizerCalculator": {
+        "title": "ఎరువుల కాలిక్యులేటర్",
+        "subtitle": "పంట మెరుగైన ఆరోగ్యం కోసం అవసరమైన ఎరువుల పరిమాణాన్ని గణించండి",
+        "selectCrop": {
+            "placeholder": "పంట ఎంపిక",
+            "label": "పంట"
+        },
+        "fieldSize": {
+            "title": "పొలం విస్తీర్ణం",
+            "description": "మీ పొలం విస్తీర్ణాన్ని ఎకరాలలో నమోదు చేయండి",
+            "unit": "ఎకరాలు"
+        },
+        "states": {
+            "loading": "పంటలు లోడ్ అవుతున్నాయి...",
+            "noCrops": "ఏ పంట అందుబాటులో లేదు.",
+            "fetchError": "పంటలను పొందలేకపోయాము."
+        },
+        "validation": {
+            "selectCropFirst": "దయచేసి ముందుగా ఒక పంటను ఎంచుకోండి."
+        },
+        "result": {
+            "title": "పోషక పదార్థాల పరిమాణం",
+            "recommendedFor": "{{crop_name}} యొక్క {{field_size}} కోసం సిఫార్సు చేయబడింది",
+            "nitrogen": "నైట్రోజన్ (N)",
+            "phosphorus": "భాస్వరం (P)",
+            "potassium": "పొటాషియం (K)",
+            "perAcre": "కిలో/ఎకరం"
+        },
+        "error": {
+            "calculation": "గణన పొందేటప్పుడు లోపం సంభవించింది."
+        },
+        "buttons": {
+            "calculate": "గణించండి",
+            "reCalculate": "మళ్లీ గణించండి",
+            "discard": "రద్దు చేయండి"
+        },
+        "notes": {
+            "title": "గమనికలు"
+        }
+    }
+}

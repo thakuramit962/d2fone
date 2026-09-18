@@ -1,0 +1,41 @@
+{
+    "ecom": {
+        "header": {
+            "title": "आमची उत्पादने",
+            "subtitle": "अचूक उपाय"
+        },
+        "hero": {
+            "caption": "तुमच्या शेतीच्या गरजांसाठी योग्य अचूक कृषी उपाय"
+        },
+        "product": {
+            "description": "जगातील सर्वात अचूक SWR तंत्रज्ञानासह तयार केले!",
+            "price": "{{price}}",
+            "close": "बंद करा",
+            "requestForm": {
+                "title": "उत्पादनाची विनंती करा"
+            }
+        },
+        "featured": {
+            "neroInfinity": {
+                "name": "Nero Infinity",
+                "description": "जगातील सर्वात अचूक SWR तंत्रज्ञानासह तयार केले!",
+                "price": "2312"
+            },
+            "neroInfinityPro": {
+                "name": "Nero Infinity Pro",
+                "description": "जगातील सर्वात अचूक SWR तंत्रज्ञानासह तयार केले!",
+                "price": "2999"
+            },
+            "neroCompact": {
+                "name": "Nero Compact",
+                "description": "जगातील सर्वात अचूक SWR तंत्रज्ञानासह तयार केले!",
+                "price": "1599"
+            },
+            "neroMini": {
+                "name": "Nero Mini",
+                "description": "जगातील सर्वात अचूक SWR तंत्रज्ञानासह तयार केले!",
+                "price": "1299"
+            }
+        }
+    }
+}

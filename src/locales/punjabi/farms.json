@@ -1,0 +1,155 @@
+{
+    "myFarms": {
+        "header": {
+            "title": "ਮੇਰੇ ਖੇਤ",
+            "description": "ਆਪਣੇ ਖੇਤਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"
+        },
+        "buttons": {
+            "createNew": "ਨਵਾਂ ਖੇਤ ਜੋੜੋ"
+        },
+        "list": {
+            "loading": "ਖੇਤ ਲੋਡ ਹੋ ਰਹੇ ਹਨ...",
+            "empty": "ਕੋਈ ਖੇਤ ਨਹੀਂ ਮਿਲਿਆ",
+            "pullToRefresh": "ਰਿਫ੍ਰੈਸ਼ ਕਰਨ ਲਈ ਹੇਠਾਂ ਖਿੱਚੋ"
+        }
+    },
+    "addFarm": {
+        "title": "ਖੇਤ ਜੋੜੋ",
+        "bannerAccessibilityLabel": "ਖੇਤ ਦਾ ਬੈਨਰ",
+        "form": {
+            "loading": "ਫਾਰਮ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ..."
+        },
+        "footer": {
+            "d2fServices": "D2F ਸੇਵਾਵਾਂ"
+        }
+    },
+    "farmForm": {
+        "sections": {
+            "basicDetails": "ਖੇਤ ਦੀ ਮੁੱਢਲੀ ਜਾਣਕਾਰੀ",
+            "editDetails": "ਖੇਤ ਦੀ ਜਾਣਕਾਰੀ ਸੰਪਾਦਿਤ ਕਰੋ",
+            "locationDetails": "ਸਥਾਨ ਦੀ ਜਾਣਕਾਰੀ",
+            "locateOnMap": "ਨਕਸ਼ੇ 'ਤੇ ਆਪਣੇ ਖੇਤ ਦਾ ਸਥਾਨ ਚੁਣੋ",
+            "notesTitle": "ਮਹੱਤਵਪੂਰਨ ਜਾਣਕਾਰੀ"
+        },
+        "form": {
+            "farmNameLabel": "ਖੇਤ ਦਾ ਨਾਮ",
+            "farmNamePlaceholder": "ਜਿਵੇਂ: ਉੱਤਰੀ ਹਿੱਸਾ",
+            "farmNameRequiredError": "ਖੇਤ ਦਾ ਨਾਮ ਲੋੜੀਂਦਾ ਹੈ",
+            "acreageLabel": "ਖੇਤਰਫਲ (ਏਕੜ)",
+            "acreagePlaceholder": "ਜਿਵੇਂ: 6.5",
+            "acreageRequiredError": "ਖੇਤਰਫਲ ਲੋੜੀਂਦਾ ਹੈ",
+            "acreageInvalidError": "ਵੈਧ ਖੇਤਰਫਲ ਦਰਜ ਕਰੋ (ਜਿਵੇਂ: 6.5)",
+            "cropLabel": "ਮੌਜੂਦਾ ਫ਼ਸਲ",
+            "cropPlaceholder": "ਜਿਵੇਂ: ਝੋਨਾ, ਕਣਕ",
+            "farmImageLabel": "ਖੇਤ ਦੀ ਤਸਵੀਰ",
+            "statusLabel": "ਸਥਿਤੀ",
+            "statusActive": "ਸਰਗਰਮ",
+            "statusInactive": "ਨਿਸ਼ਕਿਰਿਆ"
+        },
+        "buttons": {
+            "create": "ਖੇਤ ਬਣਾਓ",
+            "creating": "ਬਣਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…",
+            "saveChanges": "ਬਦਲਾਅ ਸੇਵ ਕਰੋ",
+            "saving": "ਸੇਵ ਹੋ ਰਿਹਾ ਹੈ…"
+        },
+        "notes": {
+            "list": [
+                "ਸਪੁਰਦ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਨਕਸ਼ੇ 'ਤੇ ਖੇਤ ਦੀ ਹੱਦ ਸਹੀ ਢੰਗ ਨਾਲ ਚਿੰਨ੍ਹਿਤ ਕਰੋ।",
+                "ਇੱਥੇ ਦਰਜ ਕੀਤਾ ਖੇਤਰਫਲ ਫ਼ਸਲ ਯੋਜਨਾ ਅਤੇ ਬੀਮਾ ਅਨੁਮਾਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।",
+                "ਖੇਤ ਦੀ ਸਪਸ਼ਟ ਤਸਵੀਰ ਫੀਲਡ ਏਜੰਟ ਨੂੰ ਤੁਹਾਡੇ ਖੇਤ ਦੀ ਪਛਾਣ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ।",
+                "ਸਥਾਨ ਦੇ ਨਿਰਦੇਸ਼ਾਂਕ ਨਕਸ਼ੇ 'ਤੇ ਲਗਾਏ ਪਿੰਨ ਤੋਂ ਆਪਣੇ ਆਪ ਦਰਜ ਹੁੰਦੇ ਹਨ — ਸਹੀ ਸਥਾਨ ਲਈ ਪਿੰਨ ਨੂੰ ਲੋੜ ਅਨੁਸਾਰ ਹਿਲਾਓ।"
+            ]
+        },
+        "successToast": {
+            "title": "ਸਫਲਤਾ",
+            "createMessage": "ਖੇਤ ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ ਗਿਆ!",
+            "updateMessage": "ਖੇਤ ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ!"
+        },
+        "errorToast": {
+            "title": "ਗਲਤੀ",
+            "generic": "ਕੁਝ ਕੰਮ ਨਹੀਂ ਕਰ ਰਿਹਾ।",
+            "createFailed": "ਖੇਤ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+            "updateFailed": "ਖੇਤ ਅੱਪਡੇਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+            "farmerIdNotFound": "ਕਿਸਾਨ ਦੀ ID ਨਹੀਂ ਮਿਲੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਲੌਗ ਇਨ ਕਰੋ।",
+            "missingFarmRef": "ਖੇਤ ਦਾ ਹਵਾਲਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਵਾਪਸ ਜਾ ਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+            "loadFailed": "ਇਹ ਖੇਤ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਵਾਪਸ ਜਾ ਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+        }
+    },
+    "farmDetails": {
+        "header": {
+            "title": "ਖੇਤ ਦਾ ਵੇਰਵਾ",
+            "loading": "ਵੇਰਵਾ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ",
+            "notFoundTitle": "ਖੇਤ ਨਹੀਂ ਮਿਲਿਆ",
+            "notFoundDescription": "ਬੇਨਤੀ ਕੀਤਾ ਖੇਤ ਨਹੀਂ ਮਿਲ ਸਕਿਆ।",
+            "defaultTitle": "ਖੇਤ ਦਾ ਵੇਰਵਾ"
+        },
+        "buttons": {
+            "goBack": "ਵਾਪਸ ਜਾਓ",
+            "edit": "ਸੰਪਾਦਿਤ ਕਰੋ"
+        },
+        "card": {
+            "detailsDivider": "ਵੇਰਵਾ",
+            "acres": "ਏਕੜ",
+            "acreageValue": "{{value}} ਏਕੜ",
+            "farmName": "ਖੇਤ ਦਾ ਨਾਮ",
+            "area": "ਖੇਤਰਫਲ",
+            "currentCrop": "ਮੌਜੂਦਾ ਫ਼ਸਲ: {{crop}}",
+            "region": "ਖੇਤਰ",
+            "status": "ਸਥਿਤੀ",
+            "statusActive": "ਸਰਗਰਮ",
+            "statusInactive": "ਨਿਸ਼ਕਿਰਿਆ",
+            "inactiveWarning": "ਇਹ ਖੇਤ ਨਿਸ਼ਕਿਰਿਆ ਹੈ ਅਤੇ ਵਰਤੋਂ ਲਈ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+            "notAvailable": "-",
+            "currentCropNotAvailable": "-ਉਪਲਬਧ ਨਹੀਂ-",
+            "addressLabel": "ਪਤਾ: {{address}}",
+            "addressEmpty": "ਪਤਾ: —",
+            "address": "ਪਤਾ"
+        },
+        "location": {
+            "title": "ਨਕਸ਼ੇ 'ਤੇ ਸਥਾਨ",
+            "coordinatesFallback": "ਨਿਰਦੇਸ਼ਾਂਕ ਅੱਪਡੇਟ ਨਹੀਂ ਹੋਏ",
+            "coordinatesValue": "{{coordinates}}"
+        }
+    },
+    "chooseFarmForm": {
+        "farmArea": "{{location}} ਵਿੱਚ {{area}} ਏਕੜ",
+        "status": {
+            "inactive": "ਨਿਸ਼ਕਿਰਿਆ",
+            "noFarms": "ਕੋਈ ਖੇਤ ਨਹੀਂ ਮਿਲਿਆ"
+        },
+        "actions": {
+            "viewFarms": "ਖੇਤ ਵੇਖੋ",
+            "reload": "ਦੁਬਾਰਾ ਲੋਡ ਕਰੋ",
+            "manageFarms": "ਖੇਤਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"
+        }
+    },
+    "farmList": {
+        "empty": "ਕੋਈ ਖੇਤ ਨਹੀਂ ਮਿਲਿਆ।"
+    },
+    "locationForm": {
+        "addressLine1": "ਪਤਾ ਲਾਈਨ 1",
+        "state": "ਰਾਜ",
+        "district": "ਜ਼ਿਲ੍ਹਾ",
+        "subDistrict": "ਉਪ-ਜ਼ਿਲ੍ਹਾ",
+        "village": "ਪਿੰਡ",
+        "pinZip": "ਪਿੰਨ/ਜ਼ਿਪ",
+        "selectState": "ਰਾਜ ਚੁਣੋ",
+        "selectDistrict": "ਜ਼ਿਲ੍ਹਾ ਚੁਣੋ",
+        "selectSubDistrict": "ਉਪ-ਜ਼ਿਲ੍ਹਾ ਚੁਣੋ",
+        "selectVillage": "ਪਿੰਡ ਚੁਣੋ",
+        "pinZipPlaceholder": "ਪਿੰਨ/ਜ਼ਿਪ ਕੋਡ",
+        "validation": {
+            "addressRequired": "ਪਤਾ ਲੋੜੀਂਦਾ ਹੈ",
+            "stateRequired": "ਰਾਜ ਲੋੜੀਂਦਾ ਹੈ।",
+            "required": "ਲੋੜੀਂਦਾ ਹੈ।",
+            "pincodeRequired": "ਪਿੰਨਕੋਡ ਲੋੜੀਂਦਾ ਹੈ",
+            "invalidPincode": "ਅਵੈਧ ਪਿੰਨਕੋਡ"
+        },
+        "fetchError": "{{level}} ਦੇ ਵਿਕਲਪ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+        "levels": {
+            "district": "ਜ਼ਿਲ੍ਹਾ",
+            "sub-district": "ਉਪ-ਜ਼ਿਲ੍ਹਾ",
+            "village": "ਪਿੰਡ"
+        }
+    }
+}

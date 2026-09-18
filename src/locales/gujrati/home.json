@@ -1,0 +1,40 @@
+{
+    "home": {
+        "checkingUpdate": "અપડેટ ચકાસાઈ રહ્યું છે...",
+        "myFarms": "મારા ખેતરો",
+        "smartServices": {
+            "label": "સ્માર્ટ સેવાઓ",
+            "title": "સ્માર્ટ ખેતી",
+            "featuredTools": "મુખ્ય ટૂલ્સ"
+        },
+        "recommendedForYou": "તમારા માટે સૂચનો",
+        "cards": {
+            "precisionSpraying": {
+                "title": "સચોટ સ્પ્રે",
+                "description": "AI-સંચાલિત સ્વયંસંચાલિત ડ્રોન સ્પ્રે વડે તમારા પાકને સુરક્ષિત રાખો અને રસાયણો તથા ખાતરોનો સચોટ છંટકાવ કરીને બગાડને શૂન્ય કરો."
+            },
+            "exploreProducts": {
+                "title": "ઉત્પાદનો જુઓ",
+                "description": "પાક પસંદગી, સંભાળ અને ખેતીની વધુ સારી ટેકનિકો માટે નિષ્ણાત સલાહ મેળવો."
+            }
+        },
+        "trendingTopics": "લોકપ્રિય વિષયો",
+        "languageKey": "ભાષા"
+    },
+    "userGreeting": {
+        "fallbackName": "વપરાશકર્તા",
+        "loginSignup": "લૉગિન / સાઇન અપ",
+        "greeting": {
+            "morning": "સુપ્રભાત",
+            "afternoon": "નમસ્કાર",
+            "evening": "શુભ સાંજ",
+            "night": "શુભ રાત્રિ"
+        }
+    },
+    "news": {
+        "loading": "સમાચાર લોડ થઈ રહ્યા છે…",
+        "error": "સમાચાર લોડ થઈ શક્યા નહીં",
+        "retry": "ફરી પ્રયાસ કરો",
+        "seeMore": "વધુ જુઓ"
+    }
+}

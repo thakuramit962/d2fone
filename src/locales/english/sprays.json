@@ -1,0 +1,198 @@
+{
+    "servicesHome": {
+        "hero": {
+            "our": "Our ",
+            "services": "Services",
+            "subtitle": "Smart solutions for modern farming"
+        },
+        "sprayServices": "Spray Services ___",
+        "droneSpray": {
+            "title": "Drone Spray",
+            "description": "High-tech drone spraying for large & small farms.",
+            "bookNow": "Book Now"
+        },
+        "tractorSpray": {
+            "title": "Tractor Spray",
+            "description": "Cover more area in less time with tractor mounted spray.",
+            "bookNow": "Book Now"
+        },
+        "boomSpray": {
+            "title": "Boom Spray",
+            "description": "Wide and uniform spraying for faster crop coverage.",
+            "bookNow": "Book Now"
+        },
+        "manualSpray": {
+            "title": "Manual Spray",
+            "description": "Precise and careful manual spraying for better results.",
+            "bookNow": "Book Now"
+        },
+        "viewBookedServices": "View Booked Services >>",
+        "ctas": {
+            "verified": "Safe & Reliable",
+            "verifiedDes": "Trained experts and quality equipment",
+            "timeSaving": "Time Saving",
+            "timeSavingDes": "Advanced technology for better efficiency",
+            "safeAndReliable": "Safe & Reliable",
+            "safeAndReliableDes": "Healthy crop, higher productivity",
+            "expertSupport": "Expert Support",
+            "expertSupportDes": "We’re here to help you always"
+        }
+    },
+    "supportCard": {
+        "title": "Need Custom Solution?",
+        "tagline": "Talk to our agriculture experts today.",
+        "button": "Contact Us"
+    },
+    "bookSpray": {
+        "title": "Schedule Spray",
+        "description": "Request for spray in your farm",
+        "bookingForm": {
+            "chooseFarm": "Choose Farm",
+            "farmRequired": "❗ Farm selection is required.",
+            "sprayDate": "Spray Date",
+            "crop": "Crop",
+            "cropRequired": "Required",
+            "acreage": "Acreage",
+            "acreagePlaceholder": "No. of Acreage",
+            "acreageMaxHelper": "Max {{max}} acres",
+            "referral": "Referral",
+            "referralPlaceholder": "Referral Code",
+            "referralVerifying": "Verifying...",
+            "remarks": "Remarks",
+            "remarksPlaceholder": "enter remarks...",
+            "remarksCounter": "{{count}}/160 characters",
+            "invalidDataTitle": "Invalid Data",
+            "invalidDataMessage": "{{fields}} {{verb}} required.",
+            "is": "is",
+            "are": "are",
+            "invalidReferralTitle": "Invalid Referral",
+            "consentRequiredTitle": "Consent is required",
+            "consentRequiredMessage": "Please accept the terms & conditions.",
+            "invalidReferralCode": "Invalid Referral Code",
+            "invalidReferralCodeGeneric": "Invalid referral code",
+            "verifyFailed": "Could not verify referral code. Please try again.",
+            "consent": "I accept and confirm that I have read, understood, and agreed to abide by the Terms and Conditions",
+            "scanQr": "Scan referral QR code",
+            "successTitle": "Success",
+            "successMessage": "Spray request submitted successfully.",
+            "errorTitle": "Error",
+            "errorMessage": "Please try again",
+            "agricoins": "Agricoins Applicability",
+            "pressToRefresh": "Press to refresh"
+        },
+        "successScreen": {
+            "title": "Spray Requested Successfully !",
+            "message": "Your spray request has been booked. Reference ID:",
+            "referenceLabel": "Reference ID: {{id}}",
+            "accessibilitySummary": "Spray request submitted, reference {{id}}",
+            "viewDetails": "View Details"
+        },
+        "agricoinsApplicability": {
+            "noAccount": "Unable to identify your account. Please log in again.",
+            "fetchFailed": "We could not fetch your Agricoins details right now.",
+            "generic": "Something went wrong. Please check your connection and try again.",
+            "title": "Available Offer",
+            "eligiblePrefix": "You are eligible for up to ",
+            "freeAcre": "free acre",
+            "freeAcres": "free acres",
+            "description": "Your Agricoins will be used to avail this offer. Tap Apply to redeem your free acres.",
+            "earnedInFy": "Earned in FY {{year}}: {{count}} free {{unit}}",
+            "earnedInFy_one": "Earned in FY {{year}}: {{count}} free acre",
+            "earnedInFy_other": "Earned in FY {{year}}: {{count}} free acres",
+            "apply": "Apply",
+            "applied": "Applied",
+            "redeemed": "You've already redeemed {{count}} free {{unit}} for FY {{year}}.",
+            "redeemed_one": "You've already redeemed {{count}} free acre for FY {{year}}.",
+            "redeemed_other": "You've already redeemed {{count}} free acres for FY {{year}}.",
+            "noFreeAcres": "No free acres are available for FY {{year}} at the moment."
+        }
+    },
+    "mySprays": {
+        "title": "Spray Requests",
+        "bookSpray": "Book Spray",
+        "cropLabel": "Crop: ",
+        "areaLabel": "Area: ",
+        "areaValue": "{{acreage}} acres",
+        "bookedFor": "Booked for",
+        "noRequests": "No spray requests yet",
+        "noDataTitle": "No Data",
+        "createRequest": "Create Request",
+        "retrySuffix": "tap to retry",
+        "viewAll": "View All Sprays"
+    },
+    "farmerActionSheet": {
+        "close": "Close",
+        "editOption": "Edit Request",
+        "deleteOption": "Delete Request",
+        "manageRequest": "Manage Request",
+        "description": "Select an option below to update or remove this information.",
+        "lastUpdated": "Last updated on {{date}}",
+        "editDetails": "Edit Details",
+        "delete": "Delete",
+        "orderCreated": "Order Created",
+        "rejectedTitle": "Rejection Reason",
+        "cancelledBySelf": "Cancelled by self",
+        "rejectedByOperator": "Rejected by Operator",
+        "pendingMessage": "Your request is accepted and will be fullfilled soon.",
+        "deleteRequest": {
+            "title": "Delete Spray Request?",
+            "subtitle": "Are you sure you want to cancel this spray request?",
+            "remarks": "Remarks",
+            "placeholder": "Enter reason for cancellation",
+            "helper": "Max 120 characters",
+            "requiredError": "Remarks are required"
+        },
+        "editRequest": {
+            "title": "Update Spray Request",
+            "chooseFarm": "Choose Farm",
+            "farmRequired": "Required",
+            "sprayDate": "Spray Date",
+            "crop": "Crop",
+            "cropRequired": "Required",
+            "acreage": "Acreage",
+            "acreagePlaceholder": "No. of Acreage",
+            "acreageMax": "Max {{max}} acres",
+            "acreageMinWithCoins": "Minimum {{min}} acres as using agricoins.",
+            "acreageMaxError": "Maximum {{max}} acres",
+            "requiredError": "Required",
+            "agricoinsApplied": "Agricoins have applied in this request."
+        }
+    },
+    "sprayList": {
+        "empty": {
+            "title": "Oops! No Requests",
+            "message": "No spray requests found for current status.",
+            "button": "Create Request"
+        }
+    },
+    "sprayListItem": {
+        "status": {
+            "delivered": "Delivered",
+            "assigned": "Assigned to Excutive",
+            "created": "Created",
+            "cancelled": "Cancelled",
+            "processing": "Processing"
+        },
+        "fields": {
+            "crop": "Crop",
+            "area": "Area",
+            "areaValue": "{{acreage}} Acres",
+            "sprayDate": "Spray Date"
+        },
+        "updatedOn": "Updated on {{date}}"
+    },
+    "droneSprays": {
+        "title": "Recent Sprays",
+        "bookSpray": "Book Spray",
+        "drone": "Drone",
+        "sprayServices": "Spray Services",
+        "description": "High-tech drone spraying for large & small farms.",
+        "bookSprayButton": "Book Spray",
+        "recentSpraysTitle": "Recent Sprays ___",
+        "empty": "No sprays found",
+        "pullToRefresh": "Pull to refresh",
+        "pendingRequests": "Pending Requests",
+        "seeAll": "See All",
+        "recentRequests": "Recent Requests"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "editProfile": {
+        "header": {
+            "title": "प्रोफाइल अपडेट करा",
+            "code": "कोड",
+            "mobile": "मोबाइल",
+            "email": "ईमेल",
+            "mobilePrefix": "+91 {{phone}}"
+        },
+        "form": {
+            "fullName": {
+                "label": "पूर्ण नाव",
+                "placeholder": "पूर्ण नाव",
+                "requiredError": "नाव आवश्यक आहे"
+            },
+            "addressDetails": {
+                "title": "पत्ता तपशील ___"
+            }
+        },
+        "errors": {
+            "updateFailed": "प्रोफाइल अपडेट करण्यात अक्षम.",
+            "generic": "तुमची प्रोफाइल अपडेट करताना काहीतरी चूक झाली."
+        },
+        "buttons": {
+            "update": "अपडेट करा",
+            "updating": "अपडेट होत आहे...",
+            "discardAndClose": "रद्द करा आणि बंद करा"
+        },
+        "notes": {
+            "title": "टिपा"
+        }
+    }
+}

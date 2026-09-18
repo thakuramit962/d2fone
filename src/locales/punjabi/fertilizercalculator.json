@@ -1,0 +1,42 @@
+{
+    "fertilizerCalculator": {
+        "title": "ਖਾਦ ਕੈਲਕੁਲੇਟਰ",
+        "subtitle": "ਫ਼ਸਲ ਦੀ ਬਿਹਤਰ ਸਿਹਤ ਲਈ ਲੋੜੀਂਦੀ ਖਾਦ ਦੀ ਮਾਤਰਾ ਦੀ ਗਣਨਾ ਕਰੋ",
+        "selectCrop": {
+            "placeholder": "ਫ਼ਸਲ ਚੋਣ",
+            "label": "ਫ਼ਸਲ"
+        },
+        "fieldSize": {
+            "title": "ਖੇਤ ਦਾ ਖੇਤਰਫਲ",
+            "description": "ਆਪਣੇ ਖੇਤ ਦਾ ਖੇਤਰਫਲ ਏਕੜ ਵਿੱਚ ਦਰਜ ਕਰੋ",
+            "unit": "ਏਕੜ"
+        },
+        "states": {
+            "loading": "ਫ਼ਸਲਾਂ ਲੋਡ ਹੋ ਰਹੀਆਂ ਹਨ...",
+            "noCrops": "ਕੋਈ ਫ਼ਸਲ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+            "fetchError": "ਫ਼ਸਲਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕੀਆਂ।"
+        },
+        "validation": {
+            "selectCropFirst": "ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਇੱਕ ਫ਼ਸਲ ਚੁਣੋ।"
+        },
+        "result": {
+            "title": "ਪੋਸ਼ਕ ਤੱਤਾਂ ਦੀ ਮਾਤਰਾ",
+            "recommendedFor": "{{crop_name}} ਦੇ {{field_size}} ਲਈ ਸਿਫ਼ਾਰਸ਼ੀ",
+            "nitrogen": "ਨਾਈਟ੍ਰੋਜਨ (N)",
+            "phosphorus": "ਫਾਸਫੋਰਸ (P)",
+            "potassium": "ਪੋਟਾਸ਼ੀਅਮ (K)",
+            "perAcre": "ਕਿਲੋਗ੍ਰਾਮ/ਏਕੜ"
+        },
+        "error": {
+            "calculation": "ਗਣਨਾ ਪ੍ਰਾਪਤ ਕਰਦੇ ਸਮੇਂ ਗਲਤੀ ਹੋਈ।"
+        },
+        "buttons": {
+            "calculate": "ਗਣਨਾ ਕਰੋ",
+            "reCalculate": "ਦੁਬਾਰਾ ਗਣਨਾ ਕਰੋ",
+            "discard": "ਰੱਦ ਕਰੋ"
+        },
+        "notes": {
+            "title": "ਨੋਟਸ"
+        }
+    }
+}

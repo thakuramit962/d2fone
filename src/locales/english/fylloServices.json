@@ -1,0 +1,19 @@
+{
+    "fylloServices": {
+        "header": {
+            "backToProfile": "Back to Profile"
+        },
+        "footer": {
+            "poweredBy": "Powered by Fyllo"
+        },
+        "empty": {
+            "title": "Couldn't fetch details",
+            "defaultMessage": "Please try again",
+            "retryButton": "Retry"
+        },
+        "error": {
+            "generic": "Something went wrong. Please try again.",
+            "fetchFailed": "Error while getting details"
+        }
+    }
+}
