@@ -1,11 +1,11 @@
 {
     "agricoins": {
-        "agri": "अ‍ॅग्री",
-        "coins": "कॉइन्स",
-        "title": "माझे अ‍ॅग्रीकॉइन्स",
+        "agri": "Agri",
+        "coins": "Coins",
+        "title": "माझे AgriCoins",
         "balanceTitle": "तुमची शिल्लक",
         "walletBalance": "वॉलेट शिल्लक",
-        "tagline": "अ‍ॅग्रीकॉइन्स गोळा करा, उत्तम फायदे अनलॉक करा आणि विविध सेवांचा लाभ घ्या.",
+        "tagline": "AgriCoins गोळा करा, उत्तम फायदे अनलॉक करा आणि विविध सेवांचा लाभ घ्या.",
         "viewMore": "अधिक पहा",
         "transactions": {
             "title": "अलीकडील व्यवहार",

@@ -37,7 +37,7 @@
         "continue": "Continue",
         "cancel": "No, Thank You",
         "confirmTitle": "Sad To See You Go 😔",
-        "confirmDescription": "Confirm your Agriwings credentials to permanently delete your account.",
+        "confirmDescription": "Confirm your AgriWings credentials to permanently delete your account.",
         "codeLabel": "Code",
         "codePlaceholder": "Enter your User code",
         "passwordLabel": "Password",
@@ -47,6 +47,6 @@
         "networkError": "Unable to reach the server. Please check your connection and try again.",
         "errorLabel": "Error",
         "successTitle": "We'll miss you!",
-        "successMessage": "Your account is removed successfully from Agriwings"
+        "successMessage": "Your account is removed successfully from AgriWings"
     }
 }

@@ -95,12 +95,13 @@ const Login: React.FC = () => {
             const url = isOnlyFarmer ? 'user_create_request' : 'user_login_request'
             const res = await API.post(url, dataToProceed)
             if (!isMounted.current) return
-            if (res.data?.status === 'success') {
-                dispatch(updateAuth({
+            if (res.data?.status == 'success') {
+                const authData = {
                     isLoggedIn: true,
                     currentUser: { ...res.data?.data?.user_data, farmerDetails: res.data?.data?.farmer_data } as User,
                     accessToken: res.data?.data?.access_token,
-                }))
+                }
+                await dispatch(updateAuth(authData))
                 dispatch(updateToast({ title: isUser ? t('auth.toast.successLogin') : t('auth.toast.registration'), severity: 'success' }))
                 router.replace({ pathname: '/tabs/home', params: { newUser: isOnlyFarmer ? 'yes' : 'no' } })
                 fetchFarms({})

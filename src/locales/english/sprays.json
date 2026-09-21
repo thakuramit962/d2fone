@@ -77,7 +77,7 @@
             "successMessage": "Spray request submitted successfully.",
             "errorTitle": "Error",
             "errorMessage": "Please try again",
-            "agricoins": "Agricoins Applicability",
+            "agricoins": "AgriCoins Applicability",
             "pressToRefresh": "Press to refresh"
         },
         "successScreen": {
@@ -89,13 +89,13 @@
         },
         "agricoinsApplicability": {
             "noAccount": "Unable to identify your account. Please log in again.",
-            "fetchFailed": "We could not fetch your Agricoins details right now.",
+            "fetchFailed": "We could not fetch your AgriCoins details right now.",
             "generic": "Something went wrong. Please check your connection and try again.",
             "title": "Available Offer",
             "eligiblePrefix": "You are eligible for up to ",
             "freeAcre": "free acre",
             "freeAcres": "free acres",
-            "description": "Your Agricoins will be used to avail this offer. Tap Apply to redeem your free acres.",
+            "description": "Your AgriCoins will be used to avail this offer. Tap Apply to redeem your free acres.",
             "earnedInFy": "Earned in FY {{year}}: {{count}} free {{unit}}",
             "earnedInFy_one": "Earned in FY {{year}}: {{count}} free acre",
             "earnedInFy_other": "Earned in FY {{year}}: {{count}} free acres",
@@ -155,7 +155,7 @@
             "acreageMinWithCoins": "Minimum {{min}} acres as using agricoins.",
             "acreageMaxError": "Maximum {{max}} acres",
             "requiredError": "Required",
-            "agricoinsApplied": "Agricoins have applied in this request."
+            "agricoinsApplied": "AgriCoins have applied in this request."
         }
     },
     "sprayList": {

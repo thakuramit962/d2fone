@@ -5,7 +5,7 @@ export interface User {
   name: string;
   phone: string;
   email: string;
-  emp_id: string; // relative user table reference
+  emp_id: string | null;
   login_id: string;
   role: Roles;
   status: string | boolean;
@@ -17,19 +17,19 @@ export interface User {
   provider_id?: string | null;
   provider_name?: string | null;
   is_supervisor_head?: string | boolean;
-  is_supervisor_head_assign_date?: string | Date;
+  is_supervisor_head_assign_date?: string | Date | null;
   supervisor_assign_date?: string | Date | null;
   supervisor_id?: string | null;
   supervisor_name?: string | null;
   email_verified_at?: string | null;
+  location_coordinates?: string | null; // ✅ added
 
   farmerDetails?: Farmer | null;
-  userFarms?: null | Farm;
-
+  userFarms?: Farm[] | null; // ✅ changed to array
   agricoin?: UserAgricoin | null;
 
-  created_at: Date;
-  updated_at: Date | null;
+  created_at: string | Date; // ✅ allow string
+  updated_at: string | Date | null;
 }
 
 export interface Farmer {
@@ -46,12 +46,17 @@ export interface Farmer {
   farmer_district: string | null;
   farmer_state: string | null;
   farmer_pincode: string | null;
+
+  location_coordinates?: string | null; // ✅ added
+  referred_by?: string | null; // ✅ added
+
   saved_by_id: string | null;
   saved_by_name: string | null;
   updated_by_id: string | null;
   updated_by_name: string | null;
-  created_at: Date;
-  updated_at: Date | null;
+
+  created_at: string | Date; // ✅ allow string
+  updated_at: string | Date | null;
 }
 
 export interface Farm {
@@ -68,15 +73,15 @@ export interface Farm {
   acerage: string;
   farm_image: string | null;
   current_crop: string | null;
-  status: string; //"active" | "inactive";
+  status: string; // "active" | "inactive"
   iot_devices?: IotDevice[] | null;
   saved_by_id: string | null;
   saved_by_name: string | null;
   updated_by_id: string | null;
   updated_by_name: string | null;
-  created_at: Date;
-  updated_at: Date | null;
-  deleted_at: Date | null;
+  created_at: string | Date;
+  updated_at: string | Date | null;
+  deleted_at: string | Date | null;
 }
 
 export interface IotDevice {

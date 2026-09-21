@@ -1,11 +1,11 @@
 {
     "agricoins": {
-        "agri": "ਐਗਰੀ",
-        "coins": "ਕੋਇਨਸ",
-        "title": "ਮੇਰੇ ਐਗਰੀਕੋਇਨਸ",
+        "agri": "Agri",
+        "coins": "Coins",
+        "title": "ਮੇਰੇ AgriCoins",
         "balanceTitle": "ਤੁਹਾਡਾ ਬੈਲੰਸ",
         "walletBalance": "ਵਾਲਿਟ ਬੈਲੰਸ",
-        "tagline": "ਐਗਰੀਕੋਇਨਸ ਇਕੱਠੇ ਕਰੋ, ਸ਼ਾਨਦਾਰ ਲਾਭ ਅਨਲੌਕ ਕਰੋ ਅਤੇ ਵੱਖ-ਵੱਖ ਸੇਵਾਵਾਂ ਦਾ ਲਾਭ ਉਠਾਓ।",
+        "tagline": "AgriCoins ਇਕੱਠੇ ਕਰੋ, ਸ਼ਾਨਦਾਰ ਲਾਭ ਅਨਲੌਕ ਕਰੋ ਅਤੇ ਵੱਖ-ਵੱਖ ਸੇਵਾਵਾਂ ਦਾ ਲਾਭ ਉਠਾਓ।",
         "viewMore": "ਹੋਰ ਵੇਖੋ",
         "transactions": {
             "title": "ਹਾਲੀਆ ਲੈਣ-ਦੇਣ",

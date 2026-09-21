@@ -77,7 +77,7 @@
             "successMessage": "स्प्रे अनुरोध सफलतापूर्वक सबमिट हो गया।",
             "errorTitle": "त्रुटि",
             "errorMessage": "कृपया पुनः प्रयास करें",
-            "agricoins": "एग्रीकॉइन्स की पात्रता",
+            "agricoins": "AgriCoins की पात्रता",
             "pressToRefresh": "रीफ्रेश करने के लिए दबाएँ"
         },
         "successScreen": {
@@ -89,13 +89,13 @@
         },
         "agricoinsApplicability": {
             "noAccount": "आपका खाता पहचाना नहीं जा सका। कृपया दोबारा लॉग इन करें।",
-            "fetchFailed": "इस समय आपकी एग्रीकॉइन्स की जानकारी प्राप्त नहीं की जा सकी।",
+            "fetchFailed": "इस समय आपकी AgriCoins की जानकारी प्राप्त नहीं की जा सकी।",
             "generic": "कुछ गलत हो गया। कृपया अपना कनेक्शन जांचें और पुनः प्रयास करें।",
             "title": "उपलब्ध ऑफर",
             "eligiblePrefix": "आप अधिकतम ",
             "freeAcre": "मुफ्त एकड़",
             "freeAcres": "मुफ्त एकड़ तक के लिए पात्र हैं",
-            "description": "इस ऑफर का लाभ लेने के लिए आपके एग्रीकॉइन्स का उपयोग किया जाएगा। अपने मुफ्त एकड़ को रिडीम करने के लिए 'लागू करें' पर टैप करें।",
+            "description": "इस ऑफर का लाभ लेने के लिए आपके AgriCoins का उपयोग किया जाएगा। अपने मुफ्त एकड़ को रिडीम करने के लिए 'लागू करें' पर टैप करें।",
             "earnedInFy": "वित्त वर्ष {{year}} में अर्जित: {{count}} मुफ्त {{unit}}",
             "earnedInFy_one": "वित्त वर्ष {{year}} में अर्जित: {{count}} मुफ्त एकड़",
             "earnedInFy_other": "वित्त वर्ष {{year}} में अर्जित: {{count}} मुफ्त एकड़",
@@ -152,10 +152,10 @@
             "acreage": "क्षेत्रफल",
             "acreagePlaceholder": "एकड़ की संख्या",
             "acreageMax": "अधिकतम {{max}} एकड़",
-            "acreageMinWithCoins": "एग्रीकॉइन्स का उपयोग करने के लिए न्यूनतम {{min}} एकड़।",
+            "acreageMinWithCoins": "AgriCoins का उपयोग करने के लिए न्यूनतम {{min}} एकड़।",
             "acreageMaxError": "अधिकतम {{max}} एकड़",
             "requiredError": "आवश्यक",
-            "agricoinsApplied": "इस अनुरोध में एग्रीकॉइन्स लागू किए गए हैं।"
+            "agricoinsApplied": "इस अनुरोध में AgriCoins लागू किए गए हैं।"
         }
     },
     "sprayList": {

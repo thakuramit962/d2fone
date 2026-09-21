@@ -77,7 +77,7 @@
             "successMessage": "ਸਪਰੇਅ ਬੇਨਤੀ ਸਫਲਤਾਪੂਰਵਕ ਸਬਮਿਟ ਹੋ ਗਈ।",
             "errorTitle": "ਗਲਤੀ",
             "errorMessage": "ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
-            "agricoins": "ਐਗਰੀਕੋਇਨਸ ਦੀ ਯੋਗਤਾ",
+            "agricoins": "AgriCoins ਦੀ ਯੋਗਤਾ",
             "pressToRefresh": "ਰਿਫ੍ਰੈਸ਼ ਕਰਨ ਲਈ ਦਬਾਓ"
         },
         "successScreen": {
@@ -89,13 +89,13 @@
         },
         "agricoinsApplicability": {
             "noAccount": "ਤੁਹਾਡਾ ਖਾਤਾ ਪਛਾਣਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਲੌਗ ਇਨ ਕਰੋ।",
-            "fetchFailed": "ਇਸ ਸਮੇਂ ਤੁਹਾਡੀ ਐਗਰੀਕੋਇਨਸ ਦੀ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।",
+            "fetchFailed": "ਇਸ ਸਮੇਂ ਤੁਹਾਡੀ AgriCoins ਦੀ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।",
             "generic": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
             "title": "ਉਪਲਬਧ ਆਫਰ",
             "eligiblePrefix": "ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ ",
             "freeAcre": "ਮੁਫ਼ਤ ਏਕੜ",
             "freeAcres": "ਮੁਫ਼ਤ ਏਕੜ ਤੱਕ ਲਈ ਯੋਗ ਹੋ",
-            "description": "ਇਸ ਆਫਰ ਦਾ ਲਾਭ ਲੈਣ ਲਈ ਤੁਹਾਡੇ ਐਗਰੀਕੋਇਨਸ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਵੇਗੀ। ਆਪਣੇ ਮੁਫ਼ਤ ਏਕੜ ਨੂੰ ਰਿਡੀਮ ਕਰਨ ਲਈ 'ਲਾਗੂ ਕਰੋ' 'ਤੇ ਟੈਪ ਕਰੋ।",
+            "description": "ਇਸ ਆਫਰ ਦਾ ਲਾਭ ਲੈਣ ਲਈ ਤੁਹਾਡੇ AgriCoins ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਵੇਗੀ। ਆਪਣੇ ਮੁਫ਼ਤ ਏਕੜ ਨੂੰ ਰਿਡੀਮ ਕਰਨ ਲਈ 'ਲਾਗੂ ਕਰੋ' 'ਤੇ ਟੈਪ ਕਰੋ।",
             "earnedInFy": "ਵਿੱਤੀ ਸਾਲ {{year}} ਵਿੱਚ ਕਮਾਇਆ: {{count}} ਮੁਫ਼ਤ {{unit}}",
             "earnedInFy_one": "ਵਿੱਤੀ ਸਾਲ {{year}} ਵਿੱਚ ਕਮਾਇਆ: {{count}} ਮੁਫ਼ਤ ਏਕੜ",
             "earnedInFy_other": "ਵਿੱਤੀ ਸਾਲ {{year}} ਵਿੱਚ ਕਮਾਇਆ: {{count}} ਮੁਫ਼ਤ ਏਕੜ",
@@ -152,10 +152,10 @@
             "acreage": "ਖੇਤਰਫਲ",
             "acreagePlaceholder": "ਏਕੜਾਂ ਦੀ ਗਿਣਤੀ",
             "acreageMax": "ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਏਕੜ",
-            "acreageMinWithCoins": "ਐਗਰੀਕੋਇਨਸ ਵਰਤਣ ਲਈ ਘੱਟੋ-ਘੱਟ {{min}} ਏਕੜ।",
+            "acreageMinWithCoins": "AgriCoins ਵਰਤਣ ਲਈ ਘੱਟੋ-ਘੱਟ {{min}} ਏਕੜ।",
             "acreageMaxError": "ਵੱਧ ਤੋਂ ਵੱਧ {{max}} ਏਕੜ",
             "requiredError": "ਲਾਜ਼ਮੀ",
-            "agricoinsApplied": "ਇਸ ਬੇਨਤੀ ਵਿੱਚ ਐਗਰੀਕੋਇਨਸ ਲਾਗੂ ਕੀਤੇ ਗਏ ਹਨ।"
+            "agricoinsApplied": "ਇਸ ਬੇਨਤੀ ਵਿੱਚ AgriCoins ਲਾਗੂ ਕੀਤੇ ਗਏ ਹਨ।"
         }
     },
     "sprayList": {

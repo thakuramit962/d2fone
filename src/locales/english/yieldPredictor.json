@@ -1,7 +1,7 @@
 {
   "yieldPredictor": {
     "title": "Predict Yield",
-    "description": "Predict yield for your farm or any other location and get the best predicted yield production analysed on the basis of past records in that area.",
+    "description": "Predict the yield of your farm or any location with AI-powered insights based on historical crop and yield data from the area.",
     "location": {
       "myFarm": "My Farm",
       "others": "Others"
@@ -25,7 +25,7 @@
     "disclaimer": "This prediction is analysed using previous years' data and may have minimal discrepancies.",
     "yieldPredictorResult": {
       "title": "Expected Yield",
-      "description": "Expected yield production on the basis of inputs",
+      "description": "Expected yield production based on inputs",
       "errorTitle": "Oops!",
       "done": "Done"
     },

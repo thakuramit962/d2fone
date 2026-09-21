@@ -136,7 +136,7 @@ const Main = memo(function Main() {
 
     const interceptorId = API.interceptors.response.use(
       (response) => {
-        if (response.data?.statuscode === 401) logout();
+        if (response.data?.statuscode == 401) logout();
         return response;
       },
       handleNetworkError,

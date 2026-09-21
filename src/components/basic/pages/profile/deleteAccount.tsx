@@ -63,7 +63,7 @@ const DeleteAccount = ({ callback }: DeleteAccountProps) => {
         API.post('/inactive-user', { emp_id: username, password })
             .then((res) => {
                 if (res.data.status === 'success') {
-                    dispatch(updateToast({ title: t('deleteAccount.successTitle'), message: 'Your account is removed successfully from Agriwings', severity: 'info' }))
+                    dispatch(updateToast({ title: t('deleteAccount.successTitle'), message: 'Your account is removed successfully from AgriWings', severity: 'info' }))
                     setData(INITIAL_FORM)
                     logout()
                     NativeModules.AppControl.closeApp();

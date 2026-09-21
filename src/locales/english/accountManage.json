@@ -9,7 +9,7 @@
         "deleteAccount": {
             "title": "Remove Account",
             "confirmTitle": "Sad To See You Go 😔",
-            "confirmDescription": "Confirm your Agriwings credentials to permanently delete your account.",
+            "confirmDescription": "Confirm your AgriWings credentials to permanently delete your account.",
             "warning": {
                 "description1": "Removing your account is permanent and cannot be undone.\nAll your data will be lost, including your profile, spray history, and any other associated information.",
                 "description2": "Please proceed with caution."
@@ -32,7 +32,7 @@
             },
             "toast": {
                 "title": "We'll miss you!",
-                "message": "Your account is removed successfully from Agriwings"
+                "message": "Your account is removed successfully from AgriWings"
             },
             "buttons": {
                 "continue": "Continue",

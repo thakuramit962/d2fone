@@ -110,7 +110,7 @@ const TransactionItem = React.memo(({ item }: { item: LedgerEntry }) => {
 })
 TransactionItem.displayName = 'TransactionItem'
 
-const Agricoins = () => {
+const AgriCoins = () => {
 
     const balance = useSelector((state: RootState) => state.auth.currentUser?.agricoin?.balance || 0)
     const { fetchAgricoinsLedger, fetchAgricoins, ledger, loading } = useAgricoins()
@@ -150,7 +150,7 @@ const Agricoins = () => {
         <LinearGradient colors={['#a37d00ff', '#ffffffff']} locations={[0, 0.5]} style={styles.flex}>
             <ScreenView edges={['bottom', 'left', 'right']} bg="transparent">
                 <Header
-                    label="My Agricoins"
+                    label="My AgriCoins"
                     bottomSlot={
                         <View style={styles.balanceWrap}>
                             <WalletSolidIcon size={200} style={styles.walletIcon} />
@@ -209,7 +209,7 @@ const Agricoins = () => {
     )
 }
 
-export default Agricoins
+export default AgriCoins
 
 const styles = StyleSheet.create({
     flex: { flex: 1 },

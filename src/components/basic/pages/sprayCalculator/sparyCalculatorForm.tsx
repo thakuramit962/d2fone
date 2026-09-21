@@ -167,7 +167,7 @@ const SprayCalculatorForm: React.FC = () => {
             tank_capacity: size.tank
         }
 
-        const dosePerAcre = product.selected.base_dose ?? DEFAULT_CHEMICAL_DOSE_ML_PER_ACRE
+        const dosePerAcre = product?.selected?.base_dose ?? DEFAULT_CHEMICAL_DOSE_ML_PER_ACRE
         const waterRate = WATER_LITRES_PER_ACRE[sprayMethod]
         const totalWater = size.field * waterRate
         const totalChemical = size.field * dosePerAcre

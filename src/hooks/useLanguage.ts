@@ -37,7 +37,9 @@ export default function useLanguage() {
     } catch (error) {
       console.error("Error changing language:", error);
     } finally {
-      dispatch(updateProcessingState(false));
+      setTimeout(() => {
+        dispatch(updateProcessingState(false));
+      }, 1000);
     }
   };
 
