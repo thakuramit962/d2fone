@@ -41,7 +41,7 @@ interface MeasurementState {
 // Spray Method Domain Types
 type SprayMethod = 'Drone' | 'Manual' | 'Tractor' | 'Boom'
 
-const sprayMethods: SprayMethod[] = ['Manual', 'Tractor', 'Boom', 'Drone']
+const sprayMethods: SprayMethod[] = ['Drone', 'Tractor', 'Boom', 'Manual',]
 
 const WATER_LITRES_PER_ACRE: Record<SprayMethod, number> = {
     Manual: 200,   // Knapsack / hand sprayer — high volume, full coverage
@@ -68,12 +68,12 @@ const SprayCalculatorForm: React.FC = () => {
 
     // Form State Architecture
     const [sprayType, setSprayType] = useState<SprayType>('Insecticide')
-    const [sprayMethod, setSprayMethod] = useState<SprayMethod>('Manual')
+    const [sprayMethod, setSprayMethod] = useState<SprayMethod>('Drone')
     const [product, setProduct] = useState<ProductState>({ list: [], selected: null, loading: true })
     const [similerProduct, setSimilerProduct] = useState<SprayProduct[]>([])
     const [showSheet, setShowSheet] = useState<boolean>(false)
     const [searchQuery, setSearchQuery] = useState<string>('')
-    const [size, setSize] = useState<MeasurementState>({ tank: 5, field: 1 })
+    const [size, setSize] = useState<MeasurementState>({ tank: 10, field: 1 })
     const [result, setResult] = useState<SprayCalculation | null>(null)
     const [fetchError, setFetchError] = useState<string | null>(null)
 
@@ -97,7 +97,7 @@ const SprayCalculatorForm: React.FC = () => {
 
     const handleSprayMethodChange = useCallback((method: SprayMethod) => {
         setSprayMethod(method)
-        setSize(prev => ({ ...prev, tank: WATER_LITRES_PER_ACRE[method] }))
+        setSize(prev => ({ field: prev?.field, tank: WATER_LITRES_PER_ACRE[method] }))
     }, [sprayMethod])
 
     const fetchPayloadOptions = useCallback(() => {
@@ -146,9 +146,9 @@ const SprayCalculatorForm: React.FC = () => {
     const handleReset = useCallback(() => {
         setSearchQuery('')
         setProduct(prev => ({ ...prev, selected: null }))
-        setSize({ field: 1, tank: MIN_TANK_CAPACITY_BY_METHOD['Manual'] })
+        setSize({ field: 1, tank: 200 })
         setSprayType('Insecticide')
-        setSprayMethod('Manual')
+        setSprayMethod('Drone')
         setShowSheet(false)
         setResult(null)
         setFetchError(null)
@@ -188,9 +188,9 @@ const SprayCalculatorForm: React.FC = () => {
                     field_size: `${size.field}`,
                     tank_capacity: `${size.tank} Litre`,
                     total_water_required: `${totalWater}`,
-                    total_chemical_required: `${totalChemical?.toFixed(2)}`,
+                    total_chemical_required: `${totalChemical?.toFixed(4)}`,
                     number_of_tanks: String(calculatedTanks),
-                    chemical_per_tank: `${(totalChemical / calculatedTanks).toFixed(2)} ml`,
+                    chemical_per_tank: `${(totalChemical / calculatedTanks).toFixed(4)} ml`,
                     msg: 'Spray Calculation Completed Successfully', status: 'success'
                 })
             })
@@ -420,32 +420,34 @@ const SprayCalculatorForm: React.FC = () => {
                 <ThemeDivider size={16} />
 
                 {/* Measurements Input */}
-                <View style={[styles.card, dynamicStyles.containerBorder, { gap: 16 }]}>
-                    <View style={{ gap: 4, }}>
-                        <InputLabel label={`Tank Capacity (min ${minTankForMethod}L)`} required />
-                        <View style={styles.counterWrapper}>
-                            <NumberCounter
-                                key={sprayMethod}
-                                label='Litres'
-                                hideSpeedCounter
-                                speed={1}
-                                min={minTankForMethod}
-                                defaultValue={size.tank}
-                                onChange={handleTankChange}
-                            />
+                {!result &&
+                    <View style={[styles.card, dynamicStyles.containerBorder, { gap: 16 }]}>
+                        <View style={{ gap: 4, }}>
+                            <InputLabel label={`Tank Capacity (min ${minTankForMethod}L)`} required />
+                            <View style={styles.counterWrapper}>
+                                <NumberCounter
+                                    key={sprayMethod}
+                                    label='Litres'
+                                    hideSpeedCounter
+                                    speed={1}
+                                    min={minTankForMethod}
+                                    defaultValue={size.tank}
+                                    onChange={handleTankChange}
+                                />
+                            </View>
+                        </View>
+                        <View style={{ gap: 4 }}>
+                            <InputLabel label='Field Size' required />
+                            <View style={styles.counterWrapper}>
+                                <NumberCounter
+                                    label='Acres'
+                                    defaultValue={size.field}
+                                    onChange={handleFieldChange}
+                                />
+                            </View>
                         </View>
                     </View>
-                    <View style={{ gap: 4 }}>
-                        <InputLabel label='Field Size' required />
-                        <View style={styles.counterWrapper}>
-                            <NumberCounter
-                                label='Acres'
-                                defaultValue={size.field}
-                                onChange={handleFieldChange}
-                            />
-                        </View>
-                    </View>
-                </View>
+                }
 
                 <ThemeDivider size={48} />
                 <ThemeButton
