@@ -13,7 +13,7 @@
         },
         "tractorSpray": {
             "title": "Tractor Spray",
-            "description": "Cover more area in less time with tractor mounted spray.",
+            "description": "Cover more area in less time with tractor-mounted spray.",
             "bookNow": "Book Now"
         },
         "boomSpray": {
@@ -45,7 +45,7 @@
     },
     "bookSpray": {
         "title": "Schedule Spray",
-        "description": "Request for spray in your farm",
+        "description": "Request a spray on your farm",
         "bookingForm": {
             "chooseFarm": "Choose Farm",
             "farmRequired": "❗ Farm selection is required.",
@@ -133,7 +133,7 @@
         "rejectedTitle": "Rejection Reason",
         "cancelledBySelf": "Cancelled by self",
         "rejectedByOperator": "Rejected by Operator",
-        "pendingMessage": "Your request is accepted and will be fullfilled soon.",
+        "pendingMessage": "Your request is accepted and will be fulfilled soon.",
         "deleteRequest": {
             "title": "Delete Spray Request?",
             "subtitle": "Are you sure you want to cancel this spray request?",
@@ -155,20 +155,20 @@
             "acreageMinWithCoins": "Minimum {{min}} acres as using agricoins.",
             "acreageMaxError": "Maximum {{max}} acres",
             "requiredError": "Required",
-            "agricoinsApplied": "AgriCoins have applied in this request."
+            "agricoinsApplied": "Agricoins have been applied in this request."
         }
     },
     "sprayList": {
         "empty": {
             "title": "Oops! No Requests",
-            "message": "No spray requests found for current status.",
+            "message": "No spray requests found for the current status.",
             "button": "Create Request"
         }
     },
     "sprayListItem": {
         "status": {
             "delivered": "Delivered",
-            "assigned": "Assigned to Excutive",
+            "assigned": "Assigned to Executive",
             "created": "Created",
             "cancelled": "Cancelled",
             "processing": "Processing"

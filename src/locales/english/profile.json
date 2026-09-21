@@ -26,7 +26,7 @@
         "mismatch": "New password and confirmation do not match.",
         "sameAsOld": "New password must be different from the old password.",
         "successTitle": "Password Updated Successfully!",
-        "successMessage": "Your password is changed successfully and account is logged out from other devices.",
+        "successMessage": "Your password has been changed successfully, and you have been logged out of all other devices.",
         "errorTitle": "Error",
         "errorMessage": "Error while updating password."
     },
@@ -37,16 +37,16 @@
         "continue": "Continue",
         "cancel": "No, Thank You",
         "confirmTitle": "Sad To See You Go 😔",
-        "confirmDescription": "Confirm your AgriWings credentials to permanently delete your account.",
+        "confirmDescription": "Confirm your AgriWings credentials to delete your account permanently.",
         "codeLabel": "Code",
         "codePlaceholder": "Enter your User code",
         "passwordLabel": "Password",
-        "changeMind": "No, I Change Mind",
-        "required": "Username & Password is required.",
+        "changeMind": "No, I changed my mind",
+        "required": "Username & Password are required.",
         "genericError": "Something went wrong. Please try again.",
         "networkError": "Unable to reach the server. Please check your connection and try again.",
         "errorLabel": "Error",
         "successTitle": "We'll miss you!",
-        "successMessage": "Your account is removed successfully from AgriWings"
+        "successMessage": "Your account has been removed successfully from AgriWings"
     }
 }

@@ -9,7 +9,7 @@
         "deleteAccount": {
             "title": "Remove Account",
             "confirmTitle": "Sad To See You Go 😔",
-            "confirmDescription": "Confirm your AgriWings credentials to permanently delete your account.",
+            "confirmDescription": "Confirm your Agriwings credentials to delete your account permanently.",
             "warning": {
                 "description1": "Removing your account is permanent and cannot be undone.\nAll your data will be lost, including your profile, spray history, and any other associated information.",
                 "description2": "Please proceed with caution."
@@ -26,20 +26,20 @@
             },
             "error": {
                 "label": "Error",
-                "requiredFields": "Username & Password is required.",
+                "requiredFields": "Username & Password are required.",
                 "generic": "Something went wrong. Please try again.",
                 "network": "Unable to reach the server. Please check your connection and try again."
             },
             "toast": {
                 "title": "We'll miss you!",
-                "message": "Your account is removed successfully from AgriWings"
+                "message": "Your account has been removed successfully from AgriWings"
             },
             "buttons": {
                 "continue": "Continue",
                 "noThankYou": "No, Thank You",
                 "remove": "Remove",
                 "removing": "Removing...",
-                "changeMind": "No, I Change Mind"
+                "changeMind": "No, I changed my mind"
             }
         }
     },
@@ -73,7 +73,7 @@
         },
         "toast": {
             "successTitle": "Password Updated Successfully!",
-            "successMessage": "Your password is changed successfully and account is logged out from other devices.",
+            "successMessage": "Your password has been changed successfully. You have been logged out of all other devices.",
             "errorTitle": "Error",
             "errorMessage": "Error while updating password."
         }

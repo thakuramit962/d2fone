@@ -1,7 +1,7 @@
 {
     "fertilizerCalculator": {
-        "title": "Fertilizer Calculator",
-        "subtitle": "Calculate how much fertilizer is required for better crop health",
+        "title": "Fertiliser Calculator",
+        "subtitle": "Calculate how much fertiliser is required for better crop health",
         "selectCrop": {
             "placeholder": "Select Crop",
             "label": "Crop"

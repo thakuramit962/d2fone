@@ -23,7 +23,7 @@
     "createPost": {
         "header": {
             "shareThoughts": "Share Thoughts",
-            "shareThoughtsDesc": "Share your thoughts with community",
+            "shareThoughtsDesc": "Share your thoughts with the community",
             "addDetails": "Add Details",
             "mediaSelected_one": "{{count}} media selected",
             "mediaSelected_other": "{{count}} media selected"
@@ -97,7 +97,7 @@
                 "networkError": "Network error",
                 "timeout": "Upload timeout",
                 "cancelled": "Upload cancelled",
-                "noUrls": "No urls returned from server"
+                "noUrls": "No URLs returned from server"
             },
             "validation": {
                 "couldNotReadSize": "Could not read file size! {{name}} was skipped because its size couldn't be determined.",

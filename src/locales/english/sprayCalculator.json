@@ -2,7 +2,7 @@
     "sprayCalculatorForm": {
         "title": "Spray Calculator",
         "sprayMethod": "Spray Method",
-        "waterRate": "Water rate: {{rate}} Litre/acre",
+        "waterRate": "Water rate: {{rate}} Litre/Acre",
         "chemical": "Chemical",
         "selectProduct": "Select Product",
         "searchProduct": "Search product..",
@@ -25,7 +25,7 @@
         },
         "empty": {
             "noProducts": "No products found",
-            "loadError": "Could not load products. Please try again."
+            "loadError": "Unable to load products. Please try again."
         },
         "result": {
             "success": "Spray Calculation Completed Successfully"

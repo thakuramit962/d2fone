@@ -30,7 +30,7 @@
     },
     "alerts": {
       "title": "Weather Alerts",
-      "errorFallback": "Something not working, Please try again",
+      "errorFallback": "Something is not working. Please try again",
       "refreshPage": "Refresh Page",
       "detail": {
         "titleFallback": "Alert details",

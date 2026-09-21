@@ -4,8 +4,8 @@
         "tagline": "Quick Links",
         "description": "All services and tools at your fingertips",
         "smartToolsTitle": "Smart Tools, Better Harvest",
-        "smartToolsDesc": "All-in-one farming tools with spray & fertilizers planning, and crop guidance.",
-        "featuresOnloading": "Features Onloading",
+        "smartToolsDesc": "All-in-one farming tools with spray & fertiliser planning, and crop guidance.",
+        "featuresOnloading": "Features Loading",
         "ecommerce": {
             "title": "Farmer E-Commerce",
             "description": "Get expert advice on crop selection, care and best practices"
@@ -26,13 +26,13 @@
         },
         "fertilizerCalculator": {
             "label": "Calculate",
-            "title": "Fertilizer Calculator",
-            "description": "Determine the right fertilizer amount for healthier crops and better yields."
+            "title": "Fertiliser Calculator",
+            "description": "Determine the right fertiliser amount for healthier crops and better yields."
         },
         "weatherPrediction": {
             "label": "Monitor",
             "title": "Weather Forecast",
-            "description": "Determine the right fertilizer amount for healthier crops and better yields."
+            "description": "Determine the right fertiliser amount for healthier crops and better yields."
         },
         "mandi": {
             "label": "Know",
@@ -61,17 +61,17 @@
         },
         "khetiCenter": {
             "label": "Check",
-            "title": "Kheti Center",
+            "title": "Kheti Centre",
             "description": "Get expert advice on crop selection, care and best practices"
         },
         "cropAdvisory": "Crop Advisory",
         "sprayAdvisory": "Spray Advisory",
         "pestAdvisory": "Pest & Diseases Advisory",
-        "smartFarmerCenter": "Smart Farmer Center",
+        "smartFarmerCenter": "Smart Farmer Centre",
         "farmerChaupal": "Farmer Chaupal",
         "farmerConnect": "Farmer Connect (FPO, Buyers)",
         "otheruseFulLinks": "Other Useful Links",
-        "knowledgeCenter": "Knowledge Center",
+        "knowledgeCenter": "Knowledge Centre",
         "subscriptionServices": "Subscription Services",
         "governmentSchemes": "Government Schemes",
         "lending": "Lending",
