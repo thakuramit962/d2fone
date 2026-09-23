@@ -112,7 +112,7 @@ const WeatherBlock = () => {
 
             {current?.condition?.code &&
                 <Image
-                    source={WEATHER_IMAGE_MAP[(current.condition.code || 1009) as keyof typeof WEATHER_IMAGE_MAP].long}
+                    source={WEATHER_IMAGE_MAP[(current?.condition?.code || 1009) as keyof typeof WEATHER_IMAGE_MAP].long}
                     accessible={false}
                     importantForAccessibility="no"
                     style={{

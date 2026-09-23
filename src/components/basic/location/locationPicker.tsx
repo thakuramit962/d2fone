@@ -156,8 +156,8 @@ export default function LocationPicker({ initialRegion = DEFAULT_REGION, onLocat
             })
 
             await updateLocation(
-                location.coords.latitude,
-                location.coords.longitude
+                location?.coords.latitude,
+                location?.coords.longitude
             )
         } catch (error) {
             console.error(error)

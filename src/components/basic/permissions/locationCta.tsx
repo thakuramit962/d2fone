@@ -11,7 +11,7 @@ const LocationCta = memo(() => {
     const theme = useTheme()
     const { openSettings, requestLocation, permissions } = usePermissions()
 
-    const status = permissions.location
+    const status = permissions?.location
 
     const handlePress = useCallback(() => {
         if (status === 'denied' || status === 'granted') {
@@ -19,7 +19,7 @@ const LocationCta = memo(() => {
         } else {
             requestLocation()
         }
-    }, [status, location])
+    }, [status])
 
     if (status === 'granted') {
         return null

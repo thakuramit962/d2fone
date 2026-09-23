@@ -140,7 +140,7 @@ const Weather = () => {
                                 <ThemeText content={t('weather.screen.currentLocation')} color={'#595959'} />
                             </View>
                             <ThemeText
-                                content={`${weatherData.data?.location.name}`}
+                                content={`${weatherData?.data?.location?.name}`}
                                 style={{ maxWidth: 220, textAlign: 'center' }}
                                 variant='xs' fontFamily='MontserratSemiBold' color='#106DA3' />
                         </View>

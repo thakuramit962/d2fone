@@ -1,4 +1,4 @@
-import { CameraIcon, LocationIcon, MicrophoneIcon, NotificationIcon, StorageDiskIcon } from "@/components/icons"
+import { CameraIcon, LocationIcon, MicrophoneIcon, NotificationIcon } from "@/components/icons"
 import { useTheme } from "@/hooks/use-theme"
 import { PermissionKey, PermissionStatus, usePermissions } from "@/hooks/usePermissions"
 import { useMemo } from "react"
@@ -149,14 +149,14 @@ const Permissions = () => {
                 status: permissions.microphone,
                 onPress: handlers.microphone,
             },
-            {
-                key: 'gallery',
-                title: 'Media',
-                description: 'Lets you pick existing photos and videos from your library.',
-                icon: StorageDiskIcon,
-                status: permissions.gallery,
-                onPress: handlers.gallery,
-            },
+            // {
+            //     key: 'gallery',
+            //     title: 'Media',
+            //     description: 'Lets you pick existing photos and videos from your library.',
+            //     icon: StorageDiskIcon,
+            //     status: permissions.gallery,
+            //     onPress: handlers.gallery,
+            // },
         ],
         [permissions, handlers],
     )

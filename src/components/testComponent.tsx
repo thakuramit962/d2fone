@@ -22,7 +22,6 @@ const TestComponent = () => {
         <View>
             <ActionText label='syncPushTokenToServer' action={syncPushTokenToServer} />
             <ActionText label='requestCamera' action={requestCamera} />
-            <ActionText label='requestGallery' action={requestGallery} />
             <ActionText label='requestLocation' action={requestLocation} />
             <ActionText label='requestMicrophone' action={requestMicrophone} />
             <ActionText label='requestNotifications' action={requestNotifications} />
@@ -32,7 +31,6 @@ const TestComponent = () => {
             <Text>{isLoading ? 'Loading' : 'No'}</Text>
             <Text>{permissions.location}</Text>
             <Text>{permissions.notifications}</Text>
-            <Text>{permissions.gallery}</Text>
             <Text>{permissions.microphone}</Text>
             <Text>{permissions.camera}</Text>
         </View>
