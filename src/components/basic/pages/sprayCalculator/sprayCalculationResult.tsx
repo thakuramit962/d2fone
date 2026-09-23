@@ -113,7 +113,7 @@ const SprayCalculationResult = ({ data, onClose }: { data: SprayCalculation | nu
                                         >
                                             <ThemeText content={el.chemical} fontFamily='MontserratSemiBold' variant='xs' />
                                             <ThemeText content={el.company_name} severity='secondary' />
-                                            <ThemeText content={`Just ${String(el.minimum_chemical_per_acre)}ml per acre`} severity='info' />
+                                            <ThemeText content={`Just ${String(el.base_dose)}ml per acre`} severity='info' />
                                         </ModernDetailItem>
                                     ))}
                                 </View>

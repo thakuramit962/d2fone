@@ -27,6 +27,8 @@ const rewardsImg = require("@/assets/images/static/explore/rewards.png")
 const subscriptionImg = require("@/assets/images/static/explore/subscriptionService.png")
 const videoTutorialsImg = require("@/assets/images/static/explore/videoTutorials.png")
 const ecomImg = require("@/assets/images/static/explore/ecom.png")
+const sprayServicesImg = require("@/assets/images/static/farmingIllustration.png")
+const appPermissionImg = require("@/assets/images/static/appPermission.png")
 
 
 const images = {
@@ -45,6 +47,8 @@ const images = {
     subscriptionService: subscriptionImg,
     videoTutorials: videoTutorialsImg,
     eCom: ecomImg,
+    sprayServices: sprayServicesImg,
+    appPermission: appPermissionImg,
 } as const;
 
 export default function useAppText() {
@@ -123,7 +127,7 @@ export default function useAppText() {
             description: t('explore.sprayService.description'),
             link: "/sprays",
             icon: ExploreServiceIcon,
-            img: images.helpline
+            img: images.sprayServices
         }
         const soilHealth: FeaturedTool = {
             id: "soilHealth",
@@ -201,6 +205,12 @@ export default function useAppText() {
             link: "/support",
             img: images.helpline,
         }
+        const appPermission: FeaturedTool = {
+            id: "appPermission",
+            title: t('menus.appPermission', 'App Permission'),
+            link: "/appPermissions",
+            img: images.appPermission,
+        }
 
         // Full Explore object
         const explore = {
@@ -245,7 +255,8 @@ export default function useAppText() {
             rewards,
             videoTutorials,
             faqs,
-            helpline
+            helpline,
+            appPermission
         };
 
 

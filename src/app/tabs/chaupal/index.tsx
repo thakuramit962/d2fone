@@ -35,6 +35,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useSelector } from 'react-redux'
 
+
 const CommunityPostCard = lazy(() => import('@/components/basic/pages/chaupal/communityPostCard'))
 const FeedDetail = lazy(() => import('@/components/basic/pages/chaupal/feedDetail'))
 
@@ -85,7 +86,7 @@ const Chaupal = () => {
     const { t } = useTranslation()
     const { fetchLikes } = useCommunityPosts()
     const scrollRef = useRef<FlatList>(null);
-
+    const [isFocused, setIsFocused] = useState(false)
 
     const [posts, setPosts] = useState<CommunityPostReel[]>([])
     const [selected, setSelected] = useState<CommunityPostReel | null>(null)
@@ -174,18 +175,22 @@ const Chaupal = () => {
                     post={item}
                     height={REEL_HEIGHT}
                     setSelected={setSelected}
-                    focused={activePostIndex == index}
+                    focused={(activePostIndex == index) && isFocused}
                 />
             </Suspense>,
-        [activePostIndex, REEL_HEIGHT],
+        [activePostIndex, REEL_HEIGHT, isFocused],
     )
-
 
     useFocusEffect(
         useCallback(() => {
             scrollRef.current?.scrollToOffset({ offset: 0, animated: true })
-        }, []),
+            setIsFocused(true)
+            return () => {
+                setIsFocused(false)
+            };
+        }, [])
     );
+
 
     return (
         <>

@@ -7,6 +7,7 @@ import {
 } from '@/components/basic/pages/explorePage/icon'
 import ThemeText from '@/components/basic/text/ThemeText'
 import ThemeDivider from '@/components/basic/ThemeDivider'
+import { DroneDualIcon } from '@/components/icons'
 import { useTheme } from '@/hooks/use-theme'
 import useAppText from '@/hooks/useAppText'
 import { useScrollToTop } from '@/hooks/useScrollToTop'
@@ -101,7 +102,8 @@ const Explore = () => {
         khetiCenter,
         insurance,
         rewards,
-        helpline
+        helpline,
+        appPermission
     } = explore
 
     const cardWidth = useMemo(() => screenWidth / 2 - 20, [screenWidth])
@@ -133,23 +135,37 @@ const Explore = () => {
                 contentInsetAdjustmentBehavior="automatic"
             >
                 <View style={{ padding: 16 }}>
-                    <ModernDetailItem
-                        containerStyle={{
-                            ...BORDERED_CARD_STYLE_BASE,
-                            borderColor: `${theme.text.primary}25`,
-                        }}
-                        iconSize={64}
-                        iconOpacity={1}
-                        img={sprayService?.img}
-                        borderRadius={24}
-                        padding={8}
+                    <Pressable
                         onPress={() => router.navigate('/sprays')}
-                        actionIcon={null}
+                        style={{
+                            height: 132,
+                            padding: 16,
+                            borderRadius: 24,
+                            borderCurve: 'continuous',
+                            borderWidth: 1,
+                            borderColor: theme.text.secondary,
+                            justifyContent: 'flex-end',
+                        }}
                     >
+                        <Image
+                            source={sprayService?.img}
+                            style={{
+                                height: 94,
+                                width: 200,
+                                resizeMode: "contain",
+                                position: 'absolute',
+                                right: 8,
+                                top: 0,
+                                opacity: 0.35,
+
+                            }}
+                        />
+                        <DroneDualIcon size={42} color={theme.primary} />
+                        <ThemeDivider size={12} />
                         <ThemeText
                             content={sprayService.title}
-                            fontFamily="MontserratSemiBold"
-                            variant="xs"
+                            fontFamily="MontserratBold"
+                            variant="sm"
                         />
                         <ThemeText
                             content={sprayService?.description ?? ' '}
@@ -159,7 +175,7 @@ const Explore = () => {
                             numberOfLines={3}
                             ellipsizeMode="tail"
                         />
-                    </ModernDetailItem>
+                    </Pressable>
                 </View>
 
                 <LinearGradient
@@ -183,7 +199,7 @@ const Explore = () => {
 
                     <View style={styles.smartToolsGrid}>
 
-                        {[yieldPredictor, sprayCalculator, fertilizerCalculator, weatherForecast, mandiRate, ecommerce].map((item, i) => (
+                        {[mandiRate, weatherForecast, sprayCalculator, fertilizerCalculator, yieldPredictor, ecommerce].map((item, i) => (
                             <View key={i} style={{ width: cardWidth }}>
                                 <ModernDetailItem
                                     key={i}
@@ -228,7 +244,7 @@ const Explore = () => {
                     <ThemeDivider size={12} />
 
                     <View style={styles.imageCardRow}>
-                        {[rewards, helpline].map((item) => (
+                        {[rewards, helpline, appPermission].map((item) => (
                             <ImageCard
                                 key={item.id}
                                 {...item}
