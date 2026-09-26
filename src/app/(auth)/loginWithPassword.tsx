@@ -53,18 +53,18 @@ const LoginWithPassword: React.FC = () => {
                 password: data.password,
                 phone_number: data.phone
             })
-            if (res.data?.status === 'success') {
-                dispatch(updateAuth({
+            if (res.data?.status == 'success') {
+
+                const authData = {
                     isLoggedIn: true,
-                    currentUser: {
-                        ...res.data?.data?.user_data,
-                        farmerDetails: res.data?.data?.farmer_data,
-                    } as User,
+                    currentUser: { ...res.data?.data?.user_data, farmerDetails: res.data?.data?.farmer_data } as User,
                     accessToken: res.data?.data?.access_token,
-                }))
+                }
+                await dispatch(updateAuth(authData))
                 dispatch(updateToast({ title: t('auth.toast.successLogin'), severity: 'success' }))
                 router.replace({ pathname: '/tabs/home' })
                 fetchFarms({})
+
             } else {
                 dispatch(updateToast({
                     title: t('auth.toast.error'),

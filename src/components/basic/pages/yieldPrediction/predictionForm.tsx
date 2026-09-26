@@ -12,342 +12,414 @@ import { useTheme } from '@/hooks/use-theme'
 import { Farm } from '@/models/user'
 import { updateProcessingState } from '@/slices/processing-state-slice'
 import { useAppSelector } from '@/store/store'
-import { dimensions } from '@/utils/app-helper'
 import dayjs from 'dayjs'
-import { lazy, Suspense, useCallback, useEffect, useState } from 'react'
-import { FieldValues, SubmitHandler, useForm } from 'react-hook-form'
+import { ReactNode, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Control, useController, useForm } from 'react-hook-form'
 import { useTranslation } from 'react-i18next'
-import { View } from 'react-native'
+import { StyleSheet, useWindowDimensions, View } from 'react-native'
 import { useDispatch } from 'react-redux'
 import Skelton from '../../Skelton'
 import ChooseFarmForm from '../farms/chooseFarmForm'
-import { ParamOptions, Result, YieldPredictorType } from './yieldPredictiontypes'
+import YieldPredictorResult from './predictionResult'
+import { ParamOptions, Result } from './yieldPredictiontypes'
 
-const YieldPredictorResult = lazy(() => import('./predictionResult'))
+/* -------------------------------------------------------------------------- */
+/*                                   Types                                    */
+/* -------------------------------------------------------------------------- */
 
+type FormValues = {
+    crop: string
+    state: string
+    district: string
+    soil_type: string
+    sowing_date: string
+    field_size: string
+}
 
+type SelectFieldName = 'crop' | 'state' | 'district' | 'soil_type'
+
+// Shape expected by SelectInput. Adjust if your component exports its own type.
+type SelectOption = { id: number | string; label: string; value: string }
+
+const ERROR_COLOR = '#D93025' // TODO: swap for your theme's error token
+
+const toOptions = (list?: string[]): SelectOption[] =>
+    (list ?? []).map((value, i) => ({ id: i, label: value, value }))
+
+/* -------------------------------------------------------------------------- */
+/*                              Small sub-components                          */
+/* -------------------------------------------------------------------------- */
+
+type FormRowProps = { label: string; error?: string; children: ReactNode }
+
+const FormRow = ({ label, error, children }: FormRowProps) => (
+    <View>
+        <View style={styles.row}>
+            <InputLabel label={label} required />
+            <View style={styles.control}>{children}</View>
+        </View>
+        {!!error && <ThemeText content={error} style={styles.errorText} />}
+    </View>
+)
+
+type SelectFieldProps = {
+    control: Control<FormValues>
+    name: SelectFieldName
+    label: string
+    options: SelectOption[]
+    loading?: boolean
+    onSelect?: (value: string) => void
+}
+
+/** A required select bound to react-hook-form (single source of truth: the form). */
+const SelectField = ({ control, name, label, options, loading, onSelect }: SelectFieldProps) => {
+    const { t } = useTranslation()
+
+    const {
+        field: { value, onChange },
+        fieldState: { error },
+    } = useController({
+        control,
+        name,
+        rules: {
+            required: t('yieldPredictor.errors.required', { defaultValue: 'This field is required' }),
+        },
+    })
+
+    // Stable reference so SelectInput doesn't re-sync on every render.
+    const selected = useMemo(() => options.filter((o) => o.value === value), [options, value])
+
+    const handleChange = useCallback(
+        (val: SelectOption[]) => {
+            const next = val?.[0]?.value ?? '' // selection can be cleared
+            onChange(next)
+            onSelect?.(next)
+        },
+        [onChange, onSelect]
+    )
+
+    return (
+        <FormRow label={label} error={error?.message}>
+            <SelectInput
+                options={options}
+                loading={loading}
+                size={42}
+                defaultValues={selected}
+                onSelectionchange={handleChange}
+            />
+        </FormRow>
+    )
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Main form                                  */
+/* -------------------------------------------------------------------------- */
 
 const YieldPredictionForm = () => {
-
     const theme = useTheme()
     const dispatch = useDispatch()
     const { t } = useTranslation()
+    const { width } = useWindowDimensions()
 
     const myFarms = useAppSelector((state) => state.auth?.currentUser?.userFarms)
-    const farms: Farm[] = Array.isArray(myFarms) ? myFarms : myFarms ? [myFarms] : []
+    const farms = useMemo<Farm[]>(
+        () => (Array.isArray(myFarms) ? myFarms : myFarms ? [myFarms] : []),
+        [myFarms]
+    )
 
-    const [forLocation, setForLocation] = useState<'farm' | 'others'>('farm')
+    // Users without farms land on the usable "others" tab.
+    const [forLocation, setForLocation] = useState<'farm' | 'others'>(farms.length ? 'farm' : 'others')
+    const [selectedFarm, setSelectedFarm] = useState<Farm | null>(null)
+    const [showFarmProblem, setShowFarmProblem] = useState(false)
 
-    const [selectedFarm, setSelectedFarm] = useState<null | Farm>(null)
-    const [payload, setPayload] = useState<YieldPredictorType>({} as YieldPredictorType)
+    const [paramOptions, setParamOptions] = useState<ParamOptions | null>(null)
+    const [optionsError, setOptionsError] = useState(false)
+
     const [prediction, setPrediction] = useState<Result | null>(null)
+    const [submitError, setSubmitError] = useState<string | null>(null)
+    const submittingRef = useRef(false)
 
-
-    const [paramOptions, setParamOptions] = useState<{ data: null | ParamOptions, loading: boolean }>({ data: null, loading: false })
-
-    const { handleSubmit, control, formState: { errors }, setValue, reset, } = useForm({
+    const { control, handleSubmit, setValue, reset } = useForm<FormValues>({
         defaultValues: {
             crop: '',
             state: '',
             district: '',
             soil_type: '',
             sowing_date: dayjs().format('YYYY-MM-DD'),
-            field_size: ''
-
-        }
+            field_size: '1',
+        },
     })
 
-    const {
-        stateList,
-        loading,
-        district,
-        fetchData,
-    } = useLocationData();
+    const { stateList, loading, district, fetchData } = useLocationData()
 
+    /* ------------------------------ Derived data ----------------------------- */
 
-    const fetchParamOptions = useCallback(() => {
-        if (!paramOptions.data) {
-            dispatch(updateProcessingState(true))
-            setParamOptions(prev => ({ ...prev, loading: true }))
-            API.get('/v1/yield/options')
-                .then((res) => {
-                    setParamOptions(prev => ({
-                        ...prev,
-                        data: {
-                            crops: res.data.data?.crops,
-                            soil_types: res.data.data?.soil_types,
-                        }
-                    }))
-                })
-                .catch((err) => console.error('err', err))
-                .finally(() => {
-                    setParamOptions(prev => ({ ...prev, loading: false }))
-                    dispatch(updateProcessingState(false))
-                })
-        }
-    }, [])
+    // Falls back to the first farm; no effect needed.
+    const activeFarm = selectedFarm ?? farms[0] ?? null
 
+    const farmProblem =
+        forLocation !== 'farm'
+            ? null
+            : !activeFarm
+                ? t('yieldPredictor.errors.selectFarm', { defaultValue: 'Select a farm or use another location' })
+                : !activeFarm.state || !activeFarm.district
+                    ? t('yieldPredictor.errors.farmIncomplete', {
+                        defaultValue: 'This farm has no state or district. Update it or use another location',
+                    })
+                    : null
 
-    const onSubmit: SubmitHandler<FieldValues> = (data) => {
-        let payload = { ...data }
-        if (forLocation == 'farm' && selectedFarm) {
-            payload = {
-                ...data,
-                state: selectedFarm.state,
-                district: selectedFarm.district,
-            }
-        }
+    const cropOptions = useMemo(() => toOptions(paramOptions?.crops), [paramOptions])
+    const soilOptions = useMemo(() => toOptions(paramOptions?.soil_types), [paramOptions])
+
+    /* -------------------------------- Data load ------------------------------ */
+
+    const loadParamOptions = useCallback(async () => {
+        setOptionsError(false)
         dispatch(updateProcessingState(true))
-        API.post('v1/yield/predict', payload)
-            .then((res) => {
-                if (res.data?.statuscode == '200') {
-                    setPrediction({ ...res.data?.data, msg: res.data?.msg, status: res.data?.status })
-                }
+        try {
+            const res = await API.get('/v1/yield/options')
+            setParamOptions({
+                crops: res.data?.data?.crops ?? [],
+                soil_types: res.data?.data?.soil_types ?? [],
             })
-            .catch((err) => console.error('err', err))
-            .finally(() => {
-                dispatch(updateProcessingState(false))
-            })
-    }
-
+        } catch (err) {
+            console.error('Failed to load yield options', err)
+            setOptionsError(true)
+        } finally {
+            dispatch(updateProcessingState(false))
+        }
+    }, [dispatch])
 
     useEffect(() => {
-        payload.state?.length > 0 &&
-            fetchData(payload.state[0].value)
-    }, [payload.state])
+        loadParamOptions()
+    }, [loadParamOptions])
 
+    /* -------------------------------- Handlers ------------------------------- */
 
-    useEffect(() => {
-        fetchParamOptions()
-        setValue('field_size', '1', { shouldValidate: true })
+    const showFarm = useCallback(() => setForLocation('farm'), [])
+    const showOthers = useCallback(() => setForLocation('others'), [])
+
+    const handleFarmChange = useCallback((item: Farm | null | undefined) => {
+        setSelectedFarm(item ?? null)
+        setShowFarmProblem(false)
     }, [])
 
-    useEffect(() => {
-        if (forLocation == 'farm' && farms?.length) {
-            setSelectedFarm(farms[0])
-        }
-    }, [forLocation])
+    // Event-driven instead of an effect: load districts when the state changes.
+    const handleStateSelect = useCallback(
+        (next: string) => {
+            setValue('district', '')
+            if (next) fetchData(next)
+        },
+        [setValue, fetchData]
+    )
+
+    const closeResult = useCallback(() => setPrediction(null), [])
+
+    const onSubmit = useCallback(
+        async (data: FormValues) => {
+            if (farmProblem || submittingRef.current) return
+
+            if (!(Number(data.field_size) > 0)) {
+                setSubmitError(
+                    t('yieldPredictor.errors.invalidSize', { defaultValue: 'Enter a field size greater than 0' })
+                )
+                return
+            }
+
+            const farm = forLocation === 'farm' ? activeFarm : null
+            const body = farm ? { ...data, state: farm.state, district: farm.district } : data
+
+            submittingRef.current = true
+            setSubmitError(null)
+            dispatch(updateProcessingState(true))
+            try {
+                const res = await API.post('/v1/yield/predict', body)
+                if (String(res.data?.statuscode) === '200') {
+                    setPrediction({ ...res.data?.data, msg: res.data?.msg, status: res.data?.status })
+                    reset()
+                } else {
+                    setSubmitError(
+                        res.data?.msg ||
+                        t('yieldPredictor.errors.generic', { defaultValue: 'Could not get a prediction. Try again' })
+                    )
+                }
+            } catch (err) {
+                console.error('Yield prediction failed', err)
+                setSubmitError(
+                    t('yieldPredictor.errors.generic', { defaultValue: 'Could not get a prediction. Try again' })
+                )
+            } finally {
+                submittingRef.current = false
+                dispatch(updateProcessingState(false))
+            }
+        },
+        [activeFarm, dispatch, farmProblem, forLocation, t]
+    )
+
+    const onPressSubmit = useCallback(() => {
+        setShowFarmProblem(true)
+        void handleSubmit(onSubmit)()
+    }, [handleSubmit, onSubmit])
+
+    /* --------------------------------- Render -------------------------------- */
 
     return (
-        <>
-            {prediction &&
-                <YieldPredictorResult
-                    data={prediction}
-                    onClose={() => setPrediction(null)}
-                />
-            }
+        prediction
+            ? <YieldPredictorResult data={prediction} onClose={closeResult} />
 
-
-            {/* form */}
-            <>
-                <View style={{
-                    borderRadius: 24,
-                    padding: 16,
-                    borderCurve: 'continuous',
-                    borderWidth: 1,
-                    borderColor: `${theme.text.primary}25`,
-                }}>
-
+            : <>
+                <View style={[styles.card, { borderColor: `${theme.text.primary}25` }]}>
                     <ThemeText content={t('yieldPredictor.title')} fontFamily='MontserratBold' variant='xs' />
                     <ThemeText severity='secondary' content={t('yieldPredictor.description')} />
 
-
                     <ThemeDivider size={16} />
-                    <View style={{
-                        flexDirection: 'row',
-                        alignItems: 'center',
-                        gap: 8
-                    }}>
-                        <ThemeChip onPress={() => setForLocation('farm')} label={t('yieldPredictor.location.myFarm')} variant='xs' type={forLocation == 'farm' ? 'solid' : 'default'} severity='info' />
-                        <ThemeChip onPress={() => {
-                            fetchParamOptions()
-                            setForLocation('others')
-                        }} label={t('yieldPredictor.location.others')} variant='xs' type={forLocation == 'others' ? 'solid' : 'default'} severity='info' />
+                    <View style={styles.chips}>
+                        <ThemeChip
+                            onPress={showFarm}
+                            label={t('yieldPredictor.location.myFarm')}
+                            variant='xs'
+                            type={forLocation === 'farm' ? 'solid' : 'default'}
+                            severity='info'
+                        />
+                        <ThemeChip
+                            onPress={showOthers}
+                            label={t('yieldPredictor.location.others')}
+                            variant='xs'
+                            type={forLocation === 'others' ? 'solid' : 'default'}
+                            severity='info'
+                        />
                     </View>
 
                     <ThemeDivider size={24} />
 
-                    <View style={{
-                        minHeight: 100
-                    }}>
-                        {forLocation == 'farm' &&
-                            <Suspense fallback={<Skelton dimensions={{ height: 72 }} />}>
-                                <ChooseFarmForm selectedId={farms?.length ? String(farms[0]?.id) : undefined} onChange={(item) => (selectedFarm && selectedFarm.id == item?.id) ? setSelectedFarm(null) : setSelectedFarm(item)} />
-                            </Suspense>
-                            // <FlatList
-                            //     data={farms}
-                            //     horizontal
-                            //     showsHorizontalScrollIndicator={false}
-                            //     contentContainerStyle={{
-                            //         gap: 8,
-                            //         alignItems: 'flex-start',
-                            //     }}
-                            //     renderItem={({ index, item }) => {
-
-                            //         const isSelected = selectedFarm && selectedFarm.id == item.id
-
-                            //         return (
-
-                            //             <Pressable
-                            //                 key={index}
-                            //                 onPress={() => (selectedFarm && selectedFarm.id == item.id) ? setSelectedFarm(null) : setSelectedFarm(item)}
-
-                            //             >
-                            //                 <LinearGradient colors={[`${theme.background.slate}`, `${isSelected ? theme.success : theme.background.main}40`]}
-                            //                     start={{ x: 0, y: 0 }}
-                            //                     end={{ x: 1, y: 1 }}
-                            //                     style={{
-                            //                         minWidth: dimensions.width * 0.4 > 260 ? 260 : dimensions.width * 0.4,
-                            //                         maxWidth: 320,
-                            //                         borderRadius: 18,
-                            //                         borderCurve: 'continuous',
-                            //                         padding: 8, paddingHorizontal: 14,
-                            //                         borderWidth: 1,
-                            //                         borderColor: isSelected ? theme.primary : `${theme.text.primary}25`,
-                            //                         backgroundColor: theme.background.main,
-                            //                         height: 64,
-                            //                         justifyContent: 'center'
-                            //                     }}
-                            //                 >
-                            //                     <ThemeText content={item.field_area} fontFamily='MontserratBold' variant='xs' severity={isSelected ? 'primary' : 'main'} size={14} style={{ lineHeight: 16 }} numberOfLines={1} />
-                            //                     <ThemeText content={`${item.acerage} acre in ${camelCaseWords([item.district, item.state].filter((Boolean)).join(', '))}`} numberOfLines={1} style={{}} />
-                            //                 </LinearGradient>
-                            //             </Pressable>
-                            //         )
-                            //     }
-                            //     }
-                            //     ListEmptyComponent={
-                            //         <View>
-                            //             <ModernDetailItem
-                            //                 icon={WarningIcon}
-                            //                 onPress={() => router.navigate('/myFarms')}
-                            //                 label={{ content: 'No Farm Available' }}
-                            //                 description={{ content: 'Please add a new farm or manage your farms for availability', style: { maxWidth: 280 } }}
-                            //             />
-                            //         </View>
-                            //     }
-                            // />
-                        }
-
-                        {forLocation == 'others' &&
+                    <View style={styles.locationBlock}>
+                        {forLocation === 'farm' ? (
                             <>
-                                <View style={{
-                                    flexDirection: 'row',
-                                    gap: 8,
-                                    justifyContent: 'space-between',
-                                }}>
-                                    <InputLabel label={t('yieldPredictor.fields.state')} required />
-                                    <View style={{ flex: 1, maxWidth: '60%' }}>
-                                        <SelectInput
-                                            options={stateList}
-                                            size={42}
-                                            defaultValues={payload.state}
-                                            onSelectionchange={(val) => {
-                                                setPayload((prev) => ({ ...prev, state: val, district: [] }))
-                                                setValue('state', val[0].value, { shouldValidate: true })
-                                                setValue('district', '', { shouldValidate: true })
-                                            }} />
-                                    </View>
-                                </View>
-                                <ThemeDivider size={16} />
-                                <View style={{
-                                    flexDirection: 'row',
-                                    gap: 8,
-                                    justifyContent: 'space-between',
-                                }}>
-                                    <InputLabel label={t('yieldPredictor.fields.district')} required />
-                                    <View style={{ flex: 1, maxWidth: '60%' }}>
-                                        <SelectInput
-                                            options={district.list}
-                                            loading={loading == 'district'}
-                                            size={42}
-                                            defaultValues={payload.district}
-                                            onSelectionchange={(val) => {
-                                                setPayload((prev) => ({ ...prev, district: val }))
-                                                setValue('district', val[0].value, { shouldValidate: true })
-                                            }} />
-                                    </View>
-                                </View>
+                                <Suspense fallback={<Skelton dimensions={{ height: 72 }} />}>
+                                    <ChooseFarmForm
+                                        selectedId={activeFarm ? String(activeFarm.id) : undefined}
+                                        onChange={handleFarmChange}
+                                    />
+                                </Suspense>
+                                {showFarmProblem && !!farmProblem && (
+                                    <ThemeText content={farmProblem} style={styles.errorText} />
+                                )}
                             </>
-                        }
+                        ) : (
+                            <>
+                                <SelectField
+                                    control={control}
+                                    name='state'
+                                    label={t('yieldPredictor.fields.state')}
+                                    options={stateList}
+                                    onSelect={handleStateSelect}
+                                />
+                                <ThemeDivider size={16} />
+                                <SelectField
+                                    control={control}
+                                    name='district'
+                                    label={t('yieldPredictor.fields.district')}
+                                    options={district.list}
+                                    loading={loading === 'district'}
+                                />
+                            </>
+                        )}
                     </View>
-                    <ThemeDivider size={16} />
 
-                    <View style={{
-                        flexDirection: 'row',
-                        gap: 8,
-                        justifyContent: 'space-between',
-                    }}>
-                        <InputLabel label={t('yieldPredictor.fields.crop')} required />
-                        <View style={{ flex: 1, maxWidth: '60%' }}>
-                            <SelectInput
-                                options={paramOptions?.data ? paramOptions?.data?.crops?.map((el, i) => ({ id: i, label: el, value: el })) : []}
-                                size={42}
-                                defaultValues={payload.crop}
-                                onSelectionchange={(val) => {
-                                    setPayload((prev) => ({ ...prev, crop: val }))
-                                    setValue('crop', val[0].value, { shouldValidate: true })
-                                }} />
-                        </View>
-                    </View>
-                    <ThemeDivider size={16} />
-                    <View style={{
-                        flexDirection: 'row',
-                        gap: 8,
-                        justifyContent: 'space-between',
-                    }}>
-                        <InputLabel label={t('yieldPredictor.fields.soilType')} required />
-                        <View style={{ flex: 1, maxWidth: '60%' }}>
-                            <SelectInput
-                                options={paramOptions?.data ? paramOptions?.data?.soil_types?.map((el, i) => ({ id: i, label: el, value: el })) : []}
-                                size={42}
-                                defaultValues={payload.soil_type}
-                                onSelectionchange={(val) => {
-                                    setPayload((prev) => ({ ...prev, soil_type: val }))
-                                    setValue('soil_type', val[0].value, { shouldValidate: true })
-                                }} />
-                        </View>
-                    </View>
-                    <ThemeDivider size={16} />
-                    <View style={{
-                        flexDirection: 'row',
-                        gap: 8,
-                        justifyContent: 'space-between',
-                    }}>
-                        <InputLabel label={t('yieldPredictor.fields.sowingDate')} required />
-                        <View style={{ flex: 1, maxWidth: '60%' }}>
-                            <DateSelection
-                                size={42}
-                                onChange={(date) => {
-                                    setValue('sowing_date', dayjs(date).format('YYYY-MM-DD'), { shouldValidate: true })
-                                }}
+                    {optionsError && (
+                        <>
+                            <ThemeDivider size={16} />
+                            <ThemeText
+                                content={t('yieldPredictor.errors.loadOptions', {
+                                    defaultValue: 'Could not load crops and soil types',
+                                })}
+                                style={styles.errorText}
                             />
-                        </View>
-                    </View>
+                            <ThemeButton
+                                label={t('yieldPredictor.actions.retry', { defaultValue: 'Retry' })}
+                                variant='md'
+                                onPress={loadParamOptions}
+                            />
+                        </>
+                    )}
 
                     <ThemeDivider size={16} />
-                    <View style={{
-                        flexDirection: 'row',
-                        gap: 8,
-                        justifyContent: 'space-between',
-                    }}>
-                        <InputLabel label={t('yieldPredictor.fields.acres')} required />
-                        <View style={{ flex: 1, maxWidth: '60%' }}>
-                            <NumberCounter label={t('yieldPredictor.fields.acres')} onChange={(val) => setValue('field_size', String(val), { shouldValidate: true })} />
-                        </View>
-                    </View>
+                    <SelectField
+                        control={control}
+                        name='crop'
+                        label={t('yieldPredictor.fields.crop')}
+                        options={cropOptions}
+                    />
 
+                    <ThemeDivider size={16} />
+                    <SelectField
+                        control={control}
+                        name='soil_type'
+                        label={t('yieldPredictor.fields.soilType')}
+                        options={soilOptions}
+                    />
+
+                    <ThemeDivider size={16} />
+                    <FormRow label={t('yieldPredictor.fields.sowingDate')}>
+                        <DateSelection
+                            size={42}
+                            onChange={(date) => setValue('sowing_date', dayjs(date).format('YYYY-MM-DD'))}
+                        />
+                    </FormRow>
+
+                    <ThemeDivider size={16} />
+                    <FormRow label={t('yieldPredictor.fields.acres')}>
+                        <NumberCounter
+                            label={t('yieldPredictor.fields.acres')}
+                            onChange={(val) => setValue('field_size', String(val))}
+                        />
+                    </FormRow>
                 </View>
 
-                <View style={{
-                    marginVertical: 48,
-                    paddingHorizontal: dimensions.width * 0.1,
-                }}>
-                    <ThemeButton label={t('yieldPredictor.actions.getResults')} variant='md' onPress={handleSubmit(onSubmit)} />
+                <View style={[styles.actions, { paddingHorizontal: width * 0.1 }]}>
+                    <ThemeButton label={t('yieldPredictor.actions.getResults')} variant='md' onPress={onPressSubmit} />
+                    {!!submitError && <ThemeText content={submitError} style={[styles.errorText, styles.submitError]} />}
                 </View>
             </>
-        </>
     )
 }
+
+const styles = StyleSheet.create({
+    card: {
+        borderRadius: 24,
+        padding: 16,
+        borderCurve: 'continuous',
+        borderWidth: 1,
+    },
+    chips: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 8,
+    },
+    locationBlock: {
+        minHeight: 100,
+    },
+    row: {
+        flexDirection: 'row',
+        gap: 8,
+        justifyContent: 'space-between',
+    },
+    control: {
+        flex: 1,
+        maxWidth: '60%',
+    },
+    errorText: {
+        color: ERROR_COLOR,
+        marginTop: 4,
+        textAlign: 'right',
+    },
+    actions: {
+        marginVertical: 48,
+    },
+    submitError: {
+        textAlign: 'center',
+        marginTop: 12,
+    },
+})
 
 export default YieldPredictionForm

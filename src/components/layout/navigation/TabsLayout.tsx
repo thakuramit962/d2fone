@@ -122,6 +122,7 @@ export const TabsLayout: React.FC<AnimatedTabsLayoutProps> = ({
                             sceneStyle: {
                                 backgroundColor: theme.background.main,
                             },
+                            tabBarLabelPosition: 'below-icon',
                             tabBarLabel: ({ focused }) => (
                                 <ThemeText
                                     content={`${screen.label}`}
