@@ -39,7 +39,7 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Allow Agriwings to access your photos..."
+          "photosPermission": "Allow d2fone to access your photos..."
         }
       ],
       [
@@ -57,15 +57,15 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow Agriwings to use your location to map fields.",
-          "locationWhenInUsePermission": "Allow Agriwings to use your location to map fields."
+          "locationAlwaysAndWhenInUsePermission": "Allow d2fone to use your location to map fields.",
+          "locationWhenInUsePermission": "Allow d2fone to use your location to map fields."
         }
       ],
       [
         "expo-camera",
         {
-          "cameraPermission": "Allow Agriwings to access your camera to capture crop data.",
-          "microphonePermission": "Allow Agriwings to access your microphone.",
+          "cameraPermission": "Allow d2fone to access your camera to capture crop data.",
+          "microphonePermission": "Allow d2fone to access your microphone.",
           "recordAudioAndroid": true
         }
       ],
