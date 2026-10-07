@@ -1,5 +1,6 @@
 import ThemeText from '@/components/basic/text/ThemeText'
 import ThemeDivider from '@/components/basic/ThemeDivider'
+import { APP_VERSION } from '@/constants/appConstant'
 import { useTheme } from '@/hooks/use-theme'
 import { dimensions } from '@/utils/app-helper'
 import { router } from 'expo-router'
@@ -78,6 +79,8 @@ const CompanyFooter = ({ withoutBottomPadding = false, bg }: { withoutBottomPadd
                     <ThemeText content={'|'} severity='disabled' />
                     <ActionText label={t('menus.privacyPolicy')} withIcon={false} severity='main' variant='xxs' action={() => router.navigate('/policies')} />
                 </View>
+                <ThemeDivider size={12} />
+                <ActionText label={`v-${APP_VERSION}`} variant="xxs" severity='disabled' action={() => router.navigate('/checkUpdate')} />
                 <ThemeDivider size={bottomSpace} />
             </View>
 

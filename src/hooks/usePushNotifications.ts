@@ -1,5 +1,4 @@
 import Constants from "expo-constants";
-import * as Device from "expo-device";
 import * as Notifications from "expo-notifications";
 import { useEffect, useRef } from "react";
 import { Platform } from "react-native";
@@ -22,10 +21,10 @@ export async function registerForPushNotificationsAsync() {
     });
   }
 
-  if (!Device.isDevice) {
-    console.warn("Push notifications need a real device");
-    return null;
-  }
+  // if (!Device.isDevice) {
+  //   console.warn("Push notifications need a real device");
+  //   return null;
+  // }
 
   const { status: existingStatus } = await Notifications.getPermissionsAsync();
   let finalStatus = existingStatus;

@@ -36,7 +36,7 @@ export const getFontSize = (
   return variant != undefined ? sizeMap[variant] : 10;
 };
 
-export const APP_VERSION = "2.0.0";
+export const APP_VERSION = "2.0.1";
 export const IS_LIVE = false;
 
 export const SERVER_URL = IS_LIVE

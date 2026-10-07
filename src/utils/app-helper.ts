@@ -2,13 +2,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import dayjs from "dayjs";
 import * as Clipboard from "expo-clipboard";
 import * as Haptics from "expo-haptics";
-import {
-  Alert,
-  BackHandler,
-  Dimensions,
-  Linking,
-  Platform,
-} from "react-native";
+import { Alert, Dimensions, Linking, Platform } from "react-native";
 
 export function runHaptics() {
   // iOS has excellent haptics
@@ -179,26 +173,6 @@ export const states = [
   "UTTARAKHAND",
   "WEST BENGAL",
 ];
-
-export const promptToExit = () => {
-  const backHandler = BackHandler.addEventListener("hardwareBackPress", () => {
-    Alert.alert(
-      "Exit App",
-      "Are you sure you want to exit?",
-      [
-        { text: "Cancel", style: "cancel", onPress: () => {} },
-        {
-          text: "Exit",
-          style: "destructive",
-          onPress: () => BackHandler.exitApp(),
-        },
-      ],
-      { cancelable: true },
-    );
-    return true;
-  });
-  return () => backHandler.remove();
-};
 
 export function hexToColor(hex: string): string | null {
   // Remove whitespace and make lowercase

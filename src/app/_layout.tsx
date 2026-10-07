@@ -2,6 +2,7 @@ import LoadingScreen from "@/components/basic/containers/loadingScreen";
 import ThemeLoading from "@/components/basic/ThemeLoading";
 import ThemeToast from "@/components/basic/ThemeToast";
 import API from "@/constants/api";
+import { usePushNotifications } from "@/hooks/usePushNotifications";
 import { useToast } from "@/hooks/useToast";
 import { useUser } from "@/hooks/useUser";
 import { RootState } from "@/store/store";
@@ -10,7 +11,7 @@ import axios from "axios";
 import dayjs from "dayjs";
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { useFonts } from "expo-font";
-import { Stack } from "expo-router";
+import { router, Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import {
   memo,
@@ -147,16 +148,14 @@ const Main = memo(function Main() {
     };
   }, [accessToken, logout, handleNetworkError]);
 
-  // usePushNotifications({
-  //   onNotificationTap: (data: any) => {
-  //     if (data?.route) {
-  //       router.push({
-  //         pathname: data.route || '/tabs/home',
-  //         params: data?.params ? JSON.parse(data.params) : {},
-  //       });
-  //     }
-  //   },
-  // });
+  usePushNotifications((data) => {
+    if (data?.route) {
+      router.push({
+        pathname: data.route,
+        params: data?.params ? JSON.parse(data.params) : {},
+      });
+    }
+  });
 
   dayjs.extend(relativeTime)
 
