@@ -53,7 +53,7 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Allow d2fone to access your photos..."
+          "photosPermission": "D2FONE needs access to your photo library so you can select crop and farm photos to upload for crop analysis and agriculture services."
         }
       ],
       [
@@ -98,8 +98,8 @@
         {
           "icon": "./assets/notification-icon.png",
           "color": "#286221",
+          "defaultChannel": "default",
           "enableBackgroundRemoteNotifications": true,
-          "static": true,
           "sounds": []
         }
       ],
